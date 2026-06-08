@@ -96,10 +96,23 @@ export default function ListeningPractice() {
     stopSpeaking();
     setIsPlaying(false);
     setShowTranscript(false);
-    setQuizQuestions([]);
     setQuizAnswers({});
     setQuizSubmitted(false);
     setQuizError('');
+
+    // Auto-load quiz questions from cache if they exist
+    try {
+      const cached = localStorage.getItem('cached_listening_quizzes');
+      const cacheObj = cached ? JSON.parse(cached) : {};
+      if (cacheObj[selectedUnit.unit]) {
+        setQuizQuestions(cacheObj[selectedUnit.unit]);
+      } else {
+        setQuizQuestions([]);
+      }
+    } catch (e) {
+      console.error('Failed to load quiz from cache:', e);
+      setQuizQuestions([]);
+    }
   }, [selectedUnit]);
 
   // Audio speech synthesis trigger
@@ -124,7 +137,7 @@ export default function ListeningPractice() {
   };
 
   // Gemini Quiz Generator
-  const handleGenerateQuiz = async () => {
+  const handleGenerateQuiz = async (forceRegenerate = false) => {
     if (!geminiKey) {
       setQuizError('Harap atur Gemini API Key di menu Settings untuk menggunakan fitur Kuis AI.');
       return;
@@ -136,10 +149,35 @@ export default function ListeningPractice() {
     setQuizAnswers({});
     setQuizSubmitted(false);
 
+    // Check cache first if not forcing regenerate
+    if (!forceRegenerate) {
+      try {
+        const cached = localStorage.getItem('cached_listening_quizzes');
+        const cacheObj = cached ? JSON.parse(cached) : {};
+        if (cacheObj[selectedUnit.unit]) {
+          setQuizQuestions(cacheObj[selectedUnit.unit]);
+          setLoadingQuiz(false);
+          return;
+        }
+      } catch (e) {
+        console.error('Failed to load quiz from cache:', e);
+      }
+    }
+
     try {
       const result = await generateListeningQuiz(geminiKey, selectedUnit.title, selectedUnit.summary);
       if (result && result.questions && Array.isArray(result.questions)) {
         setQuizQuestions(result.questions);
+        
+        // Save to cache
+        try {
+          const cached = localStorage.getItem('cached_listening_quizzes');
+          const cacheObj = cached ? JSON.parse(cached) : {};
+          cacheObj[selectedUnit.unit] = result.questions;
+          localStorage.setItem('cached_listening_quizzes', JSON.stringify(cacheObj));
+        } catch (e) {
+          console.error('Failed to save quiz to cache:', e);
+        }
       } else {
         throw new Error('Format respon kuis tidak valid.');
       }
@@ -455,7 +493,7 @@ export default function ListeningPractice() {
               
               {quizQuestions.length > 0 && !quizSubmitted && (
                 <button 
-                  onClick={handleGenerateQuiz}
+                  onClick={() => handleGenerateQuiz(true)}
                   className="text-xs text-zinc-500 hover:text-violet-600 flex items-center gap-1 cursor-pointer font-semibold"
                 >
                   <RefreshCw size={10} /> Generate Ulang
@@ -581,7 +619,7 @@ export default function ListeningPractice() {
                       </div>
                       
                       <button
-                        onClick={handleGenerateQuiz}
+                        onClick={() => handleGenerateQuiz(true)}
                         className="px-5 py-2.5 bg-zinc-100 dark:bg-zinc-900 text-zinc-700 dark:text-zinc-300 font-bold border border-zinc-200 dark:border-zinc-800 rounded-xl hover:bg-zinc-200 dark:hover:bg-zinc-800 text-xs transition-colors cursor-pointer"
                       >
                         Coba Lagi (Generate Baru)

@@ -40,6 +40,12 @@ async function callGemini(apiKey, prompt, forceJson = true) {
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}));
       const errorMessage = errorData.error?.message || `HTTP status ${response.status}`;
+      
+      // Check for rate limit / quota error
+      if (response.status === 429 || errorMessage.toLowerCase().includes('quota') || errorMessage.toLowerCase().includes('rate limit')) {
+        throw new Error('Batas gratis kuota Gemini (Rate Limit 20 request/menit) terlampaui. Silakan tunggu sekitar 1 menit sebelum mencoba lagi.');
+      }
+      
       throw new Error(`Gemini API Error: ${errorMessage}`);
     }
 
@@ -191,6 +197,12 @@ export async function transcribeAudio(apiKey, audioBase64, mimeType) {
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}));
       const errorMessage = errorData.error?.message || `HTTP status ${response.status}`;
+      
+      // Check for rate limit / quota error
+      if (response.status === 429 || errorMessage.toLowerCase().includes('quota') || errorMessage.toLowerCase().includes('rate limit')) {
+        throw new Error('Batas gratis kuota Gemini untuk transkripsi suara terlampaui. Silakan tunggu sekitar 1 menit.');
+      }
+      
       throw new Error(`Gemini Audio Transcription Error: ${errorMessage}`);
     }
 
