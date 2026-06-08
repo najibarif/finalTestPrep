@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { usePractice } from '../context/PracticeContext';
 import { speakText, stopSpeaking } from '../utils/speech';
-import { generateListeningQuiz } from '../utils/gemini';
 import listeningUnits from '../data/listeningUnits.json';
+import listeningQuizzes from '../data/listeningQuizzes.json';
 import { 
   Volume2, 
   VolumeX, 
@@ -64,8 +64,6 @@ const YOUTUBE_MAPPING = {
 };
 
 export default function ListeningPractice() {
-  const { geminiKey } = usePractice();
-  
   // States
   const [selectedUnit, setSelectedUnit] = useState(listeningUnits[0]);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -74,7 +72,6 @@ export default function ListeningPractice() {
   
   // Quiz states
   const [quizQuestions, setQuizQuestions] = useState([]);
-  const [loadingQuiz, setLoadingQuiz] = useState(false);
   const [quizAnswers, setQuizAnswers] = useState({}); // { questionIndex: selectedOption }
   const [quizSubmitted, setQuizSubmitted] = useState(false);
   const [quizError, setQuizError] = useState('');
@@ -100,17 +97,11 @@ export default function ListeningPractice() {
     setQuizSubmitted(false);
     setQuizError('');
 
-    // Auto-load quiz questions from cache if they exist
-    try {
-      const cached = localStorage.getItem('cached_listening_quizzes');
-      const cacheObj = cached ? JSON.parse(cached) : {};
-      if (cacheObj[selectedUnit.unit]) {
-        setQuizQuestions(cacheObj[selectedUnit.unit]);
-      } else {
-        setQuizQuestions([]);
-      }
-    } catch (e) {
-      console.error('Failed to load quiz from cache:', e);
+    // Load quiz questions from local JSON database
+    const unitQuiz = listeningQuizzes.find(q => q.unit === selectedUnit.unit);
+    if (unitQuiz && unitQuiz.questions) {
+      setQuizQuestions(unitQuiz.questions);
+    } else {
       setQuizQuestions([]);
     }
   }, [selectedUnit]);
@@ -136,57 +127,10 @@ export default function ListeningPractice() {
     });
   };
 
-  // Gemini Quiz Generator
-  const handleGenerateQuiz = async (forceRegenerate = false) => {
-    if (!geminiKey) {
-      setQuizError('Harap atur Gemini API Key di menu Settings untuk menggunakan fitur Kuis AI.');
-      return;
-    }
-
-    setLoadingQuiz(true);
-    setQuizError('');
-    setQuizQuestions([]);
+  const handleResetQuiz = () => {
     setQuizAnswers({});
     setQuizSubmitted(false);
-
-    // Check cache first if not forcing regenerate
-    if (!forceRegenerate) {
-      try {
-        const cached = localStorage.getItem('cached_listening_quizzes');
-        const cacheObj = cached ? JSON.parse(cached) : {};
-        if (cacheObj[selectedUnit.unit]) {
-          setQuizQuestions(cacheObj[selectedUnit.unit]);
-          setLoadingQuiz(false);
-          return;
-        }
-      } catch (e) {
-        console.error('Failed to load quiz from cache:', e);
-      }
-    }
-
-    try {
-      const result = await generateListeningQuiz(geminiKey, selectedUnit.title, selectedUnit.summary);
-      if (result && result.questions && Array.isArray(result.questions)) {
-        setQuizQuestions(result.questions);
-        
-        // Save to cache
-        try {
-          const cached = localStorage.getItem('cached_listening_quizzes');
-          const cacheObj = cached ? JSON.parse(cached) : {};
-          cacheObj[selectedUnit.unit] = result.questions;
-          localStorage.setItem('cached_listening_quizzes', JSON.stringify(cacheObj));
-        } catch (e) {
-          console.error('Failed to save quiz to cache:', e);
-        }
-      } else {
-        throw new Error('Format respon kuis tidak valid.');
-      }
-    } catch (err) {
-      console.error(err);
-      setQuizError(err.message || 'Gagal menghasilkan kuis. Silakan coba lagi.');
-    } finally {
-      setLoadingQuiz(false);
-    }
+    setQuizError('');
   };
 
   const handleSelectOption = (qIdx, option) => {
@@ -479,29 +423,27 @@ export default function ListeningPractice() {
                 </button>
               )}
             </div>
-          </div>
-
-          {/* QUIZ SECTION */}
+          </div>          {/* QUIZ SECTION */}
           <div className="glass-card rounded-3xl p-6 border border-zinc-200/60 dark:border-zinc-800/30 space-y-6">
             <div className="flex justify-between items-center pb-3 border-b border-zinc-100 dark:border-zinc-900">
               <div className="flex items-center gap-2">
                 <HelpCircle className="text-zinc-450" size={18} />
                 <h3 className="font-display font-bold text-base text-zinc-850 dark:text-zinc-100">
-                  Kuis Pemahaman (Gemini AI)
+                  Kuis Pemahaman Cerita
                 </h3>
               </div>
               
               {quizQuestions.length > 0 && !quizSubmitted && (
                 <button 
-                  onClick={() => handleGenerateQuiz(true)}
+                  onClick={handleResetQuiz}
                   className="text-xs text-zinc-500 hover:text-violet-600 flex items-center gap-1 cursor-pointer font-semibold"
                 >
-                  <RefreshCw size={10} /> Generate Ulang
+                  <RefreshCw size={10} /> Bersihkan Pilihan
                 </button>
               )}
             </div>
 
-            {/* QUIZ CONTENT GENERATOR BUTTON OR LOADING */}
+            {/* QUIZ CONTENT OR NOT AVAILABLE */}
             {quizQuestions.length === 0 ? (
               <div className="text-center py-6 space-y-4">
                 {quizError && (
@@ -512,26 +454,8 @@ export default function ListeningPractice() {
                 )}
                 
                 <p className="text-xs text-zinc-500 dark:text-zinc-400 max-w-md mx-auto leading-relaxed">
-                  Uji daya tangkap dengar Anda. Gemini AI akan menganalisis ringkasan cerita unit ini dan membuat kuis pemahaman yang berisi 3 soal pilihan ganda.
+                  Soal kuis untuk unit ini belum tersedia di database lokal.
                 </p>
-
-                <button
-                  onClick={handleGenerateQuiz}
-                  disabled={loadingQuiz}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-linear-to-tr from-violet-600 to-indigo-600 hover:from-violet-700 hover:to-indigo-700 text-white font-bold rounded-xl shadow-md cursor-pointer disabled:opacity-50 text-xs hover:scale-[1.02] active:scale-[0.98] transition-all"
-                >
-                  {loadingQuiz ? (
-                    <>
-                      <Loader2 className="animate-spin" size={12} />
-                      Menyiapkan Soal Kuis...
-                    </>
-                  ) : (
-                    <>
-                      <Sparkles size={12} />
-                      Generate Kuis AI
-                    </>
-                  )}
-                </button>
               </div>
             ) : (
               /* ACTIVE QUIZ SCREEN */
@@ -545,7 +469,7 @@ export default function ListeningPractice() {
                       key={qIdx}
                       className="p-5 rounded-2xl bg-zinc-50/60 dark:bg-zinc-900/40 border border-zinc-200/30 dark:border-zinc-800/20 space-y-4 animate-fade-in-up"
                     >
-                      <h4 className="font-display font-bold text-sm text-zinc-800 dark:text-zinc-100 flex gap-2">
+                      <h4 className="font-display font-bold text-sm text-zinc-880 dark:text-zinc-100 flex gap-2">
                         <span className="text-violet-600 dark:text-violet-400 shrink-0">{qIdx + 1}.</span>
                         <span>{q.question}</span>
                       </h4>
@@ -565,9 +489,9 @@ export default function ListeningPractice() {
                             if (isOptionCorrect) {
                               btnStyle = 'border-emerald-500 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 font-semibold';
                             } else if (isOptionSelected) {
-                              btnStyle = 'border-rose-500 bg-rose-500/10 text-rose-700 dark:text-rose-400';
+                              btnStyle = 'border-rose-500 bg-rose-500/10 text-rose-700 dark:text-rose-450';
                             } else {
-                              btnStyle = 'border-zinc-200/60 dark:border-zinc-800/40 text-zinc-400 opacity-60';
+                              btnStyle = 'border-zinc-200/60 dark:border-zinc-800/40 text-zinc-450 opacity-65';
                             }
                           }
 
@@ -586,7 +510,7 @@ export default function ListeningPractice() {
 
                       {/* Explanation card */}
                       {quizSubmitted && (
-                        <div className="p-3.5 rounded-xl bg-zinc-100/60 dark:bg-zinc-950 border border-zinc-200/30 dark:border-zinc-900 text-[11px] leading-relaxed text-zinc-500 dark:text-zinc-400">
+                        <div className="p-3.5 rounded-xl bg-zinc-100/60 dark:bg-zinc-950 border border-zinc-200/30 dark:border-zinc-900 text-[11px] leading-relaxed text-zinc-550 dark:text-zinc-400">
                           <span className={`font-bold block mb-1 ${isCorrect ? 'text-emerald-600 dark:text-emerald-450' : 'text-rose-600 dark:text-rose-450'}`}>
                             {isCorrect ? '✓ Benar' : `✗ Salah (Jawaban benar: ${q.answer})`}
                           </span>
@@ -619,10 +543,10 @@ export default function ListeningPractice() {
                       </div>
                       
                       <button
-                        onClick={() => handleGenerateQuiz(true)}
+                        onClick={handleResetQuiz}
                         className="px-5 py-2.5 bg-zinc-100 dark:bg-zinc-900 text-zinc-700 dark:text-zinc-300 font-bold border border-zinc-200 dark:border-zinc-800 rounded-xl hover:bg-zinc-200 dark:hover:bg-zinc-800 text-xs transition-colors cursor-pointer"
                       >
-                        Coba Lagi (Generate Baru)
+                        Reset Kuis
                       </button>
                     </div>
                   )}
@@ -630,7 +554,6 @@ export default function ListeningPractice() {
               </div>
             )}
           </div>
-          
         </div>
       </div>
     </div>

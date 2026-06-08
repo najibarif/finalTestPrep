@@ -1,0 +1,439 @@
+[
+  {
+    "unit": 15,
+    "questions": [
+      {
+        "question": "What time did Mr. Ted go home?",
+        "options": ["At 6 o'clock", "At 9.15", "In half an hour", "He didn't go home"],
+        "answer": "At 6 o'clock",
+        "explanation": "According to the story, Mr. Ted went home at 6 o'clock."
+      },
+      {
+        "question": "Why was Mr. Ted late for work in the morning?",
+        "options": ["He caught the 9.15 train", "He missed the train", "His boss was angry", "He was hungry"],
+        "answer": "He missed the train",
+        "explanation": "Mr. Ted missed his usual train, which forced him to catch the 9.15 train and arrive late."
+      },
+      {
+        "question": "How did the boss react to Mr. Ted being late?",
+        "options": ["He was extremely angry", "He fired Mr. Ted", "He wasn't angry because he missed the train too", "He was preparing dinner"],
+        "answer": "He wasn't angry because he missed the train too",
+        "explanation": "The boss was not angry because he also missed the same train."
+      }
+    ]
+  },
+  {
+    "unit": 16,
+    "questions": [
+      {
+        "question": "Where was the narrator staying in the story?",
+        "options": ["At The Royal Hotel", "At a theater", "In an apartment", "At a grocer's"],
+        "answer": "At The Royal Hotel",
+        "explanation": "The narrator states that he is staying at The Royal Hotel."
+      },
+      {
+        "question": "What did the narrator hear while walking past a room?",
+        "options": ["A shout", "A song", "A knock", "Whispering"],
+        "answer": "A shout",
+        "explanation": "The narrator heard a shout while walking past one of the hotel rooms."
+      },
+      {
+        "question": "What were the people in the room actually doing?",
+        "options": ["They were quarreling", "They were learning their parts as actors", "They were fighting", "They were sleeping"],
+        "answer": "They were learning their parts as actors",
+        "explanation": "The people were actors learning their parts and rehearsing, not actually fighting."
+      }
+    ]
+  },
+  {
+    "unit": 17,
+    "questions": [
+      {
+        "question": "Who originally thought that the narrator needed a pair of glasses?",
+        "options": ["The optician", "His wife", "His boss", "The narrator himself"],
+        "answer": "His wife",
+        "explanation": "The narrator's wife was the one who thought he needed a pair of glasses."
+      },
+      {
+        "question": "What kind of frames did the narrator decide to buy?",
+        "options": ["Metal frames", "Plastic frames", "No frames", "Gold frames"],
+        "answer": "Plastic frames",
+        "explanation": "The narrator went to the optician intending to buy plastic frames."
+      },
+      {
+        "question": "How did the narrator prove his wife was right about his eyesight?",
+        "options": ["He read a small book", "He broke the optician's mirrors by missing them", "He drove a car backward", "He couldn't see the optician"],
+        "answer": "He broke the optician's mirrors by missing them",
+        "explanation": "The narrator missed the mirror the optician handed to him and accidentally broke the mirrors, proving his bad eyesight."
+      }
+    ]
+  },
+  {
+    "unit": 18,
+    "questions": [
+      {
+        "question": "Who answered the telephone when it rang?",
+        "options": ["Mr. Calder", "Miss Simpson", "Mr. Bright", "The boss"],
+        "answer": "Miss Simpson",
+        "explanation": "Miss Simpson answered the telephone when it rang."
+      },
+      {
+        "question": "What did Mr. Bright want to offer?",
+        "options": ["A typewriter", "A telephone", "A new job", "A secretary"],
+        "answer": "A typewriter",
+        "explanation": "Mr. Bright called to offer a typewriter to Mr. Calder."
+      },
+      {
+        "question": "What did Mr. Calder say about his presence in the office?",
+        "options": ["He said he was not in his office", "He said he was too busy", "He accepted the typewriter", "He was not angry"],
+        "answer": "He said he was not in his office",
+        "explanation": "Mr. Calder told Miss Simpson to tell Mr. Bright that he was not in his office, even though he was."
+      }
+    ]
+  },
+  {
+    "unit": 19,
+    "questions": [
+      {
+        "question": "How much money did the tramps have?",
+        "options": ["They had 5 pounds", "They had not any money", "They had plenty of money", "They had 10 pounds"],
+        "answer": "They had not any money",
+        "explanation": "The tramps did not have any money."
+      },
+      {
+        "question": "What happened to the dog that was following the tramps?",
+        "options": ["It ran away", "It was hit by a car and died", "It bit the driver", "It found some money"],
+        "answer": "It was hit by a car and died",
+        "explanation": "The dog did not move out of the way of the coming car and got hit and died."
+      },
+      {
+        "question": "Whose dog was it?",
+        "options": ["The first tramp's dog", "The driver's dog", "The tramps had no idea whose dog it was", "The second tramp's dog"],
+        "answer": "The tramps had no idea whose dog it was",
+        "explanation": "The tramps had no idea whose dog it was, even though the driver gave them 5 pounds for it."
+      }
+    ]
+  },
+  {
+    "unit": 20,
+    "questions": [
+      {
+        "question": "Why did the narrator leave the opera early?",
+        "options": ["He didn't like the singing", "One of the live horses jumped off the stage", "He was hungry", "The opera finished early"],
+        "answer": "One of the live horses jumped off the stage",
+        "explanation": "The narrator had to leave because one of the live horses in the opera jumped off the stage."
+      },
+      {
+        "question": "Did the narrator see the whole performance?",
+        "options": ["Yes, he stayed until the end", "No, he left before the end", "No, he fell asleep", "Yes, he saw it twice"],
+        "answer": "No, he left before the end",
+        "explanation": "Everyone, including the narrator, left the performance before the end after the horse jumped."
+      },
+      {
+        "question": "What is the humorous reason the narrator gives for leaving?",
+        "options": ["The horse couldn't sing", "The actors were too loud", "The seats were uncomfortable", "He lost his glasses"],
+        "answer": "The horse couldn't sing",
+        "explanation": "The narrator jokingly suggested that perhaps the horse jumped because it couldn't sing."
+      }
+    ]
+  },
+  {
+    "unit": 21,
+    "questions": [
+      {
+        "question": "Where was the automatic car parked initially?",
+        "options": ["Outside the showroom", "Inside the garage", "On the street", "At a parking lot"],
+        "answer": "Outside the showroom",
+        "explanation": "The car was parked outside the showroom, attracting a crowd."
+      },
+      {
+        "question": "What did the salesman offer to do?",
+        "options": ["Give a demonstration", "Sell it for 5 pounds", "Wash the car", "Call the police"],
+        "answer": "Give a demonstration",
+        "explanation": "The salesman noticed the crowd and decided to give a demonstration of the automatic car."
+      },
+      {
+        "question": "What went wrong during the demonstration?",
+        "options": ["The car wouldn't start", "The salesman drove backward and broke the window", "The car ran out of gas", "Someone stole the car"],
+        "answer": "The salesman drove backward and broke the window",
+        "explanation": "The salesman drove backward instead of forward, breaking the showroom window."
+      }
+    ]
+  },
+  {
+    "unit": 22,
+    "questions": [
+      {
+        "question": "When did Tommy write the letter to his aunt?",
+        "options": ["Two weeks ago", "Yesterday", "Last year", "Today"],
+        "answer": "Two weeks ago",
+        "explanation": "Tommy wrote the letter to his aunt two weeks ago."
+      },
+      {
+        "question": "Why was Tommy's mother surprised?",
+        "options": ["Because Tommy never writes letters", "Because the letter was too long", "Because the aunt was coming", "Because Tommy had written two lines"],
+        "answer": "Because Tommy never writes letters",
+        "explanation": "Tommy's mother was surprised because he never writes letters."
+      },
+      {
+        "question": "What did Tommy thank his aunt for in the letter?",
+        "options": ["Last year's present", "A new typewriter", "Giving him some sweets", "A pair of glasses"],
+        "answer": "Last year's present",
+        "explanation": "Tommy was writing to thank his aunt for last year's present."
+      }
+    ]
+  },
+  {
+    "unit": 23,
+    "questions": [
+      {
+        "question": "When would Mr. Mead's film be ready at the chemist's shop?",
+        "options": ["On Tuesday", "On Monday", "In half an hour", "Immediately"],
+        "answer": "On Tuesday",
+        "explanation": "The film was supposed to be ready on Tuesday."
+      },
+      {
+        "question": "Were the photographs successful?",
+        "options": ["Yes, they were perfect", "No, they were not successful because he spoiled the film", "Only one was good", "He lost them"],
+        "answer": "No, they were not successful because he spoiled the film",
+        "explanation": "The photographs were not successful because Mr. Mead spoiled the film during development."
+      },
+      {
+        "question": "What did the narrator conclude about Mr. Mead's photography?",
+        "options": ["He will become famous", "He will never become a good photographer", "He should buy a new camera", "He should open a shop"],
+        "answer": "He will never become a good photographer",
+        "explanation": "The narrator concluded that Mr. Mead will never become a good photographer."
+      }
+    ]
+  },
+  {
+    "unit": 24,
+    "questions": [
+      {
+        "question": "How was Frank planning to travel down?",
+        "options": ["By walking down the stairs", "By taking the lift", "On foot", "By running"],
+        "answer": "By taking the lift",
+        "explanation": "Frank pressed the button and was waiting for the lift coming from the fourth floor."
+      },
+      {
+        "question": "Who arrived earlier at the bottom?",
+        "options": ["Frank", "Juddy", "The boss", "They arrived at the same time"],
+        "answer": "Juddy",
+        "explanation": "Juddy walked down the stairs and arrived earlier than Frank."
+      },
+      {
+        "question": "Why was Frank delayed in the lift?",
+        "options": ["It was too crowded", "It had stopped between floors", "It was out of order", "The button was broken"],
+        "answer": "It had stopped between floors",
+        "explanation": "The lift had stopped between floors, trapping Frank."
+      }
+    ]
+  },
+  {
+    "unit": 25,
+    "questions": [
+      {
+        "question": "How many tourists were on the local flight?",
+        "options": ["5 tourists", "10 tourists", "2 tourists", "15 tourists"],
+        "answer": "5 tourists",
+        "explanation": "There were 5 tourists on the local flight."
+      },
+      {
+        "question": "Why did the old lady feel nervous?",
+        "options": ["Because it was her first flight", "Because the plane was small", "Because she lost her luggage", "Because she was hungry"],
+        "answer": "Because it was her first flight",
+        "explanation": "The old lady felt nervous because it was her first time flying."
+      },
+      {
+        "question": "What did the air hostess give the old lady to help her swallow?",
+        "options": ["Some water", "Some sweets", "A pair of glasses", "Some medicine"],
+        "answer": "Some sweets",
+        "explanation": "The air hostess gave her some sweets to help her swallow and ease her throat."
+      }
+    ]
+  },
+  {
+    "unit": 26,
+    "questions": [
+      {
+        "question": "How long had Max been preparing the dinner?",
+        "options": ["For 5 hours", "For 2 hours", "For half an hour", "All day"],
+        "answer": "For 5 hours",
+        "explanation": "Max had been preparing the dinner for 5 hours."
+      },
+      {
+        "question": "What kind of dish did Max prepare?",
+        "options": ["An Italian dish", "A Mexican dish", "A Chinese dish", "A French dish"],
+        "answer": "A Mexican dish",
+        "explanation": "Max had prepared a Mexican dish."
+      },
+      {
+        "question": "Who came to stay for dinner unexpectedly?",
+        "options": ["His boss", "His sister", "His wife", "His colleague"],
+        "answer": "His sister",
+        "explanation": "His sister came and stayed for dinner, although Max intended to eat it all by himself."
+      }
+    ]
+  },
+  {
+    "unit": 27,
+    "questions": [
+      {
+        "question": "Where did John go last year?",
+        "options": ["To Italy", "To Spain", "To France", "To Norway"],
+        "answer": "To Italy",
+        "explanation": "John went to Italy last year."
+      },
+      {
+        "question": "What did John teach the grocer in exchange for room and board?",
+        "options": ["Italian", "English", "Cooking", "Photography"],
+        "answer": "English",
+        "explanation": "John taught English to a grocer in return for room, board, and pocket money."
+      },
+      {
+        "question": "What did John actually learn a lot of?",
+        "options": ["English grammar", "Italian", "How to run a grocery store", "Opera singing"],
+        "answer": "Italian",
+        "explanation": "Although John wasn't sure if his pupil learnt English, John himself learnt a lot of Italian."
+      }
+    ]
+  },
+  {
+    "unit": 28,
+    "questions": [
+      {
+        "question": "What was the van carrying?",
+        "options": ["Factory wages", "Letters", "Typewriters", "Clothes"],
+        "answer": "Factory wages",
+        "explanation": "The van was carrying factory wages."
+      },
+      {
+        "question": "Where did the police find the van?",
+        "options": ["Near the river", "Near the factory", "In a showroom", "At the hotel"],
+        "answer": "Near the river",
+        "explanation": "The police found the van near the river."
+      },
+      {
+        "question": "Why did the thieves miss the bag containing the actual wages?",
+        "options": ["They dropped it in the river", "The driver was sitting on it", "It was hidden in the back", "The bag only had letters"],
+        "answer": "The driver was sitting on it",
+        "explanation": "The thieves missed the bag containing wages because the driver was sitting on it. They took the other bag which had letters."
+      }
+    ]
+  },
+  {
+    "unit": 29,
+    "questions": [
+      {
+        "question": "How was the young man dressed when he visited the showrooms?",
+        "options": ["In a formal suit", "In boots and a dirty jacket", "In a dark suit", "In sportswear"],
+        "answer": "In boots and a dirty jacket",
+        "explanation": "The young man was wearing boots and a dirty jacket to the showroom."
+      },
+      {
+        "question": "How many expensive cars did he want to buy?",
+        "options": ["1 car", "16 cars", "15 cars", "2 cars"],
+        "answer": "16 cars",
+        "explanation": "He wanted to buy 16 expensive cars for himself and his 15 colleagues."
+      },
+      {
+        "question": "How did he earn so much money?",
+        "options": ["By working on a Norwegian fishing boat", "By working in a bank", "By winning the lottery", "By selling typewriters"],
+        "answer": "By working on a Norwegian fishing boat",
+        "explanation": "He earned a lot of money working on a Norwegian fishing boat."
+      }
+    ]
+  },
+  {
+    "unit": 30,
+    "questions": [
+      {
+        "question": "Why doesn't Mr. Field like light-colored suits?",
+        "options": ["They are too expensive", "They show the dirt easily", "They are out of fashion", "His wife doesn't like them"],
+        "answer": "They show the dirt easily",
+        "explanation": "Mr. Field prefers dark suits because light-colored ones show the dirt too easily."
+      },
+      {
+        "question": "How often does Mr. Field clean his dark suits?",
+        "options": ["Once a week", "Once a month", "Once a year", "Every day"],
+        "answer": "Once a month",
+        "explanation": "Dark suits don't really show the dirt, so he can clean them once a month."
+      },
+      {
+        "question": "Who showed Mr. Field his dirty suit?",
+        "options": ["The dry cleaner", "Mrs. Field", "His boss", "The tailor"],
+        "answer": "Mrs. Field",
+        "explanation": "Mrs. Field showed Mr. Field his dirty suit and told him he must have it cleaned."
+      }
+    ]
+  },
+  {
+    "unit": 31,
+    "questions": [
+      {
+        "question": "What does the narrator's uncle do during weekends?",
+        "options": ["Goes shooting", "Goes fishing", "Drives automatic cars", "Goes to the opera"],
+        "answer": "Goes shooting",
+        "explanation": "The narrator's uncle goes shooting during the weekend."
+      },
+      {
+        "question": "Why didn't he shoot many birds on Sunday?",
+        "options": ["He lost his gun", "He spent the day arguing with a farmer", "It was raining", "He was too tired"],
+        "answer": "He spent the day arguing with a farmer",
+        "explanation": "He spent the day arguing with a farmer instead of aiming at birds."
+      },
+      {
+        "question": "What did the uncle accidentally shoot, and how much did he have to pay?",
+        "options": ["A dog; 5 pounds", "A cow; 50 pounds", "A horse; 100 pounds", "A bird; 5 pounds"],
+        "answer": "A cow; 50 pounds",
+        "explanation": "He slipped and accidentally shot a cow, forcing him to pay 50 pounds to the farmer."
+      }
+    ]
+  },
+  {
+    "unit": 32,
+    "questions": [
+      {
+        "question": "How old is William Harris?",
+        "options": ["48 years old", "32 years old", "12 years old", "50 years old"],
+        "answer": "48 years old",
+        "explanation": "William Harris is 48 years old."
+      },
+      {
+        "question": "Who is Poldy in the story?",
+        "options": ["William's pet dog", "A poltergeist in his house", "His late wife", "His neighbor"],
+        "answer": "A poltergeist in his house",
+        "explanation": "Poldy is the name William gave to the poltergeist in his house."
+      },
+      {
+        "question": "How did William feel about Poldy's presence?",
+        "options": ["He was extremely terrified", "He welcomed the company as it made him less lonely", "He tried to exorcise it", "He was annoyed by the noise"],
+        "answer": "He welcomed the company as it made him less lonely",
+        "explanation": "William welcomed Poldy's company because he had been alone since his wife died twelve years ago, making his life less lonely."
+      }
+    ]
+  },
+  {
+    "unit": 33,
+    "questions": [
+      {
+        "question": "Where did John work?",
+        "options": ["In a bank", "In a car showroom", "At the Royal Hotel", "In a chemist's shop"],
+        "answer": "In a bank",
+        "explanation": "John worked in the bank."
+      },
+      {
+        "question": "Why did John want to quit his job?",
+        "options": ["He didn't get along with Frank", "He didn't like to count other people's money", "The pay was too low", "He wanted to become a photographer"],
+        "answer": "He didn't like to count other people's money",
+        "explanation": "John answered that he didn't like to count other people's money, which is why he wanted to quit."
+      },
+      {
+        "question": "What did Frank think about John's career prospects?",
+        "options": ["He thought his career would be great", "He thought John should quit immediately", "He thought John was lazy", "He offered him a new job"],
+        "answer": "He thought his career would be great",
+        "explanation": "Frank wondered why John wanted to quit because his career at the bank would be great."
+      }
+    ]
+  }
+]
