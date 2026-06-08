@@ -1,0 +1,1965 @@
+[
+  {
+    "id": "Q1",
+    "topicId": "PP1",
+    "question": "Which of the following sentences follows the correct word order (Subject + Verb + Object + Manner + Place + Time)?",
+    "options": [
+      "Yesterday they are talking to my cat loudly in the kitchen.",
+      "They are talking to my cat loudly in the kitchen yesterday.",
+      "Loudly they are talking to my cat yesterday in the kitchen.",
+      "They loudly are talking yesterday in the kitchen to my cat."
+    ],
+    "answer": "They are talking to my cat loudly in the kitchen yesterday.",
+    "explanation": "According to the PP1 structure, statements follow the order: Subject (They) + Verb (are talking to) + Object (my cat) + Manner (loudly) + Place (in the kitchen) + Time (yesterday)."
+  },
+  {
+    "id": "Q2",
+    "topicId": "PP2",
+    "question": "Which is the correct exclamatory form of the sentence: 'It is a terrible day!'?",
+    "options": [
+      "How a terrible day it is!",
+      "What a terrible day it is!",
+      "What terrible day is it!",
+      "How terrible day it is!"
+    ],
+    "answer": "What a terrible day it is!",
+    "explanation": "To make an exclamatory sentence with a singular countable noun, use 'What + a/an + adjective + noun + subject + verb!' (What a terrible day it is!)."
+  },
+  {
+    "id": "Q3",
+    "topicId": "PP2",
+    "question": "Choose the correct sentence containing a stative verb in its correct form:",
+    "options": [
+      "I am loving this delicious breakfast.",
+      "I love this delicious breakfast.",
+      "I am needing a new watch.",
+      "She is wanting to go home now."
+    ],
+    "answer": "I love this delicious breakfast.",
+    "explanation": "Stative verbs (love, need, want, smell, see) express states rather than actions and cannot be used in the progressive form."
+  },
+  {
+    "id": "Q4",
+    "topicId": "PP3",
+    "question": "Which sentence correctly arranges the direct and indirect objects?",
+    "options": [
+      "He lent me to a book.",
+      "He lent to me a book.",
+      "He lent me a book.",
+      "He lent a book me."
+    ],
+    "answer": "He lent me a book.",
+    "explanation": "The verb 'lend' can take a double object structure: 'Subject + Verb + Indirect Object (person) + Direct Object (thing)' (He lent me a book) OR 'Subject + Verb + Direct Object + to + Indirect Object' (He lent a book to me)."
+  },
+  {
+    "id": "Q5",
+    "topicId": "PP4",
+    "question": "Fill in the blank: 'Did you _____ the letter I sent you yesterday?'",
+    "options": [
+      "take",
+      "receive",
+      "take in",
+      "took"
+    ],
+    "answer": "receive",
+    "explanation": "Use 'receive' (menerima) to express getting something that is sent to you, and 'take' (mengambil) to express actively grabbing or holding something."
+  },
+  {
+    "id": "Q6",
+    "topicId": "PP4",
+    "question": "Choose the correct verb form: 'I _____ for the train for over an hour, and it still hasn't arrived.'",
+    "options": [
+      "am waiting",
+      "have been waiting",
+      "waited",
+      "had waited"
+    ],
+    "answer": "have been waiting",
+    "explanation": "The present perfect progressive ('have been waiting') is used for actions that began in the past and are still continuing or have just finished, especially with verbs of duration like 'wait' with 'since' or 'for'."
+  },
+  {
+    "id": "Q7",
+    "topicId": "PP5",
+    "question": "Fill in the blank: 'Please don't stand in the doorway; you are getting ______.'",
+    "options": [
+      "on the way",
+      "by the way",
+      "in the way",
+      "in a way"
+    ],
+    "answer": "in the way",
+    "explanation": "'In the way' means blocking or obstructing a path. 'On the way' means in the process of travelling. 'By the way' is used to introduce a digression. 'In a way' means to a certain extent."
+  },
+  {
+    "id": "Q8",
+    "topicId": "PP5",
+    "question": "Choose the correct sentence regarding the use of 'spare' or 'to spare':",
+    "options": [
+      "I have no money to spare for luxury items.",
+      "I have no spare money to diluangkan.",
+      "Can you to spare a few minutes for me?",
+      "He had plenty of spare time diluangkan."
+    ],
+    "answer": "I have no money to spare for luxury items.",
+    "explanation": "'To spare' is used as an infinitive meaning to do without or give away, whereas 'spare' as an adjective means extra/backup (e.g., spare tire)."
+  },
+  {
+    "id": "Q9",
+    "topicId": "PP6",
+    "question": "Which sentence uses correct particles?",
+    "options": [
+      "Would you like a milk?",
+      "Would you like some milk?",
+      "He drank some glass of milk.",
+      "She asked for the some milk."
+    ],
+    "answer": "Would you like some milk?",
+    "explanation": "'Milk' is an uncountable noun, so it takes 'some' (some milk) rather than 'a' (a milk). For a countable quantity, we say 'a glass of milk'."
+  },
+  {
+    "id": "Q10",
+    "topicId": "PP6",
+    "question": "Choose the correct idiom: 'A careless driver managed to ______ a telephone pole last night.'",
+    "options": [
+      "knock over",
+      "knock down",
+      "knock off",
+      "knock out"
+    ],
+    "answer": "knock down",
+    "explanation": "'Knock down' means to demolish or force to fall (like a pole/building). 'Knock over' means to upset or tip over (like a glass). 'Knock out' means to make unconscious. 'Knock off' means to drop or cause to fall."
+  },
+  {
+    "id": "Q11",
+    "topicId": "PP7",
+    "question": "Which of the following phrasal verb word orders is incorrect?",
+    "options": [
+      "He took off his coat because it was hot.",
+      "He took his coat off because it was hot.",
+      "He took off it because it was hot.",
+      "He took it off because it was hot."
+    ],
+    "answer": "He took off it because it was hot.",
+    "explanation": "If the object of a separable phrasal verb is a pronoun (like 'it'), it MUST go between the verb and the particle (He took it off, NOT He took off it)."
+  },
+  {
+    "id": "Q12",
+    "topicId": "PP7",
+    "question": "Fill in the blanks: '_____ I was walking down the street, I met an old friend, but _____ I saw the traffic light turn red, I stopped.'",
+    "options": [
+      "When / while",
+      "While / when",
+      "During / when",
+      "While / while"
+    ],
+    "answer": "While / when",
+    "explanation": "Generally, 'While' is used before a past progressive action ('While I was walking'), and 'When' is used before a past simple action ('when I saw the traffic light')."
+  },
+  {
+    "id": "Q13",
+    "topicId": "PP8",
+    "question": "Choose the grammatically correct comparative sentence:",
+    "options": [
+      "He is taller than she.",
+      "He is taller than she is.",
+      "He is more tall than her.",
+      "He is taller than her is."
+    ],
+    "answer": "He is taller than she is.",
+    "explanation": "The standard comparative structure is: 'Subject + Verb + Adjective-er + than + Subject Pronoun + Auxiliary Verb' (He is taller than she is)."
+  },
+  {
+    "id": "Q14",
+    "topicId": "PP8",
+    "question": "Choose the correct verb form: 'Everybody in the classroom _____ to pay attention.'",
+    "options": [
+      "need",
+      "needs",
+      "is needing",
+      "are needing"
+    ],
+    "answer": "needs",
+    "explanation": "Indefinite pronouns like 'everybody, everyone, everything' are singular and take a singular verb ('needs')."
+  },
+  {
+    "id": "Q15",
+    "topicId": "PP9",
+    "question": "Which preposition of time is correct? 'Our final English exam is scheduled _____ June 8th _____ 9 o'clock.'",
+    "options": [
+      "in / at",
+      "on / at",
+      "at / in",
+      "on / on"
+    ],
+    "answer": "on / at",
+    "explanation": "Use 'on' for specific calendar dates ('on June 8th') and 'at' for specific clock times ('at 9 o'clock')."
+  },
+  {
+    "id": "Q16",
+    "topicId": "PP9",
+    "question": "Choose the correct sentence representing negation:",
+    "options": [
+      "There is no anyone in the office.",
+      "There isn't anyone in the office.",
+      "There isn't no one in the office.",
+      "There is anyone in the office."
+    ],
+    "answer": "There isn't anyone in the office.",
+    "explanation": "To express lack of persons, use 'there is no one' OR 'there isn't anyone'. Mixing them (double negatives like 'isn't no one') is incorrect."
+  },
+  {
+    "id": "Q17",
+    "topicId": "PP10",
+    "question": "Select the correct passive voice sentence in the past progressive tense:",
+    "options": [
+      "The house was built last year.",
+      "The house was being built when we arrived.",
+      "The house had been built before the storm.",
+      "The house will be built next month."
+    ],
+    "answer": "The house was being built when we arrived.",
+    "explanation": "Past progressive passive form is 'was/were + being + V3' (was being built)."
+  },
+  {
+    "id": "Q18",
+    "topicId": "PP10",
+    "question": "Choose the correct option representing double genitive possession:",
+    "options": [
+      "He is one of my father's friend.",
+      "He is a friend of my father.",
+      "He is a friend of my father's.",
+      "He is my father friend."
+    ],
+    "answer": "He is a friend of my father's.",
+    "explanation": "The double genitive structure 'a friend of my father's' is the standard way to express 'one of my father's friends'."
+  },
+  {
+    "id": "Q19",
+    "topicId": "PP10",
+    "question": "Fill in the blank: 'This ancient ring is made _____ gold.'",
+    "options": [
+      "in",
+      "from",
+      "of",
+      "by"
+    ],
+    "answer": "of",
+    "explanation": "Use 'made of' when the material remains unchanged in form (gold is still gold). Use 'made from' when the material undergoes chemical change (wine from grapes). Use 'made in' for country of origin, and 'made by' for the creator."
+  },
+  {
+    "id": "Q20",
+    "topicId": "PP12",
+    "question": "Fill in the blank: 'The hikers packing their bags plan to ______ early tomorrow morning.'",
+    "options": [
+      "set up",
+      "set off",
+      "set out",
+      "set down"
+    ],
+    "answer": "set off",
+    "explanation": "'Set off' means to begin a journey. 'Set up' means to assemble or construct. 'Set out' means to begin a task or plan with a specific goal."
+  },
+  {
+    "id": "Q21",
+    "topicId": "PP12",
+    "question": "Which sentence correctly reflects future intent / probability?",
+    "options": [
+      "I will call you when I am on the way to arrive.",
+      "I am going to study hard because I have decided to pass.",
+      "I shall be go to the supermarket soon.",
+      "He will going to visit his grandmother tomorrow."
+    ],
+    "answer": "I am going to study hard because I have decided to pass.",
+    "explanation": "Use 'be going to + V1' for prior intentions or plans already decided. Use 'will' for spontaneous decisions or general predictions."
+  },
+  {
+    "id": "Q22",
+    "topicId": "PP13",
+    "question": "Fill in the blank: 'By this time next year, I ______ from intermediate English course.'",
+    "options": [
+      "will graduate",
+      "will be graduating",
+      "will have graduated",
+      "have graduated"
+    ],
+    "answer": "will have graduated",
+    "explanation": "Use the Future Perfect ('will have + V3') to express an action that will be completed before a specific future time ('By this time next year...')."
+  },
+  {
+    "id": "Q23",
+    "topicId": "PP13",
+    "question": "Which of the following is the correct response to the question: 'Whose bike is it?'",
+    "options": [
+      "It belongs to Ali's.",
+      "It belongs to Ali.",
+      "It is Ali.",
+      "It is belong to Ali."
+    ],
+    "answer": "It belongs to Ali.",
+    "explanation": "Possession can be expressed as 'It is Ali's' (possessive noun) OR 'It belongs to Ali' (belongs to + person)."
+  },
+  {
+    "id": "Q24",
+    "topicId": "PP14",
+    "question": "Choose the correct sentence containing the Past Perfect:",
+    "options": [
+      "I went to school after I ate my breakfast.",
+      "I had had my breakfast before I went to school.",
+      "I have had my breakfast before I went to school.",
+      "I had my breakfast after I went to school."
+    ],
+    "answer": "I had had my breakfast before I went to school.",
+    "explanation": "Use the Past Perfect ('had + V3' - had had) to indicate an action that happened before another past action ('went to school')."
+  },
+  {
+    "id": "Q25",
+    "topicId": "PP15",
+    "question": "Choose the correct indirect reported speech for: 'Clean your room!' she said.",
+    "options": [
+      "She told me clean my room.",
+      "She told me to clean my room.",
+      "She asked me clean room.",
+      "She said me clean my room."
+    ],
+    "answer": "She told me to clean my room.",
+    "explanation": "Commands in indirect speech are reported using 'tell + object + to-infinitive' (She told me to clean my room)."
+  },
+  {
+    "id": "Q26",
+    "topicId": "PP15",
+    "question": "Choose the correct reported question: 'Where do you live?' he asked me.",
+    "options": [
+      "He asked me where did I live.",
+      "He asked me where I lived.",
+      "He asked me where do I live.",
+      "He asked me if I lived where."
+    ],
+    "answer": "He asked me where I lived.",
+    "explanation": "Reported Wh-questions use the question word followed by statement word order (subject + verb) with tense backshift, and no auxiliary 'do/does/did' (He asked me where I lived)."
+  },
+  {
+    "id": "Q27",
+    "topicId": "PP15",
+    "question": "Fill in the blank: 'He became highly ______ after waiting for the delayed train for two hours.'",
+    "options": [
+      "nervous",
+      "irritable",
+      "uneasy",
+      "afford"
+    ],
+    "answer": "irritable",
+    "explanation": "'Irritable' means easily made angry or annoyed. 'Nervous' means feeling uneasy or worried."
+  },
+  {
+    "id": "Q28",
+    "topicId": "PP16",
+    "question": "Choose the correct conditional form representing regret: 'If I _____ harder, I would have passed the final test yesterday.'",
+    "options": [
+      "studied",
+      "would study",
+      "had studied",
+      "have studied"
+    ],
+    "answer": "had studied",
+    "explanation": "Conditional Type 3 represents regrets about past events. Structure: 'If + Past Perfect (had studied), + would have + V3 (would have passed)'."
+  },
+  {
+    "id": "Q29",
+    "topicId": "PP17",
+    "question": "Fill in the blank: 'I couldn't write the letter last night because I ______ study for the exam.'",
+    "options": [
+      "must",
+      "had to",
+      "musted",
+      "should"
+    ],
+    "answer": "had to",
+    "explanation": "'Must' does not have a past tense form. To express obligation in the past, use 'had to'."
+  },
+  {
+    "id": "Q30",
+    "topicId": "PP17",
+    "question": "Fill in the blanks: 'Farmers _____ potatoes in rich soil, and children ______ mentally through experience.'",
+    "options": [
+      "grow / grow",
+      "grow up / grow",
+      "grow / grow up",
+      "grow up / grow up"
+    ],
+    "answer": "grow / grow up",
+    "explanation": "Use 'grow' for plants/crops or physical size/quantities. Use 'grow up' to describe mental development, maturity, and values."
+  },
+  {
+    "id": "Q31",
+    "topicId": "PP18",
+    "question": "In which sentence does 'have' act as a verb for activity/enjoyment?",
+    "options": [
+      "I have lived in Soreang for ten years.",
+      "I have a beautiful car.",
+      "I had a bath after a long walk.",
+      "I have got a new house."
+    ],
+    "answer": "I had a bath after a long walk.",
+    "explanation": "In 'had a bath', 'have' is used to express experiencing or enjoying an activity, replacing the verb 'took'."
+  },
+  {
+    "id": "Q32",
+    "topicId": "PP19",
+    "question": "Choose the correct option: 'I am highly _____ in reading this _____ novel.'",
+    "options": [
+      "interesting / interested",
+      "interested / interesting",
+      "interesting / interesting",
+      "interested / interested"
+    ],
+    "answer": "interested / interesting",
+    "explanation": "Use the '-ed' participle (interested) to describe how a person feels. Use the '-ing' participle (interesting) to describe the thing causing the feeling."
+  },
+  {
+    "id": "Q33",
+    "topicId": "PP19",
+    "question": "Choose the correct possessive form: 'The cat licked _____ paw.'",
+    "options": [
+      "it is",
+      "its'",
+      "its",
+      "it's"
+    ],
+    "answer": "its",
+    "explanation": "'Its' is the possessive pronoun for things/animals. 'It's' is a contraction of 'it is' or 'it has'."
+  },
+  {
+    "id": "Q34",
+    "topicId": "PP20",
+    "question": "Which sentence uses a gerund as the object of a preposition?",
+    "options": [
+      "Fishing is my favorite weekend hobby.",
+      "He left the classroom without saying a word.",
+      "I love reading comprehensive passages.",
+      "To err is human, to forgive divine."
+    ],
+    "answer": "He left the classroom without saying a word.",
+    "explanation": "In 'without saying', 'without' is a preposition and 'saying' is a gerund acting as its object."
+  },
+  {
+    "id": "Q35",
+    "topicId": "PP21",
+    "question": "Choose the correct modal passive voice form for a non-person object:",
+    "options": [
+      "The meeting will postpone until next week.",
+      "The meeting will be postponed until next week.",
+      "The meeting is postponing until next week.",
+      "The meeting will have postponed until next week."
+    ],
+    "answer": "The meeting will be postponed until next week.",
+    "explanation": "For non-person objects, use passive voice with modals: 'modal + be + V3' (will be postponed)."
+  },
+  {
+    "id": "Q36",
+    "topicId": "PP22",
+    "question": "Fill in the blank: 'I apologize ______ breaking your optician's mirror.'",
+    "options": [
+      "to",
+      "about",
+      "for",
+      "with"
+    ],
+    "answer": "for",
+    "explanation": "The verb 'apologize' is followed by the preposition 'for' when indicating the reason for the apology."
+  },
+  {
+    "id": "Q37",
+    "topicId": "PP1",
+    "question": "Which of the following sentences demonstrates the correct standard English word order of Subject + Verb + Object + Manner + Place + Time?",
+    "options": [
+      "The chef prepared the meal quickly in the kitchen this morning.",
+      "The chef prepared quickly the meal in the kitchen this morning.",
+      "The chef prepared the meal in the kitchen quickly this morning.",
+      "This morning the chef prepared in the kitchen the meal quickly."
+    ],
+    "answer": "The chef prepared the meal quickly in the kitchen this morning.",
+    "explanation": "In standard English word order (S-V-O-M-P-T), the Subject (The chef) is followed by the Verb (prepared), the Direct Object (the meal), the Adverb of Manner (quickly), the Adverb of Place (in the kitchen), and finally the Adverb of Time (this morning). Placing the manner adverb 'quickly' between the verb and the object, or placing the place adverb before the manner adverb, violates this structural rule."
+  },
+  {
+    "id": "Q38",
+    "topicId": "PP1",
+    "question": "What is the most grammatically accurate way to restructure the sentence below to emphasize the time element at the beginning, while maintaining correct standard English word order for all other elements?\n\n*Sentence: She wrote the letter furiously at her desk last night.*",
+    "options": [
+      "Last night, she wrote the letter furiously at her desk.",
+      "Last night, she wrote furiously the letter at her desk.",
+      "Last night, at her desk, she wrote the letter furiously.",
+      "Furiously last night, she wrote the letter at her desk."
+    ],
+    "answer": "Last night, she wrote the letter furiously at her desk.",
+    "explanation": "The Adverb of Time (Last night) can be fronted to the beginning of the sentence for emphasis. However, the remaining elements must strictly adhere to the S-V-O-M-P sequence: Subject (she) + Verb (wrote) + Object (the letter) + Manner (furiously) + Place (at her desk). Options B, C, and D violate this sequencing by misplacing the manner, object, or place elements."
+  },
+  {
+    "id": "Q39",
+    "topicId": "PP1",
+    "question": "Identify the sentence that strictly complies with the S-V-O-M-P-T word order rule.",
+    "options": [
+      "He drove his new car carefully along the highway last Sunday.",
+      "He drove carefully his new car along the highway last Sunday.",
+      "He drove his new car along the highway carefully last Sunday.",
+      "He last Sunday drove his new car carefully along the highway."
+    ],
+    "answer": "He drove his new car carefully along the highway last Sunday.",
+    "explanation": "This sentence perfectly aligns with the S-V-O-M-P-T structure: Subject (He) + Verb (drove) + Object (his new car) + Manner (carefully) + Place (along the highway) + Time (last Sunday). In English, you should not place an adverb of manner between a verb and its direct object (as in Option B), nor should you place location before manner (as in Option C)."
+  },
+  {
+    "id": "Q40",
+    "topicId": "PP1",
+    "question": "Choose the grammatically correct sentence that avoids word order errors involving manner, place, and time adverbs.",
+    "options": [
+      "The team completed the project successfully at the office yesterday.",
+      "The team completed successfully the project at the office yesterday.",
+      "The team completed the project at the office successfully yesterday.",
+      "The team completed the project successfully yesterday at the office."
+    ],
+    "answer": "The team completed the project successfully at the office yesterday.",
+    "explanation": "The standard sequence is Manner (successfully) + Place (at the office) + Time (yesterday). Option B incorrectly places the manner adverb before the direct object 'the project'. Option C incorrectly puts Place before Manner. Option D incorrectly places Time before Place."
+  },
+  {
+    "id": "Q41",
+    "topicId": "PP1",
+    "question": "Which of the following options corrects both the tense conflict and the word order mistakes in this incorrect statement: *'They are talking to my cat loudly in the kitchen yesterday'*?",
+    "options": [
+      "Yesterday, they were talking to my cat loudly in the kitchen.",
+      "They were talking loudly to my cat in the kitchen yesterday.",
+      "They talked to my cat in the kitchen loudly yesterday.",
+      "They are talking to my cat loudly yesterday in the kitchen."
+    ],
+    "answer": "Yesterday, they were talking to my cat loudly in the kitchen.",
+    "explanation": "The original sentence has a tense error ('are talking' combined with the past time marker 'yesterday') and needs to be corrected to the past continuous 'were talking' or simple past 'talked'. For word order, the prepositional object 'to my cat' functions as the object element. Therefore, the manner adverb 'loudly' must follow 'to my cat', followed by the place 'in the kitchen'. Fronting the time element 'Yesterday' is a standard and correct way to position 'Time' in this structure (T, S-V-O-M-P)."
+  },
+  {
+    "id": "Q42",
+    "topicId": "PP2",
+    "question": "Although I normally have cereal, this morning the coffee _______ absolutely delicious, and I _______ to have a pastry with it.",
+    "options": [
+      "is smelling / am wanting",
+      "smells / want",
+      "is smelling / want",
+      "smells / am wanting"
+    ],
+    "answer": "smells / want",
+    "explanation": "Both 'smell' (when describing a sensory quality) and 'want' (expressing a desire) function as stative verbs in this context. Stative verbs cannot be used in the progressive form, even when referring to a temporary state happening right now. Therefore, the Simple Present forms 'smells' and 'want' are grammatically correct."
+  },
+  {
+    "id": "Q43",
+    "topicId": "PP2",
+    "question": "We usually _______ lunch at our desks to save time, but today we _______ with the new regional manager at 1:00 PM.",
+    "options": [
+      "eat / are meeting",
+      "are eating / are meeting",
+      "eat / meet",
+      "are eating / meet"
+    ],
+    "answer": "eat / are meeting",
+    "explanation": "The first clause describes a habit or routine, indicated by the frequency adverb 'usually', which requires the Simple Present ('eat'). The second clause describes a specific, pre-arranged future plan occurring today, which is correctly expressed using the Present Progressive ('are meeting')."
+  },
+  {
+    "id": "Q44",
+    "topicId": "PP2",
+    "question": "Read the dialogue and choose the correct exclamatory sentence to fill the blank:\n\nSpeaker A: \"I can't believe they lost our reservation and we have to wait an hour for a table!\"\nSpeaker B: \"_______! We should have gone somewhere else.\"",
+    "options": [
+      "What a terrible start to our lunch is it",
+      "How a terrible start to our lunch it is",
+      "What a terrible start to our lunch it is",
+      "It is what a terrible start to our lunch"
+    ],
+    "answer": "What a terrible start to our lunch it is",
+    "explanation": "An exclamatory sentence starting with 'What' follows the structural pattern: 'What + a/an + adjective + singular countable noun + subject + verb!'. In this structure, the subject ('it') must precede the verb ('is'). Option A incorrectly inverts the subject and verb, option B incorrectly uses 'How' with a noun phrase, and option D is structurally incorrect."
+  },
+  {
+    "id": "Q45",
+    "topicId": "PP2",
+    "question": "I _______ that you _______ lunch with the director tomorrow. Do you know if he _______ to change the catering company?",
+    "options": [
+      "see / are having / wants",
+      "am seeing / are having / is wanting",
+      "see / have / is wanting",
+      "am seeing / have / wants"
+    ],
+    "answer": "see / are having / wants",
+    "explanation": "'See' is used here as a stative verb meaning 'understand/perceive' and must be in the Simple Present ('see'). 'Have' is used dynamically here to mean 'eat/meet' as a planned future arrangement, which licenses the Present Progressive ('are having'). 'Want' is a stative verb of desire and cannot be progressive ('wants')."
+  },
+  {
+    "id": "Q46",
+    "topicId": "PP2",
+    "question": "Oh no, the chef just dropped the entire birthday cake! _______! Now we _______ to find a bakery that is still open.",
+    "options": [
+      "What a total mess it is / need",
+      "It is what a total mess / are needing",
+      "What a total mess is it / need",
+      "How a total mess it is / are needing"
+    ],
+    "answer": "What a total mess it is / need",
+    "explanation": "The exclamatory phrase requires 'What + noun phrase + subject + verb!' ('What a total mess it is!'). 'How' cannot modify a noun phrase directly. The second blank requires the verb 'need', which is a stative verb of necessity and must be in the Simple Present ('need'), not the progressive form."
+  },
+  {
+    "id": "Q47",
+    "topicId": "PP3",
+    "question": "The librarian _________ after I presented my library card.",
+    "options": [
+      "handed me the rare book",
+      "handed the rare book to me",
+      "handed to me the rare book",
+      "both A and B are correct"
+    ],
+    "answer": "both A and B are correct",
+    "explanation": "The verb 'hand' is ditransitive and allows two grammatical patterns for direct and indirect objects: S + V + IO + DO ('handed me the rare book') and S + V + DO + to + IO ('handed the rare book to me'). Option C is incorrect because a prepositional indirect object cannot comfortably separate the verb from its direct object."
+  },
+  {
+    "id": "Q48",
+    "topicId": "PP3",
+    "question": "We _________ a small cottage near the coast where we spent our summer holidays, but we sold it a decade ago.",
+    "options": [
+      "used to own",
+      "would own",
+      "were owning",
+      "have owned"
+    ],
+    "answer": "used to own",
+    "explanation": "For past states (using stative verbs like 'own', 'be', or 'have'), we must use 'used to' or the Simple Past, not 'would'. 'Would' is reserved for past repeated actions or habits, not states. Additionally, 'own' is not used in the progressive aspect ('were owning'), and the definite past time reference ('sold it a decade ago') rules out the present perfect."
+  },
+  {
+    "id": "Q49",
+    "topicId": "PP3",
+    "question": "On her trip to Munich last week, Clara _________ several beautiful wood carvings.",
+    "options": [
+      "bought her mother",
+      "bought to her mother",
+      "bought for her mother",
+      "bought her mother for"
+    ],
+    "answer": "bought her mother",
+    "explanation": "The verb 'buy' uses the preposition 'for' (not 'to') and follows either the pattern S + V + IO + DO ('bought her mother some wood carvings') or S + V + DO + for + IO ('bought some wood carvings for her mother'). Option A correctly implements the first pattern. Option C is incorrect in this position because the prepositional phrase 'for her mother' cannot split the verb from its direct object."
+  },
+  {
+    "id": "Q50",
+    "topicId": "PP3",
+    "question": "I _________ three postcards to my family while visiting Rome last month, but unfortunately, they never arrived.",
+    "options": [
+      "sent",
+      "have sent",
+      "would send",
+      "had sent"
+    ],
+    "answer": "sent",
+    "explanation": "The sentence specifies a definite, completed time in the past ('while visiting Rome last month'), which strictly requires the Simple Past tense ('sent'). The Present Perfect ('have sent') cannot be used with finished past time expressions."
+  },
+  {
+    "id": "Q51",
+    "topicId": "PP3",
+    "question": "I really liked the vintage postcard you showed me yesterday; did your brother finally _________?",
+    "options": [
+      "give it to you",
+      "give you it",
+      "give to you it",
+      "give you to it"
+    ],
+    "answer": "give it to you",
+    "explanation": "When both the direct object and the indirect object are pronouns (here, 'it' and 'you'), standard English grammar rules state that we must use the prepositional pattern: Verb + Direct Object Pronoun + to/for + Indirect Object Pronoun ('give it to you'). The structure 'give you it' is considered non-standard/informal."
+  },
+  {
+    "id": "Q52",
+    "topicId": "PP4",
+    "question": "Although our flight has been delayed, we __________ for our tour guide at the terminal since 8:00 AM, and we still hope to see her soon.",
+    "options": [
+      "have been waiting",
+      "have waited",
+      "are waiting",
+      "waited"
+    ],
+    "answer": "have been waiting",
+    "explanation": "The verb 'wait' is one of the specific verbs (such as wait, stay, study, look) that utilizes the Present Perfect Progressive tense (S + have/has + been + V1-ing) to emphasize an action that started in the past and is continuing up to the present moment, especially when used with 'since'."
+  },
+  {
+    "id": "Q53",
+    "topicId": "PP4",
+    "question": "So far on this exciting journey, I __________ many warm welcomes from the locals, but I have not __________ any photos of the sacred temple yet.",
+    "options": [
+      "have taken / received",
+      "have received / taken",
+      "received / took",
+      "have been taking / received"
+    ],
+    "answer": "have received / taken",
+    "explanation": "This question tests the difference between 'receive' (menerima - to get or be given something, like welcomes) and 'take' (mengambil - here used in the collocation 'take photos'). The presence of 'So far' and 'yet' dictates the use of the Present Perfect tense."
+  },
+  {
+    "id": "Q54",
+    "topicId": "PP4",
+    "question": "This is the third time we __________ this exciting safari trail, but we __________ a leopard in the wild so far.",
+    "options": [
+      "have visited / have never seen",
+      "visited / never saw",
+      "have been visiting / have never been seeing",
+      "visit / are never seeing"
+    ],
+    "answer": "have visited / have never seen",
+    "explanation": "The Present Perfect is used for repeating actions up to the present (e.g., 'This is the third time we have visited...') and for actions occurring at an indefinite time in the past, often accompanied by adverbs like 'never' and 'so far'."
+  },
+  {
+    "id": "Q55",
+    "topicId": "PP4",
+    "question": "Since we booked our flights to Tokyo, my sister __________ Japanese online, and she has already mastered basic greetings.",
+    "options": [
+      "has been learning",
+      "has learned",
+      "is learning",
+      "learned"
+    ],
+    "answer": "has been learning",
+    "explanation": "The verb 'learn' is on the list of designated verbs that take the Present Perfect Progressive tense to denote an activity that started in the past and is still ongoing now, particularly when anchored by a 'since' clause."
+  },
+  {
+    "id": "Q56",
+    "topicId": "PP4",
+    "question": "So far, our group __________ a lot of support from the local guides, but we still have to __________ our own safety precautions seriously.",
+    "options": [
+      "has taken / receive",
+      "has received / take",
+      "is receiving / have taken",
+      "received / taking"
+    ],
+    "answer": "has received / take",
+    "explanation": "We use 'receive' (menerima) for being given support by others, and 'take' (mengambil/melakukan) for adopting precautions ('take precautions'). 'So far' signals the need for the Present Perfect 'has received', while 'have to' is followed by the bare infinitive 'take'."
+  },
+  {
+    "id": "Q57",
+    "topicId": "PP5",
+    "question": "Although the courier ________ the parcel just five minutes ago, the recipient ________ it yet, as she is currently in a meeting.",
+    "options": [
+      "has delivered / hasn't opened",
+      "delivered / didn't open",
+      "delivered / hasn't opened",
+      "had delivered / hasn't opened"
+    ],
+    "answer": "delivered / hasn't opened",
+    "explanation": "The phrase 'just five minutes ago' specifies a definite completed time in the past, which requires the Simple Past tense ('delivered'). The word 'yet' at the end of the clause indicates a state continuing up to the present moment, which requires the Present Perfect tense ('hasn't opened')."
+  },
+  {
+    "id": "Q58",
+    "topicId": "PP5",
+    "question": "I ________ the report you requested, but when I tried to email it to you a moment ago, the server ________.",
+    "options": [
+      "have just finished / crashed",
+      "just finished / has crashed",
+      "have just finished / has crashed",
+      "finished / has crashed"
+    ],
+    "answer": "have just finished / crashed",
+    "explanation": "The Present Perfect ('have just finished') is used with 'just' to describe an action that was completed very recently with relevance to the present. The Simple Past ('crashed') is required for the second verb because it refers to a specific, definite point in past time ('when I tried to email it to you a moment ago')."
+  },
+  {
+    "id": "Q59",
+    "topicId": "PP5",
+    "question": "While we were ________ to the venue, we realized that the massive construction barrier was ________, forcing us to detour; ________, did you bring the tickets?",
+    "options": [
+      "on the way / in the way / by the way",
+      "in the way / on the way / in a way",
+      "on the way / in this way / by the way",
+      "in this way / in the way / in a way"
+    ],
+    "answer": "on the way / in the way / by the way",
+    "explanation": "'On the way' means en route or in the process of traveling somewhere. 'In the way' means obstructing or blocking someone's path. 'By the way' is an idiom used to introduce an incidental topic or question."
+  },
+  {
+    "id": "Q60",
+    "topicId": "PP5",
+    "question": "________, I am glad the project was delayed, as it gave us time to refine the design. By organizing our workflow ________, we managed to avoid any further errors.",
+    "options": [
+      "In this way / in a way",
+      "In a way / in this way",
+      "By the way / in the way",
+      "In a way / on the way"
+    ],
+    "answer": "In a way / in this way",
+    "explanation": "'In a way' means to a certain extent or in some senses (expressing a partial agreement or feeling). 'In this way' means using this particular method or manner."
+  },
+  {
+    "id": "Q61",
+    "topicId": "PP5",
+    "question": "We managed to reach the airport with plenty of time ________, but the airline could not ________ even a single seat on the next flight for our stranded colleague.",
+    "options": [
+      "spare / spare",
+      "to spare / spare",
+      "to spare / to spare",
+      "spare / to spare"
+    ],
+    "answer": "to spare / spare",
+    "explanation": "The idiomatic phrase 'to spare' means remaining, leftover, or extra (e.g., 'with time to spare'). In the second clause, the verb 'spare' is a bare infinitive following the modal verb 'could' and means to afford to give up or relinquish without inconvenience."
+  },
+  {
+    "id": "Q62",
+    "topicId": "PP6",
+    "question": "My mother always welcomes ________ Percy Buttons at our house; yesterday, ________ man asked for ________ glass of water and ________ soup.",
+    "options": [
+      "Ø / the / a / some",
+      "the / a / some / a",
+      "a / the / a / some",
+      "Ø / a / a / some"
+    ],
+    "answer": "Ø / the / a / some",
+    "explanation": "This question tests multiple particle rules: 1) Proper names ('Percy Buttons') do not require particles (represented by Ø). 2) Specific information uses particles; 'the man' refers to the specific man we already know (Percy Buttons). 3) Singular countable nouns representing a unit use 'a' ('a glass of water'). 4) Uncountable nouns use 'some' ('some soup') when referring to an indefinite quantity."
+  },
+  {
+    "id": "Q63",
+    "topicId": "PP6",
+    "question": "As the heavyweight boxer tried to ________ his opponent, he accidentally stumbled and managed to ________ the referee's table, spilling all the water bottles.",
+    "options": [
+      "knock out / knock over",
+      "knock down / knock off",
+      "knock off / knock down",
+      "knock at / knock over"
+    ],
+    "answer": "knock out / knock over",
+    "explanation": "This question tests the distinction between the knock idioms. 'Knock out' means to defeat or render unconscious (mengalahkan), which fits the boxing context. 'Knock over' means to tip over or spill something by accidentally bumping into it (menyenggol), which fits spilling the water bottles on the table."
+  },
+  {
+    "id": "Q64",
+    "topicId": "PP6",
+    "question": "Since we have to ________ our neighbor's puppy this weekend, we decided to ________ our planned trip to the countryside until next month.",
+    "options": [
+      "look after / put off",
+      "put on / put off",
+      "look after / put on",
+      "put off / look after"
+    ],
+    "answer": "look after / put off",
+    "explanation": "This question tests the meaning of simple 'look' and 'put' idioms. 'Look after' means to take care of or nurse (merawat), which fits taking care of a puppy. 'Put off' means to postpone or delay (menunda), which fits delaying the trip until next month."
+  },
+  {
+    "id": "Q65",
+    "topicId": "PP6",
+    "question": "While ________ children generally love ________ sweet food, ________ children next door prefer ________ cheese my uncle imported from France.",
+    "options": [
+      "Ø / Ø / The / the",
+      "The / some / The / some",
+      "A / Ø / The / a",
+      "Ø / some / A / the"
+    ],
+    "answer": "Ø / Ø / The / the",
+    "explanation": "This question tests the rule that common (general) information does not use articles, while specific information does. General plural nouns ('children') and general uncountable nouns ('sweet food') do not take articles. However, when the nouns are made specific by modifying phrases ('children next door' and 'cheese my uncle imported'), the definite article 'the' must be used."
+  },
+  {
+    "id": "Q66",
+    "topicId": "PP6",
+    "question": "Percy stood outside in the rain and began to ________ the door. Suddenly, a sudden gust of wind ________ his hat, sending it flying down the street.",
+    "options": [
+      "knock at / knocked off",
+      "knock down / knocked over",
+      "knock over / knocked out",
+      "knock out / knocked down"
+    ],
+    "answer": "knock at / knocked off",
+    "explanation": "This question tests the correct usage of knock idioms in context. To rap or tap on a door is to 'knock at' (mengetok). To cause something to be dislodged or fall off from its position (such as a hat from a head) is to 'knock off' (menjatuhkan)."
+  },
+  {
+    "id": "Q67",
+    "topicId": "PP7",
+    "question": "________ we were carefully packing the fragile ornaments, the movers arrived, so we had to rush and quickly ________.",
+    "options": [
+      "While / packed them up",
+      "When / packed up them",
+      "While / packed up them",
+      "When / packed them up"
+    ],
+    "answer": "While / packed them up",
+    "explanation": "The subordinate clause 'we were carefully packing...' is in the Past Progressive, meaning it must be introduced by 'While' (which is used before the past progressive, whereas 'When' is used before the past simple). For the phrasal verb 'pack up', when the object is a pronoun ('them'), it must be placed between the verb and the particle ('packed them up')."
+  },
+  {
+    "id": "Q68",
+    "topicId": "PP7",
+    "question": "At exactly midnight, when the fire alarm rang, Jason was in the middle of undressing; he ________.",
+    "options": [
+      "was taking off them",
+      "was taking them off",
+      "took them off",
+      "had taken off them"
+    ],
+    "answer": "was taking them off",
+    "explanation": "To describe an action in progress at a specific past time (midnight) that was interrupted by another event (the fire alarm), the Past Progressive ('was taking... off') is required. Furthermore, with the phrasal verb 'take off', a pronoun object ('them') must be placed between the verb and the particle, making 'was taking them off' the only grammatically correct structure."
+  },
+  {
+    "id": "Q69",
+    "topicId": "PP7",
+    "question": "I was trying to slip out of the room quietly ________ I accidentally knocked ________.",
+    "options": [
+      "while / over it",
+      "when / it over",
+      "when / over it",
+      "while / it over"
+    ],
+    "answer": "when / it over",
+    "explanation": "The clause 'I accidentally knocked...' is in the Past Simple, representing an interrupting action in the past, so it must be preceded by 'when'. For the transitive phrasal verb 'knock over', a pronoun object ('it') must split the verb and the particle, resulting in 'knocked it over'."
+  },
+  {
+    "id": "Q70",
+    "topicId": "PP7",
+    "question": "While Susan was vacuuming the carpet, her husband ________, but because it did not fit, he quickly ________.",
+    "options": [
+      "was trying on a coat / took it off",
+      "was trying a coat on / took off it",
+      "tried on a coat / took it off",
+      "was trying on a coat / took off it"
+    ],
+    "answer": "was trying on a coat / took it off",
+    "explanation": "The sentence describes two simultaneous past actions introduced by 'While', which requires the Past Progressive for both ('was vacuuming' and 'was trying on'). When using the phrasal verb 'take off' with a pronoun object ('it'), the pronoun must go between the verb and the particle ('took it off'). A noun object like 'a coat' can go either after the particle ('trying on a coat') or before it ('trying a coat on')."
+  },
+  {
+    "id": "Q71",
+    "topicId": "PP7",
+    "question": "Identify the sentence that contains a grammatical error regarding phrasal verb word order or past tense usage.",
+    "options": [
+      "While the teacher was speaking, the student took his notebook out.",
+      "When the teacher walked in, the student was taking out his notebook.",
+      "The teacher asked the student to put away his notebook, but he refused to put away it.",
+      "While the student was taking his notebook out, the bell suddenly rang."
+    ],
+    "answer": "The teacher asked the student to put away his notebook, but he refused to put away it.",
+    "explanation": "When a separable phrasal verb (like 'put away') has a pronoun object ('it'), the pronoun must be placed between the verb and the particle ('put it away'). Placing it after the particle ('put away it') is grammatically incorrect. Conversely, noun objects like 'his notebook' can flexibly go either before the particle ('took his notebook out') or after ('taking out his notebook')."
+  },
+  {
+    "id": "Q72",
+    "topicId": "PP8",
+    "question": "While everyone in the department ______ to be the most capable leader, Sarah has consistently shown that she is far ________ at managing crisis situations than her predecessor.",
+    "options": [
+      "strive / more adept",
+      "strives / more adept",
+      "strives / most adept",
+      "strive / most adept"
+    ],
+    "answer": "Option B",
+    "explanation": "The indefinite pronoun 'everyone' is always grammatically singular and therefore requires the singular verb 'strives'. The second part of the sentence compares Sarah to her predecessor (two entities), which requires the comparative form 'more adept' followed by the conjunction 'than'."
+  },
+  {
+    "id": "Q73",
+    "topicId": "PP8",
+    "question": "To ________ the competition, everyone _______ required to submit their ________ work to date.",
+    "options": [
+      "enter / is / most outstanding",
+      "enter into / is / more outstanding",
+      "enter / are / most outstanding",
+      "enter in / are / more outstanding"
+    ],
+    "answer": "Option A",
+    "explanation": "To 'enter' (meaning to register or join) a competition does not require a preposition. 'Everyone' is a singular indefinite pronoun and must take the singular verb 'is'. The phrase 'to date' implies a comparison across all works produced up to the present time, requiring the superlative 'most outstanding'."
+  },
+  {
+    "id": "Q74",
+    "topicId": "PP8",
+    "question": "Although she is the _______ of the two candidates, the board believes she is far more qualified for the executive role than _______.",
+    "options": [
+      "younger / he is",
+      "youngest / him is",
+      "younger / him",
+      "youngest / he"
+    ],
+    "answer": "Option A",
+    "explanation": "When comparing exactly two people or things, formal grammar requires the comparative degree ('younger of the two') rather than the superlative. When comparing subjects, the formal pronoun structure after 'than' uses the subjective case followed by an auxiliary verb ('than he is'), matching the target pattern 'He is taller than she is'."
+  },
+  {
+    "id": "Q75",
+    "topicId": "PP8",
+    "question": "The coordinator pointed out that everything in these display cases _______ to be handled with extreme care, as these artifacts are much _______ than the ones we unpacked yesterday.",
+    "options": [
+      "needs / more fragile",
+      "need / more fragile",
+      "needs / most fragile",
+      "need / fragile"
+    ],
+    "answer": "Option A",
+    "explanation": "The indefinite pronoun 'everything' is always singular, requiring the singular verb 'needs'. The sentence compares the current artifacts to the ones unpacked yesterday, so the comparative adjective 'more fragile' must be used in conjunction with 'than'."
+  },
+  {
+    "id": "Q76",
+    "topicId": "PP8",
+    "question": "The board members decided to _______ negotiations once they realized that this proposal was the ________ of all the submissions.",
+    "options": [
+      "enter into / most lucrative",
+      "enter / more lucrative",
+      "enter into / more lucrative",
+      "enter / most lucrative"
+    ],
+    "answer": "Option A",
+    "explanation": "'Enter into' is the correct formal idiom meaning to formally begin or participate in a process, agreement, or negotiations. The superlative form 'most lucrative' is required because the proposal is being compared against 'all' of the submissions (implying a group of three or more)."
+  },
+  {
+    "id": "Q77",
+    "topicId": "PP9",
+    "question": "We knocked on the heavy oak door for several minutes, but there was ______ inside to hear us, nor did we see ______ lights in the windows.",
+    "options": [
+      "no one / any",
+      "anyone / no",
+      "no one / no",
+      "anyone / any"
+    ],
+    "answer": "no one / any",
+    "explanation": "The first clause has a positive verb ('there was'), requiring the negative pronoun 'no one' to make the statement negative (using 'anyone' would require a negative verb like 'there wasn't'). The second clause is introduced by the negative coordinating conjunction 'nor', which makes the clause negative; therefore, the non-assertive word 'any' must be used instead of 'no' to avoid an incorrect double negative."
+  },
+  {
+    "id": "Q78",
+    "topicId": "PP9",
+    "question": "The host of the manor promised to keep the hearth burning ________ our arrival, which was scheduled ________ a cold, foggy Tuesday night in late November.",
+    "options": [
+      "until / on",
+      "till / at",
+      "during / on",
+      "up to / in"
+    ],
+    "answer": "until / on",
+    "explanation": "'Until' is used to show that an action continues up to a specific point in time (our arrival). 'On' is the correct preposition of time for specific days, dates, and modified days (e.g., 'on a cold, foggy Tuesday night'). 'At' cannot be used here because we do not use 'at' with named weekdays."
+  },
+  {
+    "id": "Q79",
+    "topicId": "PP9",
+    "question": "Because the guests arrived so late, there was hardly ______ firewood left to warm the cold parlor, and ______ of the hosts had stayed up to welcome them.",
+    "options": [
+      "any / none",
+      "no / none",
+      "any / no one",
+      "no / no one"
+    ],
+    "answer": "any / none",
+    "explanation": "'Hardly' is a negative adverb, meaning it must be paired with the non-assertive 'any' rather than the negative 'no' (which would create an ungrammatical double negative). For the second blank, 'none of' is the correct construction to indicate not one of a specific group of people ('the hosts'), whereas 'no one of' is non-standard."
+  },
+  {
+    "id": "Q80",
+    "topicId": "PP9",
+    "question": "The guest lodge is closed to visitors ________ late autumn ________ early spring, but we were allowed to stay ________ Christmas Eve.",
+    "options": [
+      "from / until / on",
+      "during / to / at",
+      "in / till / in",
+      "from / during / on"
+    ],
+    "answer": "from / until / on",
+    "explanation": "'From... until...' is the correct prepositional pair to mark the beginning and end of a continuous period of time. 'On' is the correct preposition of time for specific calendar days and special days, such as 'Christmas Eve'."
+  },
+  {
+    "id": "Q81",
+    "topicId": "PP9",
+    "question": "Since there was ________ warm water available ________ the morning, we could not take a bath ________ we had chopped some wood for the boiler.",
+    "options": [
+      "no / in / until",
+      "any / in / during",
+      "no / on / till",
+      "any / at / until"
+    ],
+    "answer": "no / in / until",
+    "explanation": "The first clause uses the positive verb 'was', requiring the negative determiner 'no' to express a negative meaning; using 'any' would require a negative verb ('wasn't'). 'In' is the correct preposition for general periods of the day ('in the morning'). 'Until' is used as a conjunction here to show that the action of taking a bath could not occur prior to the action of chopping wood."
+  },
+  {
+    "id": "Q82",
+    "topicId": "PP10",
+    "question": "Since the jazz festival ended last week, the historic clavichord ________ to the museum, but it ________ by the preservation team yet.",
+    "options": [
+      "was returned / had not been inspected",
+      "has been returned / has not been inspected",
+      "has returned / has not inspected",
+      "was being returned / is not inspected"
+    ],
+    "answer": "has been returned / has not been inspected",
+    "explanation": "The word 'since' indicates a time period extending from a past point to the present, requiring the Present Perfect tense. Because the clavichord receives the action, we must use the Present Perfect Passive ('has been returned'). The second clause also requires the Present Perfect Passive ('has not been inspected') to match the adverb 'yet' and denote passive reception of the action."
+  },
+  {
+    "id": "Q83",
+    "topicId": "PP10",
+    "question": "The body of the custom trumpet is made ________ brass, but the valves are made ________ a combination of rare alloys ________ a specialist in Munich.",
+    "options": [
+      "of / from / by",
+      "from / of / by",
+      "of / from / in",
+      "from / of / in"
+    ],
+    "answer": "of / from / by",
+    "explanation": "We use 'made of' when the original material (brass) is still recognizable. We use 'made from' when referring to a product manufactured from a number of materials (a combination of rare alloys). Finally, 'made by' is used to identify the agent or person who created the item (a specialist)."
+  },
+  {
+    "id": "Q84",
+    "topicId": "PP10",
+    "question": "The man who complained about the loud jazz music is ________, who has always preferred classical concerts.",
+    "options": [
+      "a close colleague of my father",
+      "a close colleague of my father's",
+      "one of my father close colleague",
+      "a close colleague of mine father"
+    ],
+    "answer": "a close colleague of my father's",
+    "explanation": "This question tests the double genitive (noun + of + possessive). To express 'one of my father's colleagues', we use the pattern 'a colleague of my father's', which combines the preposition 'of' with the possessive form 'father's'."
+  },
+  {
+    "id": "Q85",
+    "topicId": "PP10",
+    "question": "While the venue's grand piano ________ for the evening's performance, the jazz musicians had to wait in the green room.",
+    "options": [
+      "was being tuned",
+      "was tuning",
+      "had been tuned",
+      "has been tuned"
+    ],
+    "answer": "was being tuned",
+    "explanation": "The conjunction 'while' signals an ongoing action occurring in the past simultaneously with another past event ('had to wait'). Because the piano is the recipient of the action, we must use the Past Progressive Passive: 'was/were + being + V3' (was being tuned)."
+  },
+  {
+    "id": "Q86",
+    "topicId": "PP10",
+    "question": "The music director insisted that the school clavichord ________ for jazz under any circumstances, noting that its delicate strings ________ by rough playing once before.",
+    "options": [
+      "must not be used / had been damaged",
+      "must not use / were damaging",
+      "should not be using / had damaged",
+      "cannot be used / have been damaged"
+    ],
+    "answer": "must not be used / had been damaged",
+    "explanation": "The first blank requires a modal passive ('modal + be + V3') to express prohibition ('must not be used'). The second blank requires the Past Perfect Passive ('had + been + V3') because the damage occurred before the past action of the director's insistence ('insisted... had been damaged')."
+  },
+  {
+    "id": "Q87",
+    "topicId": "PP11",
+    "question": "When Julian resolved to help his neighbor paint the fence, he did not know that his own garden _________ by those whom he _________ in the past.",
+    "options": [
+      "A. was tended / helped",
+      "B. had already been tended / had helped",
+      "... has already been tended / has helped",
+      "D. was being tended / would help"
+    ],
+    "answer": "B. had already been tended / had helped",
+    "explanation": "The main narrative is anchored in the simple past ('resolved', 'did not know'). The actions in the subordinate clauses occurred prior to this past point in time, necessitating the past perfect tense. Because the garden received the action of tending, the past perfect passive voice ('had already been tended') is required. Julian performed the action of helping even further back in the past, requiring the past perfect active voice ('had helped')."
+  },
+  {
+    "id": "Q88",
+    "topicId": "PP11",
+    "question": "Ever since the local clinic _________ by volunteers five years ago, it _________ free medical care to the homeless, demonstrating that one good turn indeed _________ another.",
+    "options": [
+      "A. was founded / has been providing / deserves",
+      "B. had been founded / provided / deserved",
+      "C. has been founded / is providing / deserves",
+      "D. was founded / provides / had deserved"
+    ],
+    "answer": "A. was founded / has been providing / deserves",
+    "explanation": "The specific past time marker 'five years ago' requires the simple past tense; because the clinic received the action, the passive voice 'was founded' is correct. The phrase 'Ever since' establishes a time frame that starts in the past and continues to the present, requiring the present perfect progressive ('has been providing'). Finally, the proverb representing a timeless truth or general maxim must be written in the simple present tense ('deserves')."
+  },
+  {
+    "id": "Q89",
+    "topicId": "PP11",
+    "question": "While the stranded hikers _________ by the rescue team, they suddenly realized that their exact coordinates _________ to the base camp hours earlier by a mysterious benefactor.",
+    "options": [
+      "A. were rescuing / transmitted",
+      "B. had been rescued / had transmitted",
+      "C. were being rescued / had been transmitted",
+      "D. was rescued / were transmitted"
+    ],
+    "answer": "C. were being rescued / had been transmitted",
+    "explanation": "The conjunction 'While' introduces an ongoing background action in the past. Since the plural 'hikers' received the action of rescuing, we must use the past progressive passive ('were being rescued'). The realization occurred in the simple past ('realized'). The transmission of coordinates happened 'hours earlier' (prior to the realization) and was performed by an external agent, requiring the past perfect passive ('had been transmitted')."
+  },
+  {
+    "id": "Q90",
+    "topicId": "PP11",
+    "question": "Now that the community center _________ through the generosity of local sponsors, organizers hope that many lives _________ by its programs in the coming years.",
+    "options": [
+      "A. has been restored / will be touched",
+      "B. was restored / are touching",
+      "C. had been restored / will touch",
+      "D. is restored / would be touched"
+    ],
+    "answer": "A. has been restored / will be touched",
+    "explanation": "'Now that' introduces a recently completed action with present relevance, which requires the present perfect tense. Since the community center received the action, the present perfect passive ('has been restored') is correct. The second clause refers to a future expectation ('in the coming years') where 'lives' are the recipients of the action, requiring the future simple passive ('will be touched')."
+  },
+  {
+    "id": "Q91",
+    "topicId": "PP11",
+    "question": "Although Sarah _________ tirelessly for the shelter since 2018, she only learned yesterday that she _________ a prestigious civic award for her service.",
+    "options": [
+      "A. has been working / was awarded",
+      "B. had been working / had been awarded",
+      "C. worked / has been awarded",
+      "D. was working / would award"
+    ],
+    "answer": "B. had been working / had been awarded",
+    "explanation": "The main past anchor is 'learned yesterday' (simple past). Sarah's tireless work began in 2018 and continued up to that past point, which requires the past perfect progressive ('had been working'). The award was granted to her prior to her learning about it, requiring the past perfect passive ('had been awarded') to maintain correct tense harmony and passive construction."
+  },
+  {
+    "id": "Q92",
+    "topicId": "PP12",
+    "question": "Since we have a very long drive ahead and want to avoid the rush-hour traffic, we ___________ at 5:00 AM sharp tomorrow. Everything is already packed in the car.",
+    "options": [
+      "are going to set off",
+      "will set off",
+      "shall set up",
+      "are going to set out"
+    ],
+    "answer": "are going to set off",
+    "explanation": "We use 'be going to' because it expresses a prior plan or intention ('Everything is already packed'). The idiom 'set off' is the correct choice here as it means to 'start a journey'."
+  },
+  {
+    "id": "Q93",
+    "topicId": "PP12",
+    "question": "\"What are your plans for the empty spare room upstairs?\" \"I've decided I ___________ a small home office there so I can work in peace.\"",
+    "options": [
+      "will set up",
+      "am going to set up",
+      "am going to set off",
+      "shall set out"
+    ],
+    "answer": "am going to set up",
+    "explanation": "The speaker has a pre-planned intention ('I've decided'), which requires the 'be going to' future form. The phrasal verb 'set up' is used because it means to 'make or establish' something (like an office or business)."
+  },
+  {
+    "id": "Q94",
+    "topicId": "PP12",
+    "question": "\"We don't have any concrete plans for tonight yet.\" \"In that case, I think we ___________ a campfire on the beach once we find a good spot.\"",
+    "options": [
+      "are going to set up",
+      "will set up",
+      "will set off",
+      "are going to set out"
+    ],
+    "answer": "will set up",
+    "explanation": "The phrase 'We don't have any concrete plans yet' indicates that this is a spontaneous decision made at the moment of speaking, which requires 'will + V1'. 'Set up' is the correct idiom meaning to 'make/establish' (the campfire)."
+  },
+  {
+    "id": "Q95",
+    "topicId": "PP12",
+    "question": "After months of meticulous preparation, the research team ___________ on their historic expedition to the Antarctic tomorrow morning to study climate patterns.",
+    "options": [
+      "will set out",
+      "are going to set out",
+      "are going to set up",
+      "shall set off"
+    ],
+    "answer": "are going to set out",
+    "explanation": "Because there is a clear prior intention and preparation ('After months of meticulous preparation'), 'be going to' is appropriate. 'Set out' is the correct idiom here as it means to 'begin an undertaking' (the expedition) with a specific objective."
+  },
+  {
+    "id": "Q96",
+    "topicId": "PP12",
+    "question": "\"Watch out! You ___________ drop those delicate crystal glasses!\" \"Oh, thank you! I __________ them out on the display table immediately to keep them safe.\"",
+    "options": [
+      "will / am going to set",
+      "are going to / will set",
+      "are going to / am going to set",
+      "will / shall set"
+    ],
+    "answer": "are going to / will set",
+    "explanation": "The first blank uses 'are going to' because it is a prediction based on clear immediate evidence (the glasses are about to fall). The second blank uses 'will' because it represents a sudden, spontaneous decision made at the moment of speaking. 'Set out' in this context means to 'arrange/display' the glasses."
+  },
+  {
+    "id": "Q97",
+    "topicId": "PP13",
+    "question": "The Greenwood Boys have an extremely busy schedule tomorrow. At 7:00 p.m., while we are relaxing at home, they __________ their soundcheck on the main stage under the stadium lights.",
+    "options": [
+      "will have run",
+      "will be running",
+      "are to have run",
+      "will have been run"
+    ],
+    "answer": "will be running",
+    "explanation": "The Future Progressive ('will be running') is used to describe an action that will be in progress at a specific point in the future ('At 7:00 p.m. tomorrow')."
+  },
+  {
+    "id": "Q98",
+    "topicId": "PP13",
+    "question": "The band's manager announced that by the end of this autumn, the Greenwood Boys __________ over twenty-five concerts across the continent.",
+    "options": [
+      "will be performing",
+      "will have performed",
+      "shall be performing",
+      "would have performed"
+    ],
+    "answer": "will have performed",
+    "explanation": "The Future Perfect ('will have performed') is required here because the action is expected to be completed before a specific future time limit ('by the end of this autumn')."
+  },
+  {
+    "id": "Q99",
+    "topicId": "PP13",
+    "question": "A fan found a vintage leather jacket backstage and asked, '__________?' The security guard replied, 'No, __________.'",
+    "options": [
+      "Whose jacket is this / it is belonging to the band's guitarist",
+      "Whose jacket is this / it belongs to the band's guitarist",
+      "Who's jacket is this / it is the band's guitarist's",
+      "To whom does this jacket belong to / it belongs to the band's guitarist"
+    ],
+    "answer": "Whose jacket is this / it belongs to the band's guitarist",
+    "explanation": "'Whose' is the correct possessive interrogative pronoun (unlike the contraction 'Who's'). Possession is correctly expressed using the simple present 'belongs to' because 'belong' is a stative verb and cannot be used in the progressive form ('is belonging')."
+  },
+  {
+    "id": "Q100",
+    "topicId": "PP13",
+    "question": "By next Friday evening, the Greenwood Boys __________ all their final stadium rehearsals, and they __________ their bags for the international leg of the tour.",
+    "options": [
+      "will be finishing / will have packed",
+      "will have finished / will be packing",
+      "have finished / are packing",
+      "will have been finishing / will pack"
+    ],
+    "answer": "will have finished / will be packing",
+    "explanation": "The time marker 'By next Friday evening' dictates the use of the Future Perfect ('will have finished') for an action completed by that time. The second clause describes an ongoing action starting before and continuing through that future timeframe, which requires the Future Progressive ('will be packing')."
+  },
+  {
+    "id": "Q101",
+    "topicId": "PP13",
+    "question": "The venue coordinator pointed to the high-end amplifiers and asked, '__________?' The tour manager responded, 'Actually, __________.'",
+    "options": [
+      "Whose instruments are those / they are the Greenwood Boys'",
+      "Who's instruments are those / they belong to the Greenwood Boys",
+      "Whose instruments are those / they belong of the Greenwood Boys",
+      "To whom instruments belong / they are the Greenwood Boys's"
+    ],
+    "answer": "Whose instruments are those / they are the Greenwood Boys'",
+    "explanation": "'Whose' is the correct possessive pronoun. For plural nouns ending in -s (like the band name 'the Greenwood Boys'), we form the possessive by adding only an apostrophe ('the Greenwood Boys''), making 'Boys's' incorrect. 'Belong' also requires the preposition 'to', not 'of'."
+  },
+  {
+    "id": "Q102",
+    "topicId": "PP14",
+    "question": "By the time the conductor raised his baton, the stagehands ________ the grand piano to the center of the stage, though the vocalists were still tuning their instruments backstage.",
+    "options": [
+      "moved",
+      "had moved",
+      "have moved",
+      "were moving"
+    ],
+    "answer": "had moved",
+    "explanation": "The past perfect 'had moved' is required here because the action of moving the piano was completed before another specific action in the past (the conductor raising his baton)."
+  },
+  {
+    "id": "Q103",
+    "topicId": "PP14",
+    "question": "The historic manor ________ to the same aristocratic family for over three centuries before it was finally sold to a commercial developer in 2012.",
+    "options": [
+      "belonged",
+      "had belonged",
+      "has belonged",
+      "was belonging"
+    ],
+    "answer": "had belonged",
+    "explanation": "The past perfect 'had belonged' is used with the stative verb 'belong' to describe a state that continued for a specific duration of time in the past ('for over three centuries') up until another past event occurred ('before it was finally sold')."
+  },
+  {
+    "id": "Q104",
+    "topicId": "PP14",
+    "question": "No sooner ________ the novelist ________ the final chapter of her manuscript than the publisher called to demand the immediate delivery of the draft.",
+    "options": [
+      "did / finish",
+      "had / finished",
+      "has / finished",
+      "would / finish"
+    ],
+    "answer": "had / finished",
+    "explanation": "This sentence features a negative inversion ('No sooner... than...') used to show that one event occurred immediately after another. The first completed action must be in the past perfect, split by the subject: 'had' (auxiliary) + 'the novelist' (subject) + 'finished' (past participle)."
+  },
+  {
+    "id": "Q105",
+    "topicId": "PP14",
+    "question": "The travelers were exhausted upon arrival; they ________ no sleep for over thirty hours before their delayed flight finally landed.",
+    "options": [
+      "have had",
+      "had had",
+      "were having",
+      "had"
+    ],
+    "answer": "had had",
+    "explanation": "The past perfect 'had had' (consisting of the auxiliary verb 'had' and the past participle 'had') is correct because it expresses a state of deprivation that existed and continued over a period of time ('for over thirty hours') prior to another action in the past ('before their delayed flight finally landed')."
+  },
+  {
+    "id": "Q106",
+    "topicId": "PP14",
+    "question": "During the interview, the archaeologist explained that her team ________ the site's layout for several months before they finally discovered the hidden entrance.",
+    "options": [
+      "studied",
+      "have studied",
+      "had studied",
+      "would study"
+    ],
+    "answer": "had studied",
+    "explanation": "In complex narrative sentences and reported speech, the past perfect ('had studied') is used to establish correct tense matching. It demonstrates that the studying of the layout occurred and continued over a duration of time before the second past action ('discovered') took place."
+  },
+  {
+    "id": "Q107",
+    "topicId": "PP15",
+    "question": "Select the correct reported speech form of the following sentence: \"I finished the annual report yesterday, but I will present it tomorrow,\" Julian told his manager.",
+    "options": [
+      "Julian told his manager that he finished the annual report the day before, but he would present it the next day.",
+      "Julian told his manager that he had finished the annual report the day before, but he would present it the following day.",
+      "Julian told his manager that he had finished the annual report yesterday, but he will present it the next day.",
+      "Julian told his manager that he had finished the annual report the day before, but he presented it the following day."
+    ],
+    "answer": "Julian told his manager that he had finished the annual report the day before, but he would present it the following day.",
+    "explanation": "When converting from direct to indirect speech, several shifts must occur: the Simple Past ('finished') backshifts to the Past Perfect ('had finished'); the Future Simple ('will present') shifts to the conditional ('would present'); the time expression 'yesterday' shifts to 'the day before'; and 'tomorrow' shifts to 'the following day' or 'the next day'. Only the correct option applies all these transformations correctly."
+  },
+  {
+    "id": "Q108",
+    "topicId": "PP15",
+    "question": "Choose the grammatically correct sentence that accurately reports the boss's words: \"Why were you late this morning? Don't make it a habit!\"",
+    "options": [
+      "The boss asked me why I had been late that morning and told me not to make it a habit.",
+      "The boss asked me why had I been late that morning and told me to not make it a habit.",
+      "The boss asked me why I was late this morning and told me don't make it a habit.",
+      "The boss asked me why was I late that morning and told me not to make it a habit."
+    ],
+    "answer": "The boss asked me why I had been late that morning and told me not to make it a habit.",
+    "explanation": "In reported questions, the word order must be statement order (subject + verb: 'why I had been late', not inversion 'why had I been'). The Simple Past 'were' backshifts to the Past Perfect 'had been'. 'This morning' shifts to 'that morning'. For the negative command, 'Don't make...' is reported using 'told/ordered [someone] not to make...'. Split infinitives ('to not make') are less standard, and keeping 'don't' in reported commands is grammatically incorrect."
+  },
+  {
+    "id": "Q109",
+    "topicId": "PP15",
+    "question": "Fill in the blanks with the most appropriate words to complete the passage: 'Before entering the interview, Sarah felt extremely _______ about her performance, but after waiting three hours in the lobby, she became _______ and could no longer _______ to waste any more time.'",
+    "options": [
+      "irritable / nervous / afford",
+      "nervous / irritable / afford",
+      "nervous / irritable / study",
+      "irritable / nervous / allow"
+    ],
+    "answer": "nervous / irritable / afford",
+    "explanation": "'Nervous' means anxious or uneasy, which fits Sarah's feelings of apprehension before her interview. 'Irritable' means easily annoyed or angered, which fits her reaction to waiting three hours. 'Afford' in this context means 'to be able to spare or bear the consequences of' (she could not afford to waste more time). Thus, the correct sequence is nervous / irritable / afford."
+  },
+  {
+    "id": "Q110",
+    "topicId": "PP15",
+    "question": "Arthur wanted to find his father at home to ask for some advice. Select the correct indirect speech reporting his inquiry: \"Is Father working in his study right now?\" Arthur asked his mother.",
+    "options": [
+      "Arthur asked his mother if his father is working in his study right then.",
+      "Arthur asked his mother if his father was working in his office at that moment.",
+      "Arthur asked his mother whether his father was working in his study at that moment.",
+      "Arthur asked his mother whether his father was working on his desk right now."
+    ],
+    "answer": "Arthur asked his mother whether his father was working in his study at that moment.",
+    "explanation": "Since the father is at home, the correct noun for a private room dedicated to reading and writing is 'study', not 'office' (which is a business workspace) or 'desk' (which is the furniture item you work 'at' or 'on'). For reporting a Yes/No question, we use 'if' or 'whether' followed by statement word order. The Present Continuous ('is working') backshifts to Past Continuous ('was working'), and 'right now' shifts to 'at that moment' or 'then'."
+  },
+  {
+    "id": "Q111",
+    "topicId": "PP15",
+    "question": "Identify the option that correctly converts the following statement into indirect speech: \"We have already made our decision, so please do not call us again today,\" the agents told the buyers.",
+    "options": [
+      "The agents told the buyers that they had already made their decision and asked them not to call them again that day.",
+      "The agents told the buyers that we had already made our decision and asked them not to call us again that day.",
+      "The agents told the buyers that they already made their decision and told them to not call them again today.",
+      "The agents told the buyers that they had already made their decision and asked them don't call them again that day."
+    ],
+    "answer": "The agents told the buyers that they had already made their decision and asked them not to call them again that day.",
+    "explanation": "When shifting to indirect speech: 1) Pronouns shift ('We' -> 'they', 'our' -> 'their', 'us' -> 'them'). 2) Present Perfect ('have already made') backshifts to Past Perfect ('had already made'). 3) The polite negative command ('please do not call us') shifts to 'asked them not to call them'. 4) The time expression 'today' shifts to 'that day'. Option A is the only choice that correctly executes all these rules."
+  },
+  {
+    "id": "Q112",
+    "topicId": "PP16",
+    "question": "________ you require any further clarification regarding the terms of the contract, please do not hesitate to contact our legal department.",
+    "options": [
+      "Should",
+      "Had",
+      "Were",
+      "Would"
+    ],
+    "answer": "Should",
+    "explanation": "This sentence demonstrates Type 1 conditional inversion, which is highly common in formal or polite requests. 'Should you require...' is the inverted equivalent of 'If you should require...'. 'Were' would require a 'to-infinitive' (e.g., 'Were you to require'), 'Had' is reserved for Type 3 past-hypothetical inversion (which requires a past participle), and 'Would' cannot be used to invert a conditional clause in this manner."
+  },
+  {
+    "id": "Q113",
+    "topicId": "PP16",
+    "question": "________ the committee to approve our funding request, we ________ able to initiate the second phase of the research project immediately.",
+    "options": [
+      "Were / would be",
+      "Should / will have been",
+      "Had / would be",
+      "If / will be"
+    ],
+    "answer": "Were / would be",
+    "explanation": "This sentence employs an inverted Type 2 (hypothetical/impossible) conditional. The un-inverted structure is 'If the committee were to approve...'. Inverting this structure gives 'Were the committee to approve...'. Because this is a Type 2 conditional, the main clause must use a past-tense modal like 'would', 'could', or 'might' followed by the base verb ('would be')."
+  },
+  {
+    "id": "Q114",
+    "topicId": "PP16",
+    "question": "We ________ your request for a room upgrade last night had you only informed the front desk of your arrival time prior to check-in.",
+    "options": [
+      "could have accommodated",
+      "could accommodate",
+      "would accommodate",
+      "had accommodated"
+    ],
+    "answer": "could have accommodated",
+    "explanation": "The sentence features an inverted Type 3 conditional (expressing past regret or a counterfactual past situation) in the subordinate clause: 'had you only informed...' (equivalent to 'if you had only informed...'). Consequently, the main clause requires a Type 3 structure: 'would/could/might have + past participle'. 'Could have accommodated' correctly expresses a past ability or possibility that did not happen."
+  },
+  {
+    "id": "Q115",
+    "topicId": "PP16",
+    "question": "In accordance with our institutional policy, if a patron ________ a rare manuscript, they ________ sign a non-disclosure agreement before entering the archives.",
+    "options": [
+      "requests / must",
+      "will request / must",
+      "requested / would have to",
+      "requests / would have"
+    ],
+    "answer": "requests / must",
+    "explanation": "This sentence expresses an institutional policy, which functions as a Type 0 (habitual/factual) conditional. Type 0 conditionals describe general truths, habits, or strict rules using 'If + Present Simple, + Present Simple' (or a present-tense modal/imperative representing obligation like 'must'). Therefore, 'requests / must' is the only grammatically correct and logical choice."
+  },
+  {
+    "id": "Q116",
+    "topicId": "PP16",
+    "question": "If you ________ be so kind as to complete the attached survey, we ________ highly appreciate your valuable feedback.",
+    "options": [
+      "would / would",
+      "should / will have",
+      "were / will",
+      "had / would"
+    ],
+    "answer": "would / would",
+    "explanation": "While 'will' or 'would' is typically avoided in the 'if' clause of conditional sentences, there is a major exception for polite requests where 'would' means 'are willing to'. In highly polite and formal correspondence, 'If you would be so kind...' is paired with 'would' in the main clause ('we would highly appreciate...') to establish a polite, tentative, and professional tone."
+  },
+  {
+    "id": "Q117",
+    "topicId": "PP17",
+    "question": "Since the gallery closed early yesterday, we ______ cut our visit short, though judging by the crowd's reaction, they ______ been quite disappointed.",
+    "options": [
+      "must / had to have",
+      "had to / must have",
+      "must have / had to",
+      "had to / had to have"
+    ],
+    "answer": "had to / must have",
+    "explanation": "In the first blank, 'had to' is required because 'must' cannot be used to express obligation in the simple past; 'had to' is its past equivalent. In the second blank, 'must have' is correct because it expresses a strong past deduction or opinion ('I deduce that they were disappointed') rather than an obligation."
+  },
+  {
+    "id": "Q118",
+    "topicId": "PP17",
+    "question": "As a child, Arthur watched his grandmother ______ prize-winning orchids in her greenhouse, which inspired him to ______ into a responsible conservationist who values biodiversity.",
+    "options": [
+      "grow up / grow",
+      "grow / grow up",
+      "grow up / grow up",
+      "grow / grow"
+    ],
+    "answer": "grow / grow up",
+    "explanation": "'Grow' is used for plants, crops, or physical size/quantity (growing orchids). 'Grow up' is used to describe a person maturing, developing values, and transitioning from childhood to adulthood (growing up into a conservationist)."
+  },
+  {
+    "id": "Q119",
+    "topicId": "PP17",
+    "question": "Identify the sentence where the word 'as' is used specifically as a conjunction of reason (meaning 'because' or 'since').",
+    "options": [
+      "As the sun set over the horizon, the temperature began to drop rapidly.",
+      "She works as an environmental lawyer at a prestigious firm in the city.",
+      "As the budget has been severely depleted, we must postpone the research phase.",
+      "He reacted to the unexpected news exactly as I had predicted he would."
+    ],
+    "answer": "As the budget has been severely depleted, we must postpone the research phase.",
+    "explanation": "In this option, 'as' functions as a conjunction of reason ('Because/Since the budget has been depleted...'). In the other options, 'as' represents time (simultaneous action), position/role (working in the capacity of a lawyer), and similarity/manner (in the way that I predicted)."
+  },
+  {
+    "id": "Q120",
+    "topicId": "PP17",
+    "question": "For the historical reenactment, Julian had to wear a Victorian ______ that matched the period, whereas for his subsequent corporate job interview, he wore a tailored navy blue ______.",
+    "options": [
+      "dress / costume",
+      "costume / suit",
+      "suit / dress",
+      "costume / dress"
+    ],
+    "answer": "costume / suit",
+    "explanation": "A 'costume' refers to themed clothing worn to portray a specific character, role, or historical period (Victorian reenactment). A 'suit' refers to a matching set of formal or business clothes (jacket and trousers/skirt) suitable for an interview. 'Dress' refers specifically to a one-piece women's garment or the act of clothing oneself, which does not fit the context."
+  },
+  {
+    "id": "Q121",
+    "topicId": "PP17",
+    "question": "With her flawless accent and deep knowledge of Parisian history, she ______ be a native speaker, especially since she behaves exactly ______ a local would.",
+    "options": [
+      "had to / as",
+      "must / like",
+      "must / as",
+      "had to / like"
+    ],
+    "answer": "must / as",
+    "explanation": "The first blank requires 'must' to express a strong present deduction/opinion based on evidence ('I think she is... -> She must be'). The second blank requires 'as' because it is a conjunction introducing a subordinate clause ('as a local would'). 'Like' is a preposition and would typically be followed by a noun or pronoun without a verb in formal English ('like a local')."
+  },
+  {
+    "id": "Q122",
+    "topicId": "PP18",
+    "question": "Which of the following sentences uses the verb 'have' correctly in its progressive (continuous) form?",
+    "options": [
+      "She is having a gorgeous villa by the southern coast of France.",
+      "We are having a quick look at the blueprints before the presentation starts.",
+      "They are having a profound belief in traditional environmental conservation methods.",
+      "He is having a brand-new sports car parked in his driveway."
+    ],
+    "answer": "We are having a quick look at the blueprints before the presentation starts.",
+    "explanation": "When 'have' is used as a stative verb indicating possession (e.g., owning a villa or a car) or a mental state (e.g., having a belief), it cannot be used in the progressive/continuous form. However, when 'have' is used dynamically to express an activity, action, or experience—such as 'having a look' (meaning examining)—it is perfectly grammatical to use it in the continuous form."
+  },
+  {
+    "id": "Q123",
+    "topicId": "PP18",
+    "question": "Read the two statements below:\n\nI. The chef had prepared the signature dish before the VIP guests arrived.\nII. The chef had the signature dish prepared before the VIP guests arrived.\n\nWhich of the following is the most accurate grammatical and semantic interpretation of these sentences?",
+    "options": [
+      "In I, the chef personally cooked the dish; in II, the chef arranged for someone else (such as a sous-chef) to prepare it.",
+      "In I, the chef arranged for someone else to prepare the dish; in II, the chef personally cooked it.",
+      "Both sentences mean the chef personally cooked the dish, but II is simply the passive voice equivalent of I.",
+      "Sentence I is a causative construction, whereas Sentence II is a past perfect progressive structure."
+    ],
+    "answer": "In I, the chef personally cooked the dish; in II, the chef arranged for someone else (such as a sous-chef) to prepare it.",
+    "explanation": "Sentence I uses 'had' as an auxiliary verb in the past perfect tense ('had prepared'), indicating the subject (the chef) completed the action themselves. Sentence II uses the causative construction ('had' + object + past participle), which means the subject caused the action to be done by someone else rather than performing it personally."
+  },
+  {
+    "id": "Q124",
+    "topicId": "PP18",
+    "question": "Identify the sentence where 'have got' is used INCORRECTLY according to standard English grammar rules.",
+    "options": [
+      "We've got a lot of challenging work to finish before tomorrow's deadline.",
+      "I've got a terrible headache, so I think I will lie down for an hour.",
+      "She's got a quick lunch at her desk every single afternoon.",
+      "He hasn't got any sisters, but he has got three older brothers."
+    ],
+    "answer": "She's got a quick lunch at her desk every single afternoon.",
+    "explanation": "While 'have got' is widely used to express possession (a villa, brothers) or physical states (a headache), it cannot be used to express habitual actions, routines, or dynamic activities (like eating/having lunch). For recurring actions or activities, standard 'have' (e.g., 'She has a quick lunch...') must be used."
+  },
+  {
+    "id": "Q125",
+    "topicId": "PP18",
+    "question": "Complete the sentence with the correct forms of the verb 'have':\n\n'I can't believe we _________ to wait so long! If we _________ our tickets booked in advance, we would _________ a much better experience right now.'",
+    "options": [
+      "had / had had / be having",
+      "have had / had / been having",
+      "had got / have had / have had",
+      "had had / had / had"
+    ],
+    "answer": "had / had had / be having",
+    "explanation": "The first gap requires the simple past of obligation: 'had to wait'. The second gap requires a third-conditional 'if' clause containing a past perfect causative construction: 'had' (past perfect auxiliary) + 'had' (causative past participle of 'have'). The third gap is a mixed conditional referring to a present continuous experience, requiring 'would be having' (where 'having' is a dynamic verb expressing an ongoing experience)."
+  },
+  {
+    "id": "Q126",
+    "topicId": "PP18",
+    "question": "Which of the following interrogative sentences is grammatically correct when using 'have' to express an activity or experience?",
+    "options": [
+      "Had you a shower before you left the house this morning?",
+      "Did you have a shower before you left the house this morning?",
+      "Have you got a shower before you left the house this morning?",
+      "Had you got a shower before you left the house this morning?"
+    ],
+    "answer": "Did you have a shower before you left the house this morning?",
+    "explanation": "When 'have' is used dynamically to describe an activity or experience (such as taking/having a shower), it behaves like a standard lexical verb and requires 'do'-support ('did you have') in questions and negatives. Simple inversion ('Had you...') or using 'have got' is ungrammatical when 'have' denotes an action/activity rather than possession."
+  },
+  {
+    "id": "Q127",
+    "topicId": "PP19",
+    "question": "Although I could easily ________ the technical specifications of the new software, I didn't ________ that it was completely incompatible with my operating system until I tried to install it.",
+    "options": [
+      "realize / understand",
+      "understand / realize",
+      "understand / understanding",
+      "realize / realizing"
+    ],
+    "answer": "understand / realize",
+    "explanation": "To 'understand' means to comprehend or perceive the intended meaning of something (like technical specs). To 'realize' means to suddenly become aware of a fact or reality (that it was incompatible) that was already true but previously unnoticed."
+  },
+  {
+    "id": "Q128",
+    "topicId": "PP19",
+    "question": "The lecture on modern architecture was incredibly ________, but I was actually much more ________ in learning about ancient stone masonry.",
+    "options": [
+      "interested / interesting",
+      "interesting / interested",
+      "interesting / interesting",
+      "interested / interested"
+    ],
+    "answer": "interesting / interested",
+    "explanation": "'Interesting' is an adjective used to describe a thing that causes interest (the lecture). 'Interested' is an adjective used to describe a person's feeling or state of mind (the speaker's interest in masonry)."
+  },
+  {
+    "id": "Q129",
+    "topicId": "PP19",
+    "question": "I don't have any urgent tasks left to complete today, so I think I ________ join you for the gallery opening ________.",
+    "options": [
+      "must / also",
+      "might / as well",
+      "can / too",
+      "should / either"
+    ],
+    "answer": "might / as well",
+    "explanation": "The phrase 'might as well' suggests doing something because there is no compelling reason not to, carrying a casual 50/50 probability of occurrence. 'As well' placed at the end of the clause acts alongside 'might' to signify 'also' with this specific nuance."
+  },
+  {
+    "id": "Q130",
+    "topicId": "PP19",
+    "question": "Visitor: '________ I borrow this pen for a moment to sign the registry, please?'\nClerk: 'Of course. Keep an eye on the forecast, though; those dark clouds mean it ________ rain later this afternoon.'",
+    "options": [
+      "May / might",
+      "Might / may",
+      "Can / must",
+      "Should / would"
+    ],
+    "answer": "May / might",
+    "explanation": "'May' is the formal and grammatically precise modal verb used for asking permission ('May I borrow...'). 'Might' is a probability modal used to indicate a weaker, tentative possibility of a future event ('it might rain')."
+  },
+  {
+    "id": "Q131",
+    "topicId": "PP19",
+    "question": "The national museum is currently hosting a retrospective of ________ finest historical collections, but ________ crucial to book your entry tickets online as they sell out fast.",
+    "options": [
+      "it's / its",
+      "its / its",
+      "its / it's",
+      "it's / it's"
+    ],
+    "answer": "its / it's",
+    "explanation": "'Its' is the possessive determiner showing ownership relative to the museum ('its finest historical collections'). 'It's' is the contraction of 'it is' ('it is crucial')."
+  },
+  {
+    "id": "Q132",
+    "topicId": "PP20",
+    "question": "Choose the sentence where the gerund is used as the subject of the sentence:",
+    "options": [
+      "He is fishing in the river right now.",
+      "Fishing is a very relaxing hobby.",
+      "I want to go fishing tomorrow.",
+      "She saw him fishing near the bridge."
+    ],
+    "answer": "Fishing is a very relaxing hobby.",
+    "explanation": "In this sentence, 'Fishing' acts as a noun and is the subject of the verb 'is', making it a gerund."
+  },
+  {
+    "id": "Q133",
+    "topicId": "PP20",
+    "question": "Identify the sentence that correctly uses a gerund as the object of a preposition:",
+    "options": [
+      "They decided to swim in the pool.",
+      "She is interested in learning English.",
+      "Learning English is fun.",
+      "I saw her learning English yesterday."
+    ],
+    "answer": "She is interested in learning English.",
+    "explanation": "'learning' is a gerund acting as the object of the preposition 'in'."
+  },
+  {
+    "id": "Q134",
+    "topicId": "PP20",
+    "question": "Which sentence uses a gerund to combine ideas without saying anything?",
+    "options": [
+      "He sat there and did not say anything.",
+      "He sat there without saying anything.",
+      "He sat there, not to say anything.",
+      "He sat there without say anything."
+    ],
+    "answer": "He sat there without saying anything.",
+    "explanation": "'saying' is a gerund following the preposition 'without', combining the actions of sitting and not speaking."
+  },
+  {
+    "id": "Q135",
+    "topicId": "PP20",
+    "question": "In the sentence 'I heard someone singing in the shower', the word 'singing' is a:",
+    "options": [
+      "Gerund",
+      "Present Participle",
+      "Infinitive",
+      "Past Participle"
+    ],
+    "answer": "Present Participle",
+    "explanation": "After sensory verbs like hear, see, or watch, the -ing form represents a continuous action and is a present participle, not a gerund."
+  },
+  {
+    "id": "Q136",
+    "topicId": "PP20",
+    "question": "Which of the following contains a gerund?",
+    "options": [
+      "They were playing tennis when it started to rain.",
+      "I enjoy playing tennis on weekends.",
+      "The playing children were very loud.",
+      "He is playing a video game."
+    ],
+    "answer": "I enjoy playing tennis on weekends.",
+    "explanation": "'playing' is a gerund here because it functions as the direct object of the transitive verb 'enjoy'."
+  },
+  {
+    "id": "Q137",
+    "topicId": "PP21",
+    "question": "Which sentence correctly forms the passive voice with a modal verb?",
+    "options": [
+      "The letters must be send today.",
+      "The letters must be sent today.",
+      "The letters must sent today.",
+      "The letters must been sent today."
+    ],
+    "answer": "The letters must be sent today.",
+    "explanation": "The passive voice with modals is formed by: Modal + be + Past Participle (must + be + sent)."
+  },
+  {
+    "id": "Q138",
+    "topicId": "PP21",
+    "question": "Choose the correct passive form of: 'They could have delayed the flight.'",
+    "options": [
+      "The flight could be delayed by them.",
+      "The flight could have delayed by them.",
+      "The flight could have been delayed.",
+      "The flight could been delayed."
+    ],
+    "answer": "The flight could have been delayed.",
+    "explanation": "The passive voice of a modal perfect (could have + V3) is formed by: Modal + have + been + Past Participle (could + have + been + delayed)."
+  },
+  {
+    "id": "Q139",
+    "topicId": "PP21",
+    "question": "Which of the following sentences correctly places the agent in a modal passive construction?",
+    "options": [
+      "He must be accompanied by me.",
+      "He must be accompanied with me.",
+      "He must be accompanied of me.",
+      "He must be accompanied to me."
+    ],
+    "answer": "He must be accompanied by me.",
+    "explanation": "In passive sentences, the agent (the person doing the action) is introduced using the preposition 'by'."
+  },
+  {
+    "id": "Q140",
+    "topicId": "PP21",
+    "question": "Identify the grammatically correct passive sentence where the subject is not a person:",
+    "options": [
+      "The chairs will be moved to the storage room.",
+      "The chairs will move to the storage room.",
+      "The chairs will be move to the storage room.",
+      "The chairs will have moved to the storage room."
+    ],
+    "answer": "The chairs will be moved to the storage room.",
+    "explanation": "Non-person objects (like chairs) cannot perform actions, so they must take a passive construction: 'will be + V3' (will be moved)."
+  },
+  {
+    "id": "Q141",
+    "topicId": "PP21",
+    "question": "Which sentence represents the passive form of 'You should buy a ticket'?",
+    "options": [
+      "A ticket should buy by you.",
+      "A ticket should be bought by you.",
+      "A ticket should been bought by you.",
+      "A ticket should be buy."
+    ],
+    "answer": "A ticket should be bought by you.",
+    "explanation": "The passive voice of 'should buy' is 'should + be + V3' (should be bought)."
+  },
+  {
+    "id": "Q142",
+    "topicId": "PP22",
+    "question": "Complete the sentence: 'I totally agree _____ your proposal; it makes a lot of sense.'",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "We use 'agree with' followed by a person or an idea/proposal."
+  },
+  {
+    "id": "Q143",
+    "topicId": "PP22",
+    "question": "Complete the sentence: 'She apologized _____ arriving late to the meeting.'",
+    "options": [
+      "for",
+      "to",
+      "about",
+      "in"
+    ],
+    "answer": "for",
+    "explanation": "One 'apologizes for' doing something or for an action."
+  },
+  {
+    "id": "Q144",
+    "topicId": "PP22",
+    "question": "Fill in the blank: 'Success depends _____ how hard you work.'",
+    "options": [
+      "in",
+      "on",
+      "of",
+      "with"
+    ],
+    "answer": "on",
+    "explanation": "The verb 'depend' is always followed by the preposition 'on' (or 'upon')."
+  },
+  {
+    "id": "Q145",
+    "topicId": "PP22",
+    "question": "Choose the correct preposition: 'What are you thinking _____?' 'My upcoming exams.'",
+    "options": [
+      "about",
+      "at",
+      "in",
+      "on"
+    ],
+    "answer": "about",
+    "explanation": "We use 'think about' (or 'think of') to express considering or having thoughts about something."
+  },
+  {
+    "id": "Q146",
+    "topicId": "PP22",
+    "question": "Fill in the blank: 'He doesn't believe _____ ghosts, but he still gets scared in the dark.'",
+    "options": [
+      "on",
+      "in",
+      "of",
+      "at"
+    ],
+    "answer": "in",
+    "explanation": "To 'believe in' means to accept the existence or truth of something."
+  },
+  {
+    "id": "Q147",
+    "topicId": "PP23",
+    "question": "Which sentence is grammatically correct and shows proper tense harmony?",
+    "options": [
+      "If I had known you were coming, I would have baked a cake.",
+      "If I knew you were coming, I will bake a cake.",
+      "If I had known you were coming, I would bake a cake.",
+      "If I know you were coming, I had baked a cake."
+    ],
+    "answer": "If I had known you were coming, I would have baked a cake.",
+    "explanation": "This is a past regret (Conditional Type 3) and follows the structure: If + Past Perfect, would + have + Past Participle."
+  },
+  {
+    "id": "Q148",
+    "topicId": "PP23",
+    "question": "Choose the correct sentence combining word order and passive voice:",
+    "options": [
+      "The new house was built quickly by the workers last year.",
+      "Built quickly the new house was by the workers last year.",
+      "Last year quickly by the workers was built the new house.",
+      "The new house quickly last year was built by the workers."
+    ],
+    "answer": "The new house was built quickly by the workers last year.",
+    "explanation": "The sentence follows: Subject (The new house) + Verb passive (was built) + Manner (quickly) + Agent (by the workers) + Time (last year)."
+  },
+  {
+    "id": "Q149",
+    "topicId": "PP23",
+    "question": "Which sentence correctly uses 'used to' for a past habit?",
+    "options": [
+      "I am used to study English at AEC.",
+      "I used to study English at AEC.",
+      "I used to studying English at AEC.",
+      "I did used to study English at AEC."
+    ],
+    "answer": "I used to study English at AEC.",
+    "explanation": "'Used to + infinitive' is used to describe a past habit or state that is no longer true."
+  },
+  {
+    "id": "Q150",
+    "topicId": "PP23",
+    "question": "Fill in the blank: 'Since I moved to this town, I _____ a lot of new friends.'",
+    "options": [
+      "made",
+      "have made",
+      "had made",
+      "am making"
+    ],
+    "answer": "have made",
+    "explanation": "'Since' indicates an action that started in the past and continues to the present, requiring the present perfect tense ('have made')."
+  },
+  {
+    "id": "Q151",
+    "topicId": "PP23",
+    "question": "Choose the correct indirect question format: 'Where is the library?' -> 'Can you tell me _____?'",
+    "options": [
+      "where is the library",
+      "where the library is",
+      "the library is where",
+      "where the library was"
+    ],
+    "answer": "where the library is",
+    "explanation": "Indirect questions do not use question word order. The subject comes before the verb: 'where the library is'."
+  }
+]

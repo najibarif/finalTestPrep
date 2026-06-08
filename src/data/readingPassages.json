@@ -1,0 +1,767 @@
+[
+  {
+    "unit": 6,
+    "title": "Wolves Down The Waterfall",
+    "mainIdea": "Struggle to stay alive / Heroic act",
+    "vocabulary": [
+      {"word": "Attack (Menyerang)", "definition": "An action to hurt or harm someone aggressively"},
+      {"word": "Terrible (Sangat buruk)", "definition": "It is a condition when something goes extremely bad"},
+      {"word": "Winter (Musim dingin)", "definition": "It is a cold season in subtropical zones when the snow falls down"},
+      {"word": "Cliff (Jurang)", "definition": "A steep and high area of a rock at the edge of a land or river"},
+      {"word": "Bank (Tepian)", "definition": "A land along the side of a river that can be stepped on"}
+    ],
+    "passage": "During a terrible winter in the northern mountains, a young explorer named Arthur found himself trapped near the riverbank. The temperature had dropped well below freezing, and the snow was falling heavily. As he looked up, he saw a pack of wolves preparing to attack from the high cliff above. Realizing the danger, Arthur had to act quickly. He slid down the steep bank, barely holding onto the icy rocks. In a heroic struggle to stay alive, he crossed the freezing waterfall just as the wolves reached the edge. His brave actions saved him from what could have been a fatal encounter on that cold, unforgiving night.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the main idea of the passage?",
+        "options": [
+          "The migration patterns of wolves in winter",
+          "A struggle to stay alive and a heroic escape from danger",
+          "How to navigate freezing mountain waterfalls",
+          "The geological formation of high river cliffs"
+        ],
+        "answer": "A struggle to stay alive and a heroic escape from danger",
+        "explanation": "The passage highlights Arthur's struggle to stay alive and his brave escape across the freezing waterfall to avoid the wolves."
+      },
+      {
+        "id": 2,
+        "question": "What does the word 'cliff' mean in this context?",
+        "options": [
+          "A sandy beach along the ocean",
+          "A small wooden bridge over a stream",
+          "A steep and high area of rock at the edge of land",
+          "A shallow part of a river bed"
+        ],
+        "answer": "A steep and high area of rock at the edge of land",
+        "explanation": "According to the vocabulary and context, a cliff is a steep and high rocky area at the edge of land."
+      },
+      {
+        "id": 3,
+        "question": "Where did Arthur slide down to escape the wolves?",
+        "options": [
+          "Into a deep dark cave",
+          "Down the steep bank of the river",
+          "Up to the top of the cliff",
+          "Onto a highway nearby"
+        ],
+        "answer": "Down the steep bank of the river",
+        "explanation": "The passage states that Arthur 'slid down the steep bank' of the river to escape."
+      }
+    ]
+  },
+  {
+    "unit": 7,
+    "title": "The Story of Potato",
+    "mainIdea": "Immigration and agricultural adaptation",
+    "vocabulary": [
+      {"word": "Spaniards (Warlok Spanyol)", "definition": "A group of people who are from Spain"},
+      {"word": "Climate (Iklim)", "definition": "It's a weather condition of an area in a period of time"},
+      {"word": "Soil (Tanah)", "definition": "A layer of earth in which plants grow"},
+      {"word": "Disease (Wabah)", "definition": "A bad condition when something/someone is being infected and made unhealthy"},
+      {"word": "Put Up (Membangun)", "definition": "An action to construct or build something"}
+    ],
+    "passage": "In the sixteenth century, the Spaniards returned from South America with a strange new plant: the potato. At first, Europeans were skeptical of this tuber. However, they soon realized that the local climate was perfect for it, and the rich soil allowed potatoes to grow in abundance. When a severe disease destroyed other grain crops, the potato kept populations from starving. Landowners began to put up new storage warehouses to protect their potato harvests. Through agricultural adaptation and immigration of ideas, the potato transitioned from an exotic curiosity into Europe's most vital food source.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Who originally brought the potato to Europe?",
+        "options": [
+          "French merchants",
+          "The Spaniards",
+          "English sailors",
+          "German farmers"
+        ],
+        "answer": "The Spaniards",
+        "explanation": "The passage mentions that the Spaniards returned from South America with the potato plant in the sixteenth century."
+      },
+      {
+        "id": 2,
+        "question": "Why did landowners 'put up' new warehouses?",
+        "options": [
+          "To sell them to immigrants",
+          "To house their agricultural workers",
+          "To protect and store their potato harvests",
+          "To protect themselves from diseases"
+        ],
+        "answer": "To protect and store their potato harvests",
+        "explanation": "The passage states that landowners began to 'put up' (construct) storage warehouses to protect their potato harvests."
+      },
+      {
+        "id": 3,
+        "question": "Which factor made Europe suitable for growing potatoes?",
+        "options": [
+          "The expensive importing services",
+          "The favorable climate and rich soil",
+          "A lack of crop diseases",
+          "Special chemicals used by Spaniards"
+        ],
+        "answer": "The favorable climate and rich soil",
+        "explanation": "The passage highlights that the 'local climate was perfect' and the 'rich soil allowed potatoes to grow in abundance'."
+      }
+    ]
+  },
+  {
+    "unit": 8,
+    "title": "Venice and Its Canals",
+    "mainIdea": "Venice canals and gondoliers",
+    "vocabulary": [
+      {"word": "Canals (Kanal)", "definition": "A waterway for traffic in Venice"},
+      {"word": "Gondolier (Pengemudi Gondola)", "definition": "A person who drives a gondola in Venice"},
+      {"word": "Ashamed (Memalukan)", "definition": "A feeling of embarrassment of being poor or doing something wrong"},
+      {"word": "Oar (Dayung)", "definition": "A tool that is used to row water so the boat can be moved"},
+      {"word": "Reward (Penghargaan)", "definition": "A thing that is given to people who are worth it / appreciation for effort"}
+    ],
+    "passage": "Venice is famous worldwide for its beautiful canals, which serve as the city's main highways. A skilled gondolier guides each traditional boat through these narrow water channels. One day, a young gondolier lost his heavy wooden oar in the canal, which made him feel ashamed because he could not afford to buy a new one immediately. Observing his distress, a generous tourist offered to buy him a replacement. In return, the gondolier offered the tourist a free private tour of the hidden waterways, which was the best reward the tourist could have received for his kindness.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is a 'gondolier'?",
+        "options": [
+          "A type of Venetian house built on water",
+          "A person who steers a gondola boat",
+          "A local police officer in Venice",
+          "A tool used to clean the canals"
+        ],
+        "answer": "A person who steers a gondola boat",
+        "explanation": "A gondolier is defined as a person who drives or steers a gondola in Venice."
+      },
+      {
+        "id": 2,
+        "question": "Why did the gondolier feel ashamed?",
+        "options": [
+          "He crashed into another gondola",
+          "He forgot the history of Venice",
+          "He lost his oar and could not afford to buy a new one",
+          "He charged the tourist too much money"
+        ],
+        "answer": "He lost his oar and could not afford to buy a new one",
+        "explanation": "The passage says losing his oar made him feel ashamed because he was too poor to buy a replacement."
+      },
+      {
+        "id": 3,
+        "question": "What reward did the gondolier give the tourist?",
+        "options": [
+          "A sum of money",
+          "A beautiful painted oar",
+          "A free private tour of the hidden waterways",
+          "A delicious Venetian dinner"
+        ],
+        "answer": "A free private tour of the hidden waterways",
+        "explanation": "The passage mentions that the gondolier rewarded the tourist's kindness with a free tour of the canals."
+      }
+    ]
+  },
+  {
+    "unit": 9,
+    "title": "A Walk in the School Yard",
+    "mainIdea": "Shoe repair and priorities",
+    "vocabulary": [
+      {"word": "Worn Out (Usang)", "definition": "Damaged to the point of being no longer usable"},
+      {"word": "Soles (Sol)", "definition": "The underside of a piece of footwear"},
+      {"word": "Heels (Tumit)", "definition": "The back part of the human foot below the ankle, or the raised back part of a shoe"},
+      {"word": "Important (Penting)", "definition": "A thing of great significance or value"},
+      {"word": "School Yard (Lapangan Sekolah)", "definition": "A large area of a school where students play sports or do activities"}
+    ],
+    "passage": "Lukas loved running around the school yard during recess. However, his favorite leather shoes were completely worn out. The soles had split open, and the heels were loose, making it difficult for him to run safely. His teacher noticed Lukas tripping and reminded him that taking care of his feet is important for his health. Lukas took the shoes to a local cobbler, who repaired both the soles and heels. The next day, Lukas returned to the school yard, running faster than ever in his newly restored shoes.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What was wrong with Lukas's shoes?",
+        "options": [
+          "They were too small for him",
+          "They were worn out, with split soles and loose heels",
+          "They were dirty and needed polish",
+          "They were lost in the school yard"
+        ],
+        "answer": "They were worn out, with split soles and loose heels",
+        "explanation": "The passage explicitly states that Lukas's shoes were worn out, with split soles and loose heels."
+      },
+      {
+        "id": 2,
+        "question": "What is the 'school yard' used for?",
+        "options": [
+          "Taking formal exams",
+          "Repairing worn out shoes",
+          "Recess, playing sports, and school activities",
+          "Selling leather products"
+        ],
+        "answer": "Recess, playing sports, and school activities",
+        "explanation": "The school yard is described as the area where students run around and play sports during recess."
+      },
+      {
+        "id": 3,
+        "question": "What advice did the teacher give Lukas?",
+        "options": [
+          "To buy brand new designer shoes",
+          "That taking care of his feet is important for health",
+          "To stop running during recess",
+          "To become a cobbler"
+        ],
+        "answer": "That taking care of his feet is important for health",
+        "explanation": "The teacher reminded Lukas that taking care of his feet is important."
+      }
+    ]
+  },
+  {
+    "unit": 10,
+    "title": "The Forgotten Code",
+    "mainIdea": "Emergency messaging and tool selection",
+    "vocabulary": [
+      {"word": "Tool (Peralatan)", "definition": "A device for human tasks or for working"},
+      {"word": "Helpless (Tak berdaya)", "definition": "A feeling of not being able to do anything"},
+      {"word": "Method (Metode)", "definition": "A certain way to do something procedurally"},
+      {"word": "Code (Kode)", "definition": "A sign or system of letters/symbols to communicate with others"},
+      {"word": "Massage / Message (Pesan)", "definition": "A short note sent to other people for communicating"}
+    ],
+    "passage": "When the ship's communication transmitter broke down, the crew felt helpless. They were miles out at sea with no way to call for help. The captain realized they needed a different tool to communicate. He suggested using a mirror to flash a distress signal in Morse code towards a distant lighthouse. This method of communication was outdated but reliable. Within minutes, they sent a message using light flashes. Soon, the lighthouse responder spotted the signal and sent back a message indicating that a rescue boat was on its way.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Why did the ship's crew feel helpless?",
+        "options": [
+          "They ran out of food and water",
+          "The transmitter broke down and they couldn't call for help",
+          "They did not know how to steer the ship",
+          "The lighthouse was closed for the night"
+        ],
+        "answer": "The transmitter broke down and they couldn't call for help",
+        "explanation": "The passage notes that they felt helpless because the transmitter broke, leaving them with no way to call for help."
+      },
+      {
+        "id": 2,
+        "question": "What alternative tool did they use to send a signal?",
+        "options": [
+          "A cell phone",
+          "A mirror to flash Morse code",
+          "A megaphone to shout",
+          "A long wooden oar"
+        ],
+        "answer": "A mirror to flash Morse code",
+        "explanation": "The captain suggested using a mirror to flash Morse code as an alternative communication tool."
+      },
+      {
+        "id": 3,
+        "question": "What was the result of their Morse code method?",
+        "options": [
+          "The mirror fell into the ocean",
+          "They received a message that rescue was coming",
+          "The lighthouse did not see the signal",
+          "They repaired the broken transmitter"
+        ],
+        "answer": "They received a message that rescue was coming",
+        "explanation": "The lighthouse responder saw the flashes and sent back a message saying a rescue boat was on its way."
+      }
+    ]
+  },
+  {
+    "unit": 11,
+    "title": "On Board the Merchant Ship",
+    "mainIdea": "Ship safety and coordination",
+    "vocabulary": [
+      {"word": "On Board (Di kapal)", "definition": "An action of being on a ship/vehicle; or improving knowledge of employees"},
+      {"word": "Beams (Balok)", "definition": "Horizontal supports for the structure of a building or ship"},
+      {"word": "Behave (Bertingkah laku)", "definition": "An action we do in a particular way"},
+      {"word": "Locker (Loker)", "definition": "A tall cupboard made of metal used to keep things safe"},
+      {"word": "Headache (Sakit kepala)", "definition": "A painful sensation in the head"}
+    ],
+    "passage": "As soon as the new crew came on board, they were briefed on safety rules. The heavy wooden beams supporting the ship's ceiling were low, so everyone had to watch their head. The first mate warned the crew to behave responsibly, especially during rough weather, and to store all personal gear in their designated lockers. Later that night, a strong storm hit the ship. The constant rocking gave the captain a severe headache, but thanks to the crew's excellent behavior, all supplies remained locked and safe.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the meaning of 'on board' in this passage?",
+        "options": [
+          "Writing notes on a chalkboard",
+          "Being inside or on a ship/vehicle",
+          "Getting bored of ship duties",
+          "Improving knowledge of employees"
+        ],
+        "answer": "Being inside or on a ship/vehicle",
+        "explanation": "In this context, 'on board' refers to being on the merchant ship."
+      },
+      {
+        "id": 2,
+        "question": "Why did the captain get a headache?",
+        "options": [
+          "He bumped his head on the wooden beams",
+          "He was stressed about losing a locker key",
+          "The constant rocking of the ship during the storm",
+          "The crew refused to behave responsibly"
+        ],
+        "answer": "The constant rocking of the ship during the storm",
+        "explanation": "The passage says that the storm's constant rocking gave the captain a severe headache."
+      },
+      {
+        "id": 3,
+        "question": "Where were the crew instructed to store their gear?",
+        "options": [
+          "On top of the wooden beams",
+          "In their designated lockers",
+          "On the deck of the ship",
+          "With the captain"
+        ],
+        "answer": "In their designated lockers",
+        "explanation": "The crew was warned to store all personal gear in their designated lockers."
+      }
+    ]
+  },
+  {
+    "unit": 12,
+    "title": "Mowing the Lawn",
+    "mainIdea": "Lawn care and minor accidents",
+    "vocabulary": [
+      {"word": "Mowing (Memotong rumput)", "definition": "An activity to cut down grass with a machine"},
+      {"word": "Reel (Gulungan)", "definition": "A cylinder-shaped tool for rolling something like cable or hose"},
+      {"word": "Tipped (Terguling/Miring)", "definition": "A situation when something is overbalanced and turns over"},
+      {"word": "Funny (Lucu)", "definition": "An amusing incident that makes people laugh"},
+      {"word": "Tumbled (Jatuh terguling)", "definition": "An action that causes someone or something to fall without control"}
+    ],
+    "passage": "Uncle Bob was mowing the grass yesterday using a heavy lawnmower. He was pulling a long extension cord from a plastic reel. While walking backward near the garden slope, the reel tipped over. Uncle Bob tripped on the cord, tumbled down the grass, and landed directly in a pile of soft autumn leaves. Although it looked painful, Uncle Bob sat up and burst out laughing at how funny he must have looked. The lawn was cut, and he walked away with nothing but a little dirt on his shirt.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What was Uncle Bob doing at the start of the passage?",
+        "options": [
+          "Mowing the grass with a lawnmower",
+          "Raking autumn leaves into piles",
+          "Rolling a plastic cable reel",
+          "Buying a new garden machine"
+        ],
+        "answer": "Mowing the grass with a lawnmower",
+        "explanation": "The passage begins by stating that Uncle Bob was mowing the grass using a lawnmower."
+      },
+      {
+        "id": 2,
+        "question": "What caused Uncle Bob to tumble down the grass?",
+        "options": [
+          "A sudden gust of heavy wind",
+          "The lawnmower broke and exploded",
+          "He tripped on the extension cord after the reel tipped over",
+          "He fell asleep while walking"
+        ],
+        "answer": "He tripped on the extension cord after the reel tipped over",
+        "explanation": "The passage notes that the reel tipped over, and Uncle Bob tripped on the cord and tumbled down."
+      },
+      {
+        "id": 3,
+        "question": "How did Uncle Bob react to his fall?",
+        "options": [
+          "He got angry and cried",
+          "He blamed the lawnmower manufacturer",
+          "He laughed because he found the incident funny",
+          "He went to the hospital for a headache"
+        ],
+        "answer": "He laughed because he found the incident funny",
+        "explanation": "The passage says Uncle Bob burst out laughing at how funny he must have looked."
+      }
+    ]
+  },
+  {
+    "unit": 13,
+    "title": "The Woodcutter's Balance",
+    "mainIdea": "Forest survival and safety",
+    "vocabulary": [
+      {"word": "Prey (Mangsa)", "definition": "A hunted animal targeted by a predator"},
+      {"word": "Swang / Swung (Mengayunkan)", "definition": "An activity to swing or dash something quickly"},
+      {"word": "Lost his Balance (Kehilangan Keseimbangan)", "definition": "An accident when someone is unable to remain upright and steady"},
+      {"word": "Axe (Kapak)", "definition": "A sharp tool used to cut wood"},
+      {"word": "Fainted (Pingsan)", "definition": "A condition when someone loses consciousness suddenly due to lack of oxygen"}
+    ],
+    "passage": "Deep in the forest, a woodcutter named Sean was chopping old pine trees. He raised his heavy iron axe and swung it with all his strength. Suddenly, he heard a rustling sound and saw a wolf chasing its prey nearby. Distracted by the wild scene, Sean lost his balance on the slippery mud. He fell hard, hitting his leg against a tree root. The sudden pain was so intense that Sean fainted. When he woke up an hour later, the animals were gone, and he carefully used his axe as a walking stick to hobble back to his cabin.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What distracted Sean while he was chopping wood?",
+        "options": [
+          "A heavy rainstorm starting",
+          "A wolf chasing its prey",
+          "He lost his heavy iron axe",
+          "A loud sound from a distant cabin"
+        ],
+        "answer": "A wolf chasing its prey",
+        "explanation": "Sean was distracted when he saw a wolf chasing its prey nearby."
+      },
+      {
+        "id": 2,
+        "question": "Why did Sean faint?",
+        "options": [
+          "He was extremely hungry and tired",
+          "He saw a scary wolf coming to attack him",
+          "He fell and hit his leg, causing intense pain",
+          "He ran out of oxygen inside the forest cabin"
+        ],
+        "answer": "He fell and hit his leg, causing intense pain",
+        "explanation": "The passage states that the sudden pain from hitting his leg was so intense that Sean fainted."
+      },
+      {
+        "id": 3,
+        "question": "What tool did Sean use to chop wood?",
+        "options": [
+          "A hand saw",
+          "An iron axe",
+          "A wooden spade",
+          "A heavy hammer"
+        ],
+        "answer": "An iron axe",
+        "explanation": "The passage mentions that Sean was chopping trees with a heavy iron axe."
+      }
+    ]
+  },
+  {
+    "unit": 14,
+    "title": "The Strange Pedlar",
+    "mainIdea": "Unexpected treasures",
+    "vocabulary": [
+      {"word": "Pedlar (Pedagang asongan/keliling)", "definition": "A person who goes from place to place selling small items"},
+      {"word": "Strange (Aneh)", "definition": "Something unusual or difficult to understand"},
+      {"word": "Treasure (Harta karun)", "definition": "Something that is very valuable or represents great wealth"},
+      {"word": "Spade (Sekop)", "definition": "A tool used for digging soil or sand with a long handle"},
+      {"word": "Chest (Peti/Dada)", "definition": "A large box made of wood for storing goods, or the upper front of the body"}
+    ],
+    "passage": "A strange pedlar arrived in our village yesterday, carrying unusual trinkets from distant lands. Instead of selling jewelry or cloth, he claimed to possess a map leading to a buried treasure. A young villager named Leo decided to buy the map. Armed with a rusty spade, Leo walked to the old oak tree marked on the map and began to dig. After hours of hard work, his spade struck something solid. It was a large wooden chest. Leo opened it and found ancient coins and silver plates, proving that the strange pedlar's map was genuine.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What did the pedlar sell to Leo?",
+        "options": [
+          "A large wooden chest",
+          "A map to buried treasure",
+          "A rusty digging spade",
+          "Ancient coins and jewelry"
+        ],
+        "answer": "A map to buried treasure",
+        "explanation": "The passage states that the pedlar claimed to have a map to buried treasure, which Leo bought."
+      },
+      {
+        "id": 2,
+        "question": "What tool did Leo use to dig up the treasure?",
+        "options": [
+          "A wooden axe",
+          "A spade",
+          "A pickaxe",
+          "An iron oar"
+        ],
+        "answer": "A spade",
+        "explanation": "Leo dug up the chest using a rusty spade."
+      },
+      {
+        "id": 3,
+        "question": "Where was the chest buried?",
+        "options": [
+          "Under the village market",
+          "In the pedlar's backyard",
+          "Under the old oak tree",
+          "Near the waterfall"
+        ],
+        "answer": "Under the old oak tree",
+        "explanation": "Leo went to the 'old oak tree' marked on the map and digged there."
+      }
+    ]
+  },
+  {
+    "unit": 15,
+    "title": "An Honest Return",
+    "mainIdea": "Honesty vs. greed",
+    "vocabulary": [
+      {"word": "Slipped (Tergelincir)", "definition": "To slide accidentally or move from a correct place without intending to"},
+      {"word": "Honest (Jujur)", "definition": "Truthful, sincere, or able to be trusted"},
+      {"word": "Ordinary (Biasa)", "definition": "A condition of something that is not special or is usual to look at"},
+      {"word": "Greedy (Serakah)", "definition": "A condition of wanting more than enough of something, especially money or food"},
+      {"word": "Pretended (Pura-pura)", "definition": "To behave as if something is true when it is not"}
+    ],
+    "passage": "While walking through the crowded market, an ordinary man named Philip noticed that a wealthy merchant's wallet had slipped out of his pocket and fallen onto the cobblestones. Philip picked it up and saw it was full of high-value bills. For a moment, a greedy thought crossed his mind to keep the cash. However, Philip was an honest man. He caught up to the merchant and returned the wallet. The merchant was so grateful that he offered Philip a reward. Philip pretended he didn't need the money, but the merchant insisted on thanking him with a generous gift.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What happened to the merchant's wallet?",
+        "options": [
+          "It was stolen by a greedy thief",
+          "It slipped out of his pocket and fell to the ground",
+          "Philip sold it to the merchant",
+          "It was buried under the market soil"
+        ],
+        "answer": "It slipped out of his pocket and fell to the ground",
+        "explanation": "The passage says the wallet 'had slipped out of his pocket and fallen onto the cobblestones'."
+      },
+      {
+        "id": 2,
+        "question": "Why did Philip return the wallet?",
+        "options": [
+          "Because he was an honest man",
+          "Because the wallet was empty",
+          "Because the police was watching him",
+          "Because he was greedy"
+        ],
+        "answer": "Because he was an honest man",
+        "explanation": "Philip returned the wallet because he was an honest man, despite a brief greedy thought."
+      },
+      {
+        "id": 3,
+        "question": "What did Philip do when the merchant offered him a reward?",
+        "options": [
+          "He took all the money greedily",
+          "He ran away immediately without speaking",
+          "He pretended he didn't need the money",
+          "He asked for a job at the merchant's shop"
+        ],
+        "answer": "He pretended he didn't need the money",
+        "explanation": "The passage states that Philip 'pretended he didn't need the money' before the merchant insisted."
+      }
+    ]
+  },
+  {
+    "unit": 16,
+    "title": "The Selfish Wish",
+    "mainIdea": "Selfishness and consequences",
+    "vocabulary": [
+      {"word": "Selfish (Egois)", "definition": "Caring only for oneself without consideration for others"},
+      {"word": "Granted (Dikabulkan)", "definition": "Allowed, approved, or assumed to be true"},
+      {"word": "Disappear (Menghilang)", "definition": "To go missing, vanish, or become impossible to find"},
+      {"word": "Couple (Pasangan)", "definition": "Two people who are in a relationship, or a few things that are similar"},
+      {"word": "Immediately (Segera)", "definition": "Right away, without thinking or waiting"}
+    ],
+    "passage": "In a small cottage, a young couple lived near an ancient wishing well. One evening, the husband made a selfish wish for a bag of gold, wishing only for his own luxury without thinking of his wife. The well granted his wish immediately, and a heavy bag of gold appeared on the table. However, as soon as he touched it, his wife began to disappear. Horrified, he realized the price of his greed. He rushed back to the well and begged for his wife's return, offering to make the gold vanish. Fortunately, the well listened, his wife returned, and the gold was gone forever.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What was selfish about the husband's wish?",
+        "options": [
+          "He wished for a giant wolf to attack the village",
+          "He wished for gold only for himself, ignoring his wife",
+          "He wished to leave his cottage immediately",
+          "He did not want to share his food with the couple next door"
+        ],
+        "answer": "He wished for gold only for himself, ignoring his wife",
+        "explanation": "The passage explains the wish was selfish because he wished only for his own luxury without thinking of his wife."
+      },
+      {
+        "id": 2,
+        "question": "What happened immediately after the wish was granted?",
+        "options": [
+          "A bag of gold appeared on the table",
+          "The cottage caught fire",
+          "His wife disappeared",
+          "The well dried up"
+        ],
+        "answer": "A bag of gold appeared on the table",
+        "explanation": "The well granted his wish immediately, causing a bag of gold to appear on the table."
+      },
+      {
+        "id": 3,
+        "question": "What did the husband do when his wife began to disappear?",
+        "options": [
+          "He bought a new house with the gold",
+          "He pretended nothing was wrong",
+          "He returned to the well to beg for his wife's return",
+          "He ran away to another country"
+        ],
+        "answer": "He returned to the well to beg for his wife's return",
+        "explanation": "When his wife began to disappear, he rushed back to the well and begged for her return."
+      }
+    ]
+  },
+  {
+    "unit": 17,
+    "title": "The Lazy Team",
+    "mainIdea": "Trust and teamwork",
+    "vocabulary": [
+      {"word": "Lazy (Malas)", "definition": "A condition when a person has no willingness to work or use any effort"},
+      {"word": "Belly (Perut)", "definition": "A body part between the chest and legs; the stomach"},
+      {"word": "Trusted (Dipercaya)", "definition": "Able to be depended on or deserving of trust"},
+      {"word": "Team (Tim)", "definition": "A number of people who do something together as a group"},
+      {"word": "Reward (Hadiah/Penghargaan)", "definition": "Something given in exchange for good behavior or good work"}
+    ],
+    "passage": "In a local village, a team of builders was hired to construct a new community bridge. Most of the workers were lazy, spending their afternoons sleeping under trees with full bellies instead of working. Only their supervisor, a trusted man named Thomas, worked hard every day. When the project owner visited, he saw that the bridge was incomplete. He decided that only Thomas deserved the bonus reward. The lazy team members complained, but the owner made it clear that rewards are only given to those who put in the effort.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Why did the bridge project take so long?",
+        "options": [
+          "The team had no tools to dig the soil",
+          "Most of the workers were lazy and slept instead of working",
+          "Thomas did not know how to build a bridge",
+          "A severe disease infected the whole team"
+        ],
+        "answer": "Most of the workers were lazy and slept instead of working",
+        "explanation": "The passage notes that most workers were lazy, sleeping under trees instead of working."
+      },
+      {
+        "id": 2,
+        "question": "Why was Thomas the only one who received a reward?",
+        "options": [
+          "He was the owner's relative",
+          "He was a trusted supervisor who worked hard while others slaked off",
+          "He spent the money to feed the lazy workers",
+          "He bought the materials with his own money"
+        ],
+        "answer": "He was a trusted supervisor who worked hard while others slaked off",
+        "explanation": "Thomas was rewarded because he was trusted and worked hard, unlike the lazy team members."
+      },
+      {
+        "id": 3,
+        "question": "What does the word 'belly' refer to in the passage?",
+        "options": [
+          "A tool used to lift heavy beams",
+          "The supervisor's storage locker",
+          "The stomach, showing the workers had eaten and slept",
+          "The support base of the bridge"
+        ],
+        "answer": "The stomach, showing the workers had eaten and slept",
+        "explanation": "The workers slept with 'full bellies', referring to their stomachs after eating."
+      }
+    ]
+  },
+  {
+    "unit": 18,
+    "title": "Crawling for Crumbs",
+    "mainIdea": "Hunger and survival in the wilderness",
+    "vocabulary": [
+      {"word": "Crawled (Merangkak)", "definition": "An activity of moving on hands and knees close to the ground"},
+      {"word": "Hungry (Lapar)", "definition": "A feeling of needing food"},
+      {"word": "Country (Negara/Pedesaan)", "definition": "An area of land that has territory and its own government, or rural countryside"},
+      {"word": "Supper (Makan Malam)", "definition": "A small meal eaten in the late evening"},
+      {"word": "Crumbs (Remah-remah)", "definition": "Small pieces that have fallen from bread, cookies, or cake"}
+    ],
+    "passage": "An old traveller was walking through the open country when he lost his backpack. By nightfall, he was freezing and extremely hungry. He saw a tiny light in the distance and crawled towards it on his hands and knees. The light belonged to a small cottage. An old woman opened the door and invited him in for a warm supper. Although the meal was simple bread and soup, the traveller was so grateful that he carefully ate every single bite, leaving not even a few crumbs on the wooden table.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "How did the traveller move toward the cottage light?",
+        "options": [
+          "He rode a horse across the country",
+          "He crawled on his hands and knees",
+          "He ran as fast as he could",
+          "He floated down the river"
+        ],
+        "answer": "He crawled on his hands and knees",
+        "explanation": "The passage states that the traveller 'crawled towards it on his hands and knees'."
+      },
+      {
+        "id": 2,
+        "question": "What did the old woman offer the traveller?",
+        "options": [
+          "A map to a buried chest of gold",
+          "A new backpack with tools",
+          "A warm supper of bread and soup",
+          "A ride to the nearest country"
+        ],
+        "answer": "A warm supper of bread and soup",
+        "explanation": "The old woman invited the traveller in for a warm 'supper' of bread and soup."
+      },
+      {
+        "id": 3,
+        "question": "Why did the traveller leave no crumbs?",
+        "options": [
+          "The old woman scolded him for being messy",
+          "He was extremely hungry and grateful for the food",
+          "The crumbs fell into his boots",
+          "The bread was too soft to make crumbs"
+        ],
+        "answer": "He was extremely hungry and grateful for the food",
+        "explanation": "He was so hungry and grateful that he ate every bite, leaving no crumbs."
+      }
+    ]
+  },
+  {
+    "unit": 19,
+    "title": "Beside the Fireplace",
+    "mainIdea": "Warmth and safety indicators",
+    "vocabulary": [
+      {"word": "Fireplace (Perapian)", "definition": "A space in the wall of a room for making the room warmer with fire"},
+      {"word": "Cord (Tali)", "definition": "A long ribbon or thin rope to tie something valuable"},
+      {"word": "Clock (Jam)", "definition": "A device for measuring and showing time on a wall or table"},
+      {"word": "Stings (Sengatan)", "definition": "A small sharp organ of insects (like bees) that causes pain/injury"},
+      {"word": "Cloak (Jubah)", "definition": "A sleeveless outer garment worn to cover someone"}
+    ],
+    "passage": "After spending all afternoon in the forest collecting honey, Daniel returned to his cabin. He was suffering from several painful bee stings on his hands. He immediately lit a fire in the fireplace to warm up the chilly room. He hung his heavy wool cloak on the wall hook next to the ticking clock. To soothe his stings, he wrapped his hands in a cool damp cloth, tying it securely with a piece of cotton cord. Resting by the fire, Daniel watched the clock hands move, feeling the warmth slowly take away the sharp pain of the day.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Why did Daniel light a fire in the fireplace?",
+        "options": [
+          "To cook a large supper of wild prey",
+          "To warm up the chilly cabin room",
+          "To burn his old wool cloak",
+          "To smoke out the bees in the forest"
+        ],
+        "answer": "To warm up the chilly cabin room",
+        "explanation": "Daniel lit the fireplace 'to warm up the chilly room' after returning from the forest."
+      },
+      {
+        "id": 2,
+        "question": "What injured Daniel during his honey collection?",
+        "options": [
+          "He got caught in a cotton cord",
+          "He was bitten by a wolf on the bank",
+          "Several painful bee stings on his hands",
+          "He bumped his head on ship beams"
+        ],
+        "answer": "Several painful bee stings on his hands",
+        "explanation": "The passage notes that Daniel was suffering from several painful bee stings."
+      },
+      {
+        "id": 3,
+        "question": "What did Daniel hang next to the clock?",
+        "options": [
+          "A cotton cord",
+          "His heavy wool cloak",
+          "His beehive tools",
+          "A damp cloth wrapper"
+        ],
+        "answer": "His heavy wool cloak",
+        "explanation": "The passage states that he hung his heavy wool cloak on the wall hook next to the ticking clock."
+      }
+    ]
+  },
+  {
+    "unit": 20,
+    "title": "The Candy Counter",
+    "mainIdea": "Sweet treats and childhood memories",
+    "vocabulary": [
+      {"word": "Corridor (Koridor/Gang)", "definition": "A long passage in a building with rooms or seats on both sides"},
+      {"word": "Treat (Memperlakukan/Hadiah)", "definition": "A behavior toward someone, or an enjoyable special gift/food"},
+      {"word": "Plasticine (Lilin mainan)", "definition": "A clay-like material used by children for play and modeling"},
+      {"word": "Counter (Meja kasir/penghitung)", "definition": "A long flat table in a shop for serving customers"},
+      {"word": "Toffees (Permen karamel)", "definition": "A hard, chewy candy made from boiled sugar and butter"}
+    ],
+    "passage": "Walking down the school corridor, young Sally was excited. It was Friday, which meant she could buy a special sweet treat at the local store. She hurried inside and walked up to the glass counter. Behind it stood jars of delicious, chewy toffees and colorful lollipops. As she paid the cashier, Sally noticed a small box of plasticine modeling clay on the side shelf, reminding her of art class. With her sweet toffees in one hand and her art clay in the other, she walked home happily, enjoying the perfect end to her school week.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What did Sally buy at the glass counter?",
+        "options": [
+          "A notebook for her art class",
+          "Some chewy toffees",
+          "A new wool cloak",
+          "A clock for the corridor"
+        ],
+        "answer": "Some chewy toffees",
+        "explanation": "The passage mentions that she walked up to the counter and bought chewy toffees."
+      },
+      {
+        "id": 2,
+        "question": "What is 'plasticine' used for in the passage?",
+        "options": [
+          "It is a hard chewy sweet candy",
+          "A cleaning tool for the school corridor",
+          "Modeling clay for children's play/art",
+          "Tying packages on the counter"
+        ],
+        "answer": "Modeling clay for children's play/art",
+        "explanation": "Plasticine is defined as a clay-like material used by children for play and modeling."
+      },
+      {
+        "id": 3,
+        "question": "Where did Sally walk before entering the candy store?",
+        "options": [
+          "Down the school corridor",
+          "Along the freezing riverbank",
+          "Through the open forest country",
+          "On board a large merchant ship"
+        ],
+        "answer": "Down the school corridor",
+        "explanation": "The passage begins with Sally 'walking down the school corridor'."
+      }
+    ]
+  }
+]
