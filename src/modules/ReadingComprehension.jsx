@@ -93,15 +93,15 @@ export default function ReadingComprehension() {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-8 animate-fade-in-up">
+    <div className="w-full max-w-6xl mx-auto px-4 py-8 animate-fade-in-up">
       {/* HEADER SECTION */}
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6 pb-6 border-b border-zinc-200/50 dark:border-zinc-800/40">
-        <div>
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 mb-6 pb-6 border-b border-zinc-200/50 dark:border-zinc-800/40">
+        <div className="max-w-xl">
           <h1 className="font-display font-extrabold text-3xl text-zinc-950 dark:text-zinc-50 tracking-tight flex items-center gap-2">
             <BookOpen className="text-indigo-600 dark:text-indigo-400 stroke-[2.5]" />
             Reading Comprehension
           </h1>
-          <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+          <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1.5 leading-relaxed">
             Latihan membaca komprehensif berdasarkan Unit 6-20. Pilihlah opsi jawaban dan cek kebenarannya secara instan.
           </p>
         </div>
