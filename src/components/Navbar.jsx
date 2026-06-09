@@ -32,20 +32,20 @@ export default function Navbar({ onOpenSettings }) {
   ];
 
   return (
-    <nav className="sticky top-0 z-40 w-full glass-panel border-b px-6 py-4 flex items-center justify-between transition-all duration-300">
+    <nav className="sticky top-0 z-40 w-full glass-panel border-b px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between transition-all duration-300">
       {/* Brand logo */}
       <div 
         onClick={() => setActiveTab('dashboard')} 
-        className="flex items-center gap-2.5 cursor-pointer group select-none"
+        className="flex items-center gap-2 sm:gap-2.5 cursor-pointer group select-none"
       >
-        <div className="relative w-10 h-10 rounded-full overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-md group-hover:scale-105 transition-all duration-300 shrink-0">
+        <div className="relative w-8 h-8 sm:w-10 sm:h-10 rounded-full overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-md group-hover:scale-105 transition-all duration-300 shrink-0">
           <img src="/logo.jpg" alt="Armidale English College Logo" className="w-full h-full object-cover" />
         </div>
         <div>
-          <span className="font-display font-extrabold text-xl tracking-tight bg-linear-to-r from-violet-600 via-indigo-600 to-purple-600 dark:from-violet-400 dark:to-indigo-400 bg-clip-text text-transparent">
+          <span className="font-display font-extrabold text-base sm:text-xl tracking-tight bg-linear-to-r from-violet-600 via-indigo-600 to-purple-600 dark:from-violet-400 dark:to-indigo-400 bg-clip-text text-transparent">
             Final Test Prep
           </span>
-          <span className="block text-[10px] font-semibold uppercase tracking-widest text-zinc-500 dark:text-zinc-400 mt-0.5">
+          <span className="hidden sm:block text-[10px] font-semibold uppercase tracking-widest text-zinc-500 dark:text-zinc-400 mt-0.5">
             English Accelerator
           </span>
         </div>

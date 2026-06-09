@@ -88,75 +88,75 @@ export default function Dashboard({ onOpenSettings }) {
       </div>
 
       {/* STATS TILES */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
         {/* Card 1: Grammar */}
-        <div onClick={() => setActiveTab('grammar')} className="glass-card rounded-3xl p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
+        <div onClick={() => setActiveTab('grammar')} className="glass-card rounded-3xl p-4 sm:p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
           <div className="flex justify-between items-start mb-3">
             <span className="p-2 bg-violet-100 dark:bg-violet-950/40 text-violet-600 dark:text-violet-400 rounded-xl">
               <Sparkles size={18} />
             </span>
             <span className="text-[10px] font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest">Grammar</span>
           </div>
-          <div className="font-display font-black text-2xl text-zinc-800 dark:text-zinc-100">
+          <div className="font-display font-black text-xl sm:text-2xl text-zinc-800 dark:text-zinc-100">
             {quizCount > 0 ? `${avgQuizScore}%` : '-'}
           </div>
-          <p className="text-xs text-zinc-500 mt-1">{quizCount} kuis diselesaikan</p>
+          <p className="text-[10px] sm:text-xs text-zinc-500 mt-1">{quizCount} kuis diselesaikan</p>
         </div>
 
         {/* Card 2: Listening */}
-        <div onClick={() => setActiveTab('listening')} className="glass-card rounded-3xl p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
+        <div onClick={() => setActiveTab('listening')} className="glass-card rounded-3xl p-4 sm:p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
           <div className="flex justify-between items-start mb-3">
             <span className="p-2 bg-amber-100 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 rounded-xl">
               <Volume2 size={18} />
             </span>
             <span className="text-[10px] font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest">Listening</span>
           </div>
-          <div className="font-display font-black text-2xl text-zinc-800 dark:text-zinc-100">
+          <div className="font-display font-black text-xl sm:text-2xl text-zinc-800 dark:text-zinc-100">
             {completedListeningCount} / 19
           </div>
-          <p className="text-xs text-zinc-500 mt-1">{completedListeningCount} unit selesai didengar</p>
+          <p className="text-[10px] sm:text-xs text-zinc-500 mt-1">{completedListeningCount} unit selesai didengar</p>
         </div>
 
         {/* Card 3: Reading */}
-        <div onClick={() => setActiveTab('reading')} className="glass-card rounded-3xl p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
+        <div onClick={() => setActiveTab('reading')} className="glass-card rounded-3xl p-4 sm:p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
           <div className="flex justify-between items-start mb-3">
             <span className="p-2 bg-indigo-100 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 rounded-xl">
               <BookOpen size={18} />
             </span>
             <span className="text-[10px] font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest">Reading</span>
           </div>
-          <div className="font-display font-black text-2xl text-zinc-800 dark:text-zinc-100">
+          <div className="font-display font-black text-xl sm:text-2xl text-zinc-800 dark:text-zinc-100">
             {completedReadingCount} / 15
           </div>
-          <p className="text-xs text-zinc-500 mt-1">Unit selesai dibaca</p>
+          <p className="text-[10px] sm:text-xs text-zinc-500 mt-1">Unit selesai dibaca</p>
         </div>
 
         {/* Card 4: Writing */}
-        <div onClick={() => setActiveTab('writing')} className="glass-card rounded-3xl p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
+        <div onClick={() => setActiveTab('writing')} className="glass-card rounded-3xl p-4 sm:p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
           <div className="flex justify-between items-start mb-3">
             <span className="p-2 bg-teal-100 dark:bg-teal-950/40 text-teal-600 dark:text-teal-400 rounded-xl">
               <FileEdit size={18} />
             </span>
             <span className="text-[10px] font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest">Writing</span>
           </div>
-          <div className="font-display font-black text-2xl text-zinc-800 dark:text-zinc-100">
+          <div className="font-display font-black text-xl sm:text-2xl text-zinc-800 dark:text-zinc-100">
             {essayWords} kata
           </div>
-          <p className="text-xs text-zinc-500 mt-1">Draf esai saat ini</p>
+          <p className="text-[10px] sm:text-xs text-zinc-500 mt-1">Draf esai saat ini</p>
         </div>
 
         {/* Card 5: Speaking */}
-        <div onClick={() => setActiveTab('interview')} className="glass-card rounded-3xl p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
+        <div onClick={() => setActiveTab('interview')} className="glass-card rounded-3xl p-4 sm:p-5 border border-zinc-200/50 dark:border-zinc-800/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer group">
           <div className="flex justify-between items-start mb-3">
             <span className="p-2 bg-pink-100 dark:bg-pink-950/40 text-pink-600 dark:text-pink-400 rounded-xl">
               <Mic size={18} />
             </span>
             <span className="text-[10px] font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest">Speaking</span>
           </div>
-          <div className="font-display font-black text-2xl text-zinc-800 dark:text-zinc-100">
+          <div className="font-display font-black text-xl sm:text-2xl text-zinc-800 dark:text-zinc-100">
             {interviewCount} sesi
           </div>
-          <p className="text-xs text-zinc-500 mt-1">Evaluasi AI disimpan</p>
+          <p className="text-[10px] sm:text-xs text-zinc-500 mt-1">Evaluasi AI disimpan</p>
         </div>
       </div>
 

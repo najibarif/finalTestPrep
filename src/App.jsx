@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { usePractice } from './context/PracticeContext';
 import Navbar from './components/Navbar';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import SettingsModal from './components/SettingsModal';
 import Dashboard from './components/Dashboard';
 import GrammarQuiz from './modules/GrammarQuiz';
@@ -47,7 +49,7 @@ export default function App() {
       <Navbar onOpenSettings={() => setIsSettingsOpen(true)} />
 
       {/* Main Content */}
-      <main className="flex-1 w-full max-w-7xl mx-auto py-6">
+      <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6">
         {renderActiveModule()}
       </main>
 
@@ -77,6 +79,8 @@ export default function App() {
         isOpen={isSettingsOpen} 
         onClose={() => setIsSettingsOpen(false)} 
       />
+      <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
