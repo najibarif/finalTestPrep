@@ -45,7 +45,7 @@ export default function Navbar({ onOpenSettings }) {
           <span className="font-display font-extrabold text-base sm:text-xl tracking-tight bg-linear-to-r from-violet-600 via-indigo-600 to-purple-600 dark:from-violet-400 dark:to-indigo-400 bg-clip-text text-transparent">
             Final Test Prep
           </span>
-          <span className="hidden sm:block text-[10px] font-semibold uppercase tracking-widest text-zinc-500 dark:text-zinc-400 mt-0.5">
+          <span className="hidden sm:block text-[10px] font-semibold uppercase tracking-widest text-zinc-600 dark:text-zinc-400 mt-0.5">
             English Accelerator
           </span>
         </div>
@@ -81,6 +81,7 @@ export default function Navbar({ onOpenSettings }) {
             value={activeTab}
             onChange={(e) => setActiveTab(e.target.value)}
             className="bg-zinc-100 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 px-3 py-2 rounded-xl border border-zinc-200 dark:border-zinc-800 text-sm focus:outline-none"
+            aria-label="Pilih Menu Latihan"
           >
             {navItems.map(item => (
               <option key={item.id} value={item.id}>{item.name}</option>
@@ -91,7 +92,7 @@ export default function Navbar({ onOpenSettings }) {
         {/* Theme Toggle */}
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="p-2.5 rounded-xl bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 hover:text-zinc-950 dark:hover:text-zinc-50 border border-zinc-200/50 dark:border-zinc-800/40 hover:scale-105 active:scale-95 transition-all cursor-pointer"
+          className="w-11 h-11 rounded-xl bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 hover:text-zinc-950 dark:hover:text-zinc-50 border border-zinc-200/50 dark:border-zinc-800/40 hover:scale-105 active:scale-95 transition-all cursor-pointer flex items-center justify-center shrink-0"
           aria-label="Toggle dark mode"
         >
           {darkMode ? <Sun size={18} /> : <Moon size={18} />}
@@ -101,7 +102,7 @@ export default function Navbar({ onOpenSettings }) {
         {!import.meta.env.VITE_GEMINI_API_KEY && (
           <button
             onClick={onOpenSettings}
-            className="p-2.5 rounded-xl bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 hover:text-zinc-950 dark:hover:text-zinc-50 border border-zinc-200/50 dark:border-zinc-800/40 hover:scale-105 active:scale-95 transition-all cursor-pointer relative"
+            className="w-11 h-11 rounded-xl bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 hover:text-zinc-950 dark:hover:text-zinc-50 border border-zinc-200/50 dark:border-zinc-800/40 hover:scale-105 active:scale-95 transition-all cursor-pointer relative flex items-center justify-center shrink-0"
             aria-label="Open settings"
           >
             <Settings size={18} />

@@ -4,11 +4,8 @@ import { analyzeEssay } from '../utils/gemini';
 import { 
   FileEdit, 
   Sparkles, 
-  HelpCircle, 
   Loader2, 
-  CheckCircle, 
   AlertTriangle,
-  Info,
   Award,
   ChevronRight,
   BookOpen
@@ -109,7 +106,7 @@ export default function WritingPractice({ onOpenSettings }) {
           <FileEdit className="text-violet-600 dark:text-violet-400 stroke-[2]" />
           Writing Practice
         </h1>
-        <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
+        <p className="text-sm text-zinc-650 dark:text-zinc-400 mt-2 font-medium">
           Latihan menulis komposisi dengan topik Masyarakat (Society) dan Keluarga (Family). Maksimal 350 kata.
         </p>
       </div>
@@ -134,10 +131,10 @@ export default function WritingPractice({ onOpenSettings }) {
         {/* LEFT PANEL: Prompts / Topics list */}
         <div className="lg:col-span-1 space-y-4">
           <div className="glass-card rounded-3xl p-5 border border-zinc-200/60 dark:border-zinc-800/30">
-            <h3 className="font-display font-bold text-base text-zinc-800 dark:text-zinc-100 mb-4 flex items-center gap-2">
+            <h2 className="font-display font-bold text-base text-zinc-800 dark:text-zinc-100 mb-4 flex items-center gap-2">
               <BookOpen size={16} className="text-violet-600" />
               Pilihan Topik Esai
-            </h3>
+            </h2>
             
             <div className="space-y-3.5 max-h-96 overflow-y-auto pr-1">
               {WRITING_PROMPTS.map((prompt, index) => (
@@ -147,7 +144,7 @@ export default function WritingPractice({ onOpenSettings }) {
                   className={`w-full text-left p-3.5 rounded-2xl border text-xs leading-relaxed transition-all cursor-pointer block ${
                     title === prompt.title
                       ? 'bg-violet-500/10 dark:bg-violet-500/15 border-violet-500 text-violet-800 dark:text-violet-400 font-semibold'
-                      : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 text-zinc-600 dark:text-zinc-400 hover:border-zinc-300 dark:hover:border-zinc-700'
+                      : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 text-zinc-650 dark:text-zinc-400 hover:border-zinc-300 dark:hover:border-zinc-700'
                   }`}
                 >
                   <span className={`inline-block px-2 py-0.5 rounded-md text-[9px] font-bold uppercase tracking-wider mb-2 ${
@@ -157,10 +154,10 @@ export default function WritingPractice({ onOpenSettings }) {
                   }`}>
                     {prompt.category}
                   </span>
-                  <h4 className="font-bold text-sm leading-snug mb-1 text-zinc-800 dark:text-zinc-200">
+                  <h3 className="font-bold text-sm leading-snug mb-1 text-zinc-800 dark:text-zinc-200">
                     {prompt.title}
-                  </h4>
-                  <p className="text-zinc-500 dark:text-zinc-400 mt-1.5 line-clamp-2">
+                  </h3>
+                  <p className="text-zinc-600 dark:text-zinc-400 mt-1.5 line-clamp-2 font-medium">
                     {prompt.description}
                   </p>
                 </button>
@@ -177,10 +174,11 @@ export default function WritingPractice({ onOpenSettings }) {
               
               {/* Title input */}
               <div>
-                <label className="block text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400 mb-2">
+                <label htmlFor="writing-title" className="block text-xs font-bold uppercase tracking-wider text-zinc-600 dark:text-zinc-400 mb-2">
                   Judul Komposisi (Essay Title) <span className="text-rose-500">*wajib</span>
                 </label>
                 <input
+                  id="writing-title"
                   type="text"
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
@@ -191,10 +189,11 @@ export default function WritingPractice({ onOpenSettings }) {
 
               {/* Textarea */}
               <div>
-                <label className="block text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400 mb-2">
+                <label htmlFor="writing-content" className="block text-xs font-bold uppercase tracking-wider text-zinc-600 dark:text-zinc-400 mb-2">
                   Isi Tulisan (Essay Content)
                 </label>
                 <textarea
+                  id="writing-content"
                   value={content}
                   onChange={(e) => setContent(e.target.value)}
                   rows={14}
@@ -215,7 +214,7 @@ export default function WritingPractice({ onOpenSettings }) {
                     Jumlah Kata: {wordCount} / 350
                   </div>
                   
-                  <div className="text-xs text-zinc-400 font-medium">
+                  <div className="text-xs text-zinc-600 dark:text-zinc-400 font-bold">
                     (Target: 250 - 350 kata)
                   </div>
                 </div>
@@ -225,7 +224,7 @@ export default function WritingPractice({ onOpenSettings }) {
                   <button
                     type="button"
                     onClick={handleClearDraft}
-                    className="px-4 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-800 text-zinc-500 dark:text-zinc-400 text-xs font-semibold hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors cursor-pointer"
+                    className="px-4 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-800 text-zinc-600 dark:text-zinc-400 text-xs font-semibold hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors cursor-pointer"
                   >
                     Hapus Draft
                   </button>
@@ -252,8 +251,8 @@ export default function WritingPractice({ onOpenSettings }) {
             <div className="glass-card rounded-3xl p-8 border border-zinc-200/60 dark:border-zinc-800/30 flex flex-col items-center justify-center text-center space-y-4 animate-pulse-slow">
               <Loader2 className="animate-spin text-violet-600" size={36} />
               <div>
-                <h4 className="font-display font-bold text-zinc-800 dark:text-zinc-100">Sedang Menganalisis Esai...</h4>
-                <p className="text-xs text-zinc-500 mt-1">AI sedang menganalisis grammar, vocabulary, struktur paragraf, dan kohesi esai Anda.</p>
+                <h2 className="font-display font-bold text-zinc-850 dark:text-zinc-100">Sedang Menganalisis Esai...</h2>
+                <p className="text-xs text-zinc-600 dark:text-zinc-400 mt-1 font-medium">AI sedang menganalisis grammar, vocabulary, struktur paragraf, dan kohesi esai Anda.</p>
               </div>
             </div>
           )}
@@ -267,16 +266,16 @@ export default function WritingPractice({ onOpenSettings }) {
                     <Award size={24} />
                   </div>
                   <div>
-                    <h3 className="font-display font-extrabold text-xl text-zinc-900 dark:text-zinc-50">
+                    <h2 className="font-display font-extrabold text-xl text-zinc-900 dark:text-zinc-50">
                       Evaluasi AI Selesai
-                    </h3>
-                    <p className="text-xs text-zinc-500 mt-0.5">Analisis berdasarkan kriteria IELTS/TOEFL Writing</p>
+                    </h2>
+                    <p className="text-xs text-zinc-600 dark:text-zinc-400 mt-0.5 font-bold">Analisis berdasarkan kriteria IELTS/TOEFL Writing</p>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-4">
                   <div className="text-right">
-                    <span className="block text-[10px] font-bold uppercase tracking-wider text-zinc-400">Score</span>
+                    <span className="block text-[10px] font-bold uppercase tracking-wider text-zinc-600 dark:text-zinc-400">Score</span>
                     <span className="font-display font-extrabold text-2xl text-emerald-600 dark:text-emerald-400">
                       {feedback.score} / 100
                     </span>
@@ -292,30 +291,30 @@ export default function WritingPractice({ onOpenSettings }) {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 {/* Grammar */}
                 <div className="space-y-2.5 p-4 rounded-2xl bg-zinc-50 dark:bg-zinc-900/40 border border-zinc-200/45 dark:border-zinc-800/20">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
                     Grammar & Sentence Structure
-                  </h4>
-                  <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                  </h3>
+                  <p className="text-xs text-zinc-750 dark:text-zinc-300 leading-relaxed font-medium">
                     {feedback.grammarFeedback}
                   </p>
                 </div>
 
                 {/* Vocabulary */}
                 <div className="space-y-2.5 p-4 rounded-2xl bg-zinc-50 dark:bg-zinc-900/40 border border-zinc-200/45 dark:border-zinc-800/20">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-violet-600 dark:text-violet-400">
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-violet-600 dark:text-violet-400">
                     Vocabulary & Diction
-                  </h4>
-                  <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                  </h3>
+                  <p className="text-xs text-zinc-750 dark:text-zinc-300 leading-relaxed font-medium">
                     {feedback.vocabularyFeedback}
                   </p>
                 </div>
 
                 {/* Coherence */}
                 <div className="space-y-2.5 p-4 rounded-2xl bg-zinc-50 dark:bg-zinc-900/40 border border-zinc-200/45 dark:border-zinc-800/20 md:col-span-2">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400">
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400">
                     Cohesion, Organization & Essay flow
-                  </h4>
-                  <p className="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                  </h3>
+                  <p className="text-xs text-zinc-750 dark:text-zinc-300 leading-relaxed font-medium">
                     {feedback.cohesionFeedback}
                   </p>
                 </div>
@@ -324,24 +323,24 @@ export default function WritingPractice({ onOpenSettings }) {
               {/* Grammar Corrections List */}
               {feedback.corrections && feedback.corrections.length > 0 && (
                 <div className="pt-4 border-t border-zinc-150/10 dark:border-zinc-900 space-y-3.5">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-rose-600 dark:text-rose-400">
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-rose-600 dark:text-rose-455">
                     Koreksi Grammar Spesifik (Corrections):
-                  </h4>
+                  </h3>
                   <div className="space-y-3">
                     {feedback.corrections.map((corr, idx) => (
                       <div 
                         key={idx}
                         className="p-3.5 rounded-2xl bg-rose-500/[0.02] border border-rose-500/10 text-xs space-y-1.5"
                       >
-                        <div className="line-through text-rose-600 dark:text-rose-400/80">
+                        <div className="line-through text-rose-700 dark:text-rose-400/80 font-medium">
                           "{corr.original}"
                         </div>
-                        <div className="text-emerald-600 dark:text-emerald-400 font-semibold flex items-center gap-1.5">
+                        <div className="text-emerald-700 dark:text-emerald-400 font-bold flex items-center gap-1.5">
                           <ChevronRight size={12} className="stroke-[3]" />
                           "{corr.corrected}"
                         </div>
                         {corr.reason && (
-                          <div className="text-[10px] text-zinc-400 italic font-medium pt-1">
+                          <div className="text-[10px] text-zinc-600 dark:text-zinc-400 italic font-bold pt-1">
                             Alasan: {corr.reason}
                           </div>
                         )}
@@ -351,13 +350,13 @@ export default function WritingPractice({ onOpenSettings }) {
                 </div>
               )}
 
-              {/* Recommendations list */}
+              {/* Suggestions list */}
               {feedback.suggestions && feedback.suggestions.length > 0 && (
                 <div className="pt-4 border-t border-zinc-150/10 dark:border-zinc-900 space-y-2.5">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">
                     Rekomendasi Peningkatan:
-                  </h4>
-                  <ul className="list-disc pl-4 space-y-1.5 text-xs text-zinc-600 dark:text-zinc-400">
+                  </h3>
+                  <ul className="list-disc pl-4 space-y-1.5 text-xs text-zinc-700 dark:text-zinc-350 font-medium">
                     {feedback.suggestions.map((sug, idx) => (
                       <li key={idx}>{sug}</li>
                     ))}

@@ -99,9 +99,9 @@ export default function ReadingComprehension() {
         <div className="max-w-xl">
           <h1 className="font-display font-extrabold text-3xl text-zinc-950 dark:text-zinc-50 tracking-tight flex items-center gap-2">
             <BookOpen className="text-indigo-600 dark:text-indigo-400 stroke-[2.5]" />
-            Reading Comprehension
+            Reading ReadingComprehension
           </h1>
-          <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1.5 leading-relaxed">
+          <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1.5 leading-relaxed font-medium">
             Latihan membaca komprehensif berdasarkan Unit 6-20. Pilihlah opsi jawaban dan cek kebenarannya secara instan.
           </p>
         </div>
@@ -111,7 +111,8 @@ export default function ReadingComprehension() {
           <button 
             onClick={handlePrevUnit}
             disabled={readingPassages.findIndex(p => p.unit === selectedReadingUnit) === 0}
-            className="p-2.5 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 disabled:opacity-30 cursor-pointer"
+            className="w-11 h-11 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 disabled:opacity-30 cursor-pointer flex items-center justify-center shrink-0"
+            aria-label="Unit sebelumnya"
           >
             <ChevronLeft size={18} />
           </button>
@@ -120,6 +121,7 @@ export default function ReadingComprehension() {
             value={selectedReadingUnit}
             onChange={(e) => handleSelectUnit(Number(e.target.value))}
             className="flex-1 md:flex-initial bg-white dark:bg-zinc-950 text-zinc-800 dark:text-zinc-200 px-4 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-800 font-bold text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20"
+            aria-label="Pilih Unit Reading"
           >
             {readingPassages.map(p => (
               <option key={p.unit} value={p.unit}>
@@ -131,7 +133,8 @@ export default function ReadingComprehension() {
           <button 
             onClick={handleNextUnit}
             disabled={readingPassages.findIndex(p => p.unit === selectedReadingUnit) === readingPassages.length - 1}
-            className="p-2.5 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 disabled:opacity-30 cursor-pointer"
+            className="w-11 h-11 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 text-zinc-600 dark:text-zinc-400 hover:bg-zinc-50 dark:hover:bg-zinc-900 disabled:opacity-30 cursor-pointer flex items-center justify-center shrink-0"
+            aria-label="Unit berikutnya"
           >
             <ChevronRight size={18} />
           </button>
@@ -173,9 +176,9 @@ export default function ReadingComprehension() {
 
             {/* Vocabulary box */}
             <div className="pt-6 border-t border-zinc-100 dark:border-zinc-900 space-y-3">
-              <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
+              <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">
                 Vocabulary List (Glosarium):
-              </h4>
+              </h3>
               <div className="grid grid-cols-1 gap-2.5">
                 {currentPassage.vocabulary.map((vocab, index) => (
                   <div 
@@ -185,7 +188,7 @@ export default function ReadingComprehension() {
                     <span className="font-bold text-zinc-800 dark:text-zinc-200 shrink-0">
                       {vocab.word}
                     </span>
-                    <span className="text-zinc-500 dark:text-zinc-400 text-left sm:text-right leading-relaxed">
+                    <span className="text-zinc-600 dark:text-zinc-400 text-left sm:text-right leading-relaxed font-medium">
                       {vocab.definition}
                     </span>
                   </div>
@@ -198,10 +201,10 @@ export default function ReadingComprehension() {
         {/* RIGHT COLUMN: Interactive MCQ questions */}
         <div className="space-y-6">
           <div className="glass-card rounded-3xl p-6 md:p-8 border border-zinc-200/60 dark:border-zinc-800/30 space-y-8">
-            <h3 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 flex items-center gap-2">
+            <h2 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 flex items-center gap-2">
               <HelpCircle className="text-indigo-600 dark:text-indigo-400" size={18} />
               Pertanyaan Pemahaman
-            </h3>
+            </h2>
 
             <div className="space-y-8 divide-y divide-zinc-100 dark:divide-zinc-900">
               {currentPassage.questions.map((question, qIdx) => {
@@ -210,9 +213,9 @@ export default function ReadingComprehension() {
 
                 return (
                   <div key={question.id} className={`space-y-4 ${qIdx > 0 ? 'pt-6' : ''}`}>
-                    <h4 className="font-display font-semibold text-base text-zinc-900 dark:text-zinc-100 leading-snug">
+                    <h3 className="font-display font-semibold text-base text-zinc-900 dark:text-zinc-100 leading-snug">
                       {qIdx + 1}. {question.question}
-                    </h4>
+                    </h3>
 
                     {/* Options list */}
                     <div className="grid grid-cols-1 gap-2.5">
@@ -228,32 +231,32 @@ export default function ReadingComprehension() {
                           } else if (isSelected) {
                             optionStyle = 'bg-rose-500/10 border-rose-500 text-rose-700 dark:text-rose-400 font-semibold';
                           } else {
-                            optionStyle = 'bg-zinc-50 dark:bg-zinc-950/40 border-zinc-200 dark:border-zinc-800 text-zinc-400 dark:text-zinc-600';
+                            optionStyle = 'bg-zinc-50 dark:bg-zinc-950/40 border-zinc-200 dark:border-zinc-800 text-zinc-400 dark:text-zinc-650';
                           }
                         }
 
                         return (
-                          <button
-                            key={optIdx}
-                            onClick={() => handleOptionSelect(question.id, option)}
-                            disabled={hasBeenAnswered}
-                            className={`w-full p-3.5 rounded-2xl border text-left text-sm flex items-center justify-between gap-4 transition-all ${optionStyle} ${!hasBeenAnswered ? 'hover:scale-[1.005] cursor-pointer' : ''}`}
-                          >
-                            <span>{option}</span>
-                            {hasBeenAnswered && isCorrectAnswer && (
-                              <CheckCircle2 className="text-emerald-500 shrink-0" size={16} />
-                            )}
-                            {hasBeenAnswered && isSelected && !isCorrectAnswer && (
-                              <XCircle className="text-rose-500 shrink-0" size={16} />
-                            )}
-                          </button>
+                           <button
+                             key={optIdx}
+                             onClick={() => handleOptionSelect(question.id, option)}
+                             disabled={hasBeenAnswered}
+                             className={`w-full p-3.5 rounded-2xl border text-left text-sm flex items-center justify-between gap-4 transition-all ${optionStyle} ${!hasBeenAnswered ? 'hover:scale-[1.005] cursor-pointer' : ''}`}
+                           >
+                             <span>{option}</span>
+                             {hasBeenAnswered && isCorrectAnswer && (
+                               <CheckCircle2 className="text-emerald-500 shrink-0" size={16} />
+                             )}
+                             {hasBeenAnswered && isSelected && !isCorrectAnswer && (
+                               <XCircle className="text-rose-500 shrink-0" size={16} />
+                             )}
+                           </button>
                         );
                       })}
                     </div>
 
                     {/* Explanatory notes on answer selection */}
                     {hasBeenAnswered && (
-                      <div className="p-3.5 rounded-xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/35 dark:border-zinc-800/20 text-xs leading-relaxed text-zinc-600 dark:text-zinc-400 animate-fade-in-up">
+                      <div className="p-3.5 rounded-xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/35 dark:border-zinc-800/20 text-xs leading-relaxed text-zinc-600 dark:text-zinc-400 animate-fade-in-up font-medium">
                         <span className="font-bold block mb-0.5 text-zinc-700 dark:text-zinc-300">
                           {answerState.isCorrect ? 'Benar!' : 'Kurang Tepat.'} Penjelasan:
                         </span>

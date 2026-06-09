@@ -47,7 +47,8 @@ export default function SettingsModal({ isOpen, onClose }) {
           </div>
           <button 
             onClick={onClose}
-            className="p-1 rounded-lg text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors cursor-pointer"
+            className="w-10 h-10 rounded-xl text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors cursor-pointer flex items-center justify-center"
+            aria-label="Tutup modal"
           >
             <X size={18} />
           </button>
@@ -56,11 +57,12 @@ export default function SettingsModal({ isOpen, onClose }) {
         {/* Content */}
         <form onSubmit={handleSave} className="space-y-5">
           <div>
-            <label className="block text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400 mb-2">
+            <label htmlFor="gemini-api-key" className="block text-xs font-bold uppercase tracking-wider text-zinc-600 dark:text-zinc-400 mb-2">
               Google Gemini API Key
             </label>
             <div className="relative">
               <input
+                id="gemini-api-key"
                 type={showKey ? 'text' : 'password'}
                 value={keyInput}
                 onChange={(e) => setKeyInput(e.target.value)}
@@ -70,7 +72,8 @@ export default function SettingsModal({ isOpen, onClose }) {
               <button
                 type="button"
                 onClick={() => setShowKey(!showKey)}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 cursor-pointer"
+                className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 flex items-center justify-center text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-200 cursor-pointer"
+                aria-label={showKey ? "Sembunyikan API key" : "Tampilkan API key"}
               >
                 {showKey ? <EyeOff size={16} /> : <Eye size={16} />}
               </button>
@@ -86,7 +89,7 @@ export default function SettingsModal({ isOpen, onClose }) {
           </div>
 
           {/* Guide Link */}
-          <div className="text-xs text-zinc-500 dark:text-zinc-400 flex items-center justify-between">
+          <div className="text-xs text-zinc-600 dark:text-zinc-400 flex items-center justify-between">
             <span>Belum punya API Key?</span>
             <a 
               href="https://aistudio.google.com/" 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import grammarData from '../data/grammarTopics.json';
 import readingData from '../data/readingPassages.json';
 import listeningData from '../data/listeningUnits.json';
-import { Search, BookText, Bookmark, BookOpen, Volume2, HelpCircle } from 'lucide-react';
+import { Search, BookText, Bookmark, BookOpen, Volume2 } from 'lucide-react';
 
 export default function StudyGuide() {
   const [activeSubTab, setActiveSubTab] = useState('grammar'); // 'grammar', 'reading', 'listening'
@@ -40,7 +40,7 @@ export default function StudyGuide() {
         <h1 className="font-display font-extrabold text-3xl md:text-4xl text-zinc-950 dark:text-zinc-50 tracking-tight">
           Panduan Belajar & Referensi
         </h1>
-        <p className="text-sm md:text-base text-zinc-500 dark:text-zinc-400 mt-2 max-w-xl mx-auto">
+        <p className="text-sm md:text-base text-zinc-600 dark:text-zinc-400 mt-2 max-w-xl mx-auto font-medium">
           Materi lengkap persiapan Final Test: Tata Bahasa (PP1-PP23), Kosakata Reading (Unit 6-20), dan Ringkasan Listening (Unit 15-32).
         </p>
       </div>
@@ -92,6 +92,7 @@ export default function StudyGuide() {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 text-zinc-800 dark:text-zinc-100 text-sm focus:outline-none focus:ring-2 focus:ring-violet-500/25 focus:border-violet-500 transition-all"
+            aria-label="Cari materi belajar"
           />
           <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 text-zinc-400 dark:text-zinc-500" size={16} />
         </div>
@@ -114,10 +115,10 @@ export default function StudyGuide() {
                       {topic.id}
                     </span>
                     <div>
-                      <h3 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
+                      <h2 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
                         {topic.title}
-                      </h3>
-                      <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-0.5 uppercase tracking-wider font-semibold text-[10px]">
+                      </h2>
+                      <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-0.5 uppercase tracking-wider font-bold text-[10px]">
                         Grammar Key Structure
                       </p>
                     </div>
@@ -126,17 +127,17 @@ export default function StudyGuide() {
 
                 <div className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-zinc-100 dark:border-zinc-900">
                   <div>
-                    <h4 className="text-xs font-bold uppercase tracking-wider text-violet-600 dark:text-violet-400 mb-2">
+                    <h3 className="text-xs font-bold uppercase tracking-wider text-violet-600 dark:text-violet-400 mb-2">
                       Key Structures:
-                    </h4>
+                    </h3>
                     <p className="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed font-medium">
                       {topic.keyStructures}
                     </p>
                   </div>
                   <div>
-                    <h4 className="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-500 mb-2">
+                    <h3 className="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-500 mb-2">
                       Special Difficulties / Notes:
-                    </h4>
+                    </h3>
                     <p className="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed font-mono bg-zinc-50 dark:bg-zinc-900/60 p-3 rounded-xl border border-zinc-200/30 dark:border-zinc-800/20">
                       {topic.specialDifficulties}
                     </p>
@@ -145,7 +146,7 @@ export default function StudyGuide() {
               </div>
             ))
           ) : (
-            <div className="text-center py-12 text-zinc-500">Materi grammar tidak ditemukan.</div>
+            <div className="text-center py-12 text-zinc-600 dark:text-zinc-400">Materi grammar tidak ditemukan.</div>
           )
         )}
 
@@ -163,19 +164,19 @@ export default function StudyGuide() {
                     U-{item.unit}
                   </span>
                   <div>
-                    <h3 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+                    <h2 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
                       {item.title}
-                    </h3>
-                    <p className="text-xs font-semibold text-zinc-500 dark:text-zinc-400 mt-0.5">
+                    </h2>
+                    <p className="text-xs font-bold text-zinc-600 dark:text-zinc-400 mt-0.5">
                       Main Idea: <span className="text-zinc-700 dark:text-zinc-300 font-medium italic">{item.mainIdea}</span>
                     </p>
                   </div>
                 </div>
 
                 <div className="mt-4 pt-4 border-t border-zinc-100 dark:border-zinc-900">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400 mb-3">
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400 mb-3">
                     Target Vocabularies (Kosakata Kunci):
-                  </h4>
+                  </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                     {item.vocabulary.map((vocab, vIdx) => (
                       <div 
@@ -185,7 +186,7 @@ export default function StudyGuide() {
                         <div className="font-semibold text-sm text-zinc-800 dark:text-zinc-200">
                           {vocab.word}
                         </div>
-                        <div className="text-xs text-zinc-500 dark:text-zinc-400 mt-1 leading-normal">
+                        <div className="text-xs text-zinc-600 dark:text-zinc-400 mt-1 leading-normal">
                           {vocab.definition}
                         </div>
                       </div>
@@ -195,7 +196,7 @@ export default function StudyGuide() {
               </div>
             ))
           ) : (
-            <div className="text-center py-12 text-zinc-500">Materi reading tidak ditemukan.</div>
+            <div className="text-center py-12 text-zinc-600 dark:text-zinc-400">Materi reading tidak ditemukan.</div>
           )
         )}
 
@@ -213,10 +214,10 @@ export default function StudyGuide() {
                     U-{item.unit}
                   </span>
                   <div className="flex-1">
-                    <h3 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
+                    <h2 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
                       {item.title}
-                    </h3>
-                    <p className="text-xs font-semibold text-zinc-500 dark:text-zinc-400 mt-0.5 uppercase tracking-wider text-[10px]">
+                    </h2>
+                    <p className="text-xs font-bold text-zinc-600 dark:text-zinc-400 mt-0.5 uppercase tracking-wider text-[10px]">
                       Listening Summary
                     </p>
                     <p className="text-sm text-zinc-700 dark:text-zinc-300 mt-4 leading-relaxed font-medium bg-zinc-50/60 dark:bg-zinc-900/40 p-4 rounded-2xl border border-zinc-200/35 dark:border-zinc-800/20">
@@ -227,7 +228,7 @@ export default function StudyGuide() {
               </div>
             ))
           ) : (
-            <div className="text-center py-12 text-zinc-500">Materi listening tidak ditemukan.</div>
+            <div className="text-center py-12 text-zinc-600 dark:text-zinc-400">Materi listening tidak ditemukan.</div>
           )
         )}
       </div>

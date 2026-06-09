@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { usePractice } from '../context/PracticeContext';
 import { speakText, stopSpeaking } from '../utils/speech';
 import listeningUnits from '../data/listeningUnits.json';
@@ -185,7 +185,7 @@ export default function ListeningPractice() {
           <Volume2 className="text-violet-600 dark:text-violet-400 stroke-[2]" />
           Listening Practice
         </h1>
-        <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
+        <p className="text-sm text-zinc-650 dark:text-zinc-400 mt-2 font-medium">
           Posisikan diri Anda dalam ujian. Dengarkan ringkasan audio unit 15-33, lalu uji pemahaman Anda dengan Kuis AI.
         </p>
       </div>
@@ -194,9 +194,9 @@ export default function ListeningPractice() {
         
         {/* LEFT SIDEBAR: LIST OF UNITS */}
         <div className="lg:col-span-1 glass-card rounded-3xl p-5 border border-zinc-200/60 dark:border-zinc-800/30 flex flex-col h-[600px]">
-          <h3 className="font-display font-bold text-xs text-zinc-400 dark:text-zinc-500 uppercase tracking-wider mb-4 pb-2 border-b border-zinc-100 dark:border-zinc-900">
+          <h2 className="font-display font-bold text-xs text-zinc-600 dark:text-zinc-400 uppercase tracking-wider mb-4 pb-2 border-b border-zinc-100 dark:border-zinc-900">
             Daftar Unit (15 - 33)
-          </h3>
+          </h2>
           
           <div className="flex-1 overflow-y-auto pr-1 space-y-1">
             {listeningUnits.map((item) => {
@@ -256,7 +256,7 @@ export default function ListeningPractice() {
             <div className="space-y-4">
               {/* Mode Switcher */}
               <div className="flex justify-between items-center pb-2 border-b border-zinc-100 dark:border-zinc-900">
-                <span className="text-xs font-bold text-zinc-450 dark:text-zinc-500 uppercase tracking-wider">
+                <span className="text-xs font-bold text-zinc-600 dark:text-zinc-400 uppercase tracking-wider">
                   Pilih Mode Audio:
                 </span>
                 <div className="flex bg-zinc-100 dark:bg-zinc-900 p-0.5 rounded-lg border border-zinc-200 dark:border-zinc-800">
@@ -270,7 +270,7 @@ export default function ListeningPractice() {
                     className={`px-3 py-1 rounded-md text-xs font-semibold flex items-center gap-1.5 transition-all cursor-pointer ${
                       audioMode === 'full'
                         ? 'bg-white dark:bg-zinc-800 text-violet-600 dark:text-violet-400 shadow-xs'
-                        : 'text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300'
+                        : 'text-zinc-600 hover:text-zinc-800 dark:hover:text-zinc-300'
                     }`}
                   >
                     <Youtube size={12} />
@@ -286,7 +286,7 @@ export default function ListeningPractice() {
                     className={`px-3 py-1 rounded-md text-xs font-semibold flex items-center gap-1.5 transition-all cursor-pointer ${
                       audioMode === 'summary'
                         ? 'bg-white dark:bg-zinc-800 text-violet-600 dark:text-violet-400 shadow-xs'
-                        : 'text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300'
+                        : 'text-zinc-650 hover:text-zinc-850 dark:hover:text-zinc-300'
                     }`}
                   >
                     <Volume2 size={12} />
@@ -308,11 +308,11 @@ export default function ListeningPractice() {
                     ></iframe>
                   </div>
                   <div className="text-center space-y-1">
-                    <h4 className="font-display font-bold text-xs text-zinc-700 dark:text-zinc-300 flex items-center justify-center gap-1.5">
+                    <h3 className="font-display font-bold text-xs text-zinc-700 dark:text-zinc-300 flex items-center justify-center gap-1.5">
                       <Youtube size={14} className="text-rose-600 dark:text-rose-450" />
                       Audio Full Lesson {selectedUnit.unit}
-                    </h4>
-                    <p className="text-[10px] text-zinc-500 dark:text-zinc-400 max-w-md mx-auto leading-relaxed">
+                    </h3>
+                    <p className="text-[10px] text-zinc-600 dark:text-zinc-400 max-w-md mx-auto leading-relaxed font-medium">
                       Mainkan rekaman suara asli pelajaran ini untuk latihan mendengar secara menyeluruh.
                     </p>
                     <div className="pt-1">
@@ -350,10 +350,10 @@ export default function ListeningPractice() {
                   )}
 
                   <div className="space-y-1">
-                    <h4 className="font-display font-bold text-sm text-zinc-850 dark:text-zinc-100">
+                    <h3 className="font-display font-bold text-sm text-zinc-850 dark:text-zinc-100">
                       {isPlaying ? 'Audio Ringkasan Sedang Diputar...' : 'Audio Ringkasan Siap Didengarkan'}
-                    </h4>
-                    <p className="text-xs text-zinc-500 dark:text-zinc-400 max-w-sm">
+                    </h3>
+                    <p className="text-xs text-zinc-600 dark:text-zinc-400 max-w-sm font-medium">
                       {isPlaying 
                         ? 'Dengarkan baik-baik pelafalan bahasa Inggris dan intonasi teks summary.' 
                         : 'Klik tombol di bawah untuk mendengarkan pembacaan teks summary oleh AI.'
@@ -396,7 +396,7 @@ export default function ListeningPractice() {
               </button>
               
               {showTranscript && (
-                <div className="p-4 border-t border-zinc-200/20 dark:border-zinc-800/20 bg-white dark:bg-zinc-950/20 text-xs text-zinc-650 dark:text-zinc-355 leading-relaxed font-medium">
+                <div className="p-4 border-t border-zinc-200/20 dark:border-zinc-800/20 bg-white dark:bg-zinc-950/20 text-xs text-zinc-700 dark:text-zinc-300 leading-relaxed font-medium">
                   {selectedUnit.summary}
                 </div>
               )}
@@ -404,39 +404,41 @@ export default function ListeningPractice() {
 
             {/* COMPLETION PROGRESS ACTION */}
             <div className="flex justify-between items-center text-xs">
-              <span className="text-zinc-550">
+              <span className="text-zinc-600 dark:text-zinc-400 font-medium">
                 Pernah mendengarkan unit ini sebelumnya?
               </span>
               {listeningProgress[selectedUnit.unit] === 'completed' ? (
                 <button
                   onClick={() => resetListeningCompleted(selectedUnit.unit)}
-                  className="text-zinc-400 hover:text-rose-600 font-semibold transition-colors cursor-pointer"
+                  className="text-zinc-500 hover:text-rose-600 font-semibold transition-colors cursor-pointer"
                 >
                   Tandai Belum Selesai
                 </button>
               ) : (
                 <button
                   onClick={() => markListeningCompleted(selectedUnit.unit)}
-                  className="text-emerald-600 dark:text-emerald-450 hover:underline font-bold transition-colors cursor-pointer flex items-center gap-1"
+                  className="text-emerald-650 dark:text-emerald-450 hover:underline font-bold transition-colors cursor-pointer flex items-center gap-1"
                 >
                   <CheckCircle2 size={12} /> Tandai Selesai Langsung
                 </button>
               )}
             </div>
-          </div>          {/* QUIZ SECTION */}
+          </div>
+
+          {/* QUIZ SECTION */}
           <div className="glass-card rounded-3xl p-6 border border-zinc-200/60 dark:border-zinc-800/30 space-y-6">
             <div className="flex justify-between items-center pb-3 border-b border-zinc-100 dark:border-zinc-900">
               <div className="flex items-center gap-2">
-                <HelpCircle className="text-zinc-450" size={18} />
-                <h3 className="font-display font-bold text-base text-zinc-850 dark:text-zinc-100">
+                <HelpCircle className="text-zinc-500" size={18} />
+                <h2 className="font-display font-bold text-base text-zinc-850 dark:text-zinc-100">
                   Kuis Pemahaman Cerita
-                </h3>
+                </h2>
               </div>
               
               {quizQuestions.length > 0 && !quizSubmitted && (
                 <button 
                   onClick={handleResetQuiz}
-                  className="text-xs text-zinc-500 hover:text-violet-600 flex items-center gap-1 cursor-pointer font-semibold"
+                  className="text-xs text-zinc-600 hover:text-violet-600 flex items-center gap-1 cursor-pointer font-bold"
                 >
                   <RefreshCw size={10} /> Bersihkan Pilihan
                 </button>
@@ -447,13 +449,13 @@ export default function ListeningPractice() {
             {quizQuestions.length === 0 ? (
               <div className="text-center py-6 space-y-4">
                 {quizError && (
-                  <div className="max-w-md mx-auto p-4 rounded-2xl bg-rose-50 dark:bg-rose-950/20 border border-rose-200/50 dark:border-rose-900/30 text-rose-700 dark:text-rose-400 flex items-start gap-2.5 text-xs text-left">
+                  <div className="max-w-md mx-auto p-4 rounded-2xl bg-rose-50 dark:bg-rose-950/20 border border-rose-200/50 dark:border-rose-900/30 text-rose-700 dark:text-rose-450 flex items-start gap-2.5 text-xs text-left">
                     <AlertTriangle className="shrink-0 mt-0.5" size={16} />
                     <span>{quizError}</span>
                   </div>
                 )}
                 
-                <p className="text-xs text-zinc-500 dark:text-zinc-400 max-w-md mx-auto leading-relaxed">
+                <p className="text-xs text-zinc-600 dark:text-zinc-400 max-w-md mx-auto leading-relaxed font-medium">
                   Soal kuis untuk unit ini belum tersedia di database lokal.
                 </p>
               </div>
@@ -469,10 +471,10 @@ export default function ListeningPractice() {
                       key={qIdx}
                       className="p-5 rounded-2xl bg-zinc-50/60 dark:bg-zinc-900/40 border border-zinc-200/30 dark:border-zinc-800/20 space-y-4 animate-fade-in-up"
                     >
-                      <h4 className="font-display font-bold text-sm text-zinc-880 dark:text-zinc-100 flex gap-2">
+                      <h3 className="font-display font-bold text-sm text-zinc-800 dark:text-zinc-100 flex gap-2">
                         <span className="text-violet-600 dark:text-violet-400 shrink-0">{qIdx + 1}.</span>
                         <span>{q.question}</span>
-                      </h4>
+                      </h3>
 
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {q.options.map((opt) => {
@@ -482,7 +484,7 @@ export default function ListeningPractice() {
                           let btnStyle = 'border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-100/50 dark:hover:bg-zinc-900/50';
                           
                           if (isOptionSelected) {
-                            btnStyle = 'border-violet-500 bg-violet-500/10 text-violet-700 dark:text-violet-400';
+                            btnStyle = 'border-violet-500 bg-violet-500/10 text-violet-750 dark:text-violet-400';
                           }
 
                           if (quizSubmitted) {
@@ -491,7 +493,7 @@ export default function ListeningPractice() {
                             } else if (isOptionSelected) {
                               btnStyle = 'border-rose-500 bg-rose-500/10 text-rose-700 dark:text-rose-450';
                             } else {
-                              btnStyle = 'border-zinc-200/60 dark:border-zinc-800/40 text-zinc-450 opacity-65';
+                              btnStyle = 'border-zinc-200/60 dark:border-zinc-850 text-zinc-500 opacity-65';
                             }
                           }
 
@@ -510,8 +512,8 @@ export default function ListeningPractice() {
 
                       {/* Explanation card */}
                       {quizSubmitted && (
-                        <div className="p-3.5 rounded-xl bg-zinc-100/60 dark:bg-zinc-950 border border-zinc-200/30 dark:border-zinc-900 text-[11px] leading-relaxed text-zinc-550 dark:text-zinc-400">
-                          <span className={`font-bold block mb-1 ${isCorrect ? 'text-emerald-600 dark:text-emerald-450' : 'text-rose-600 dark:text-rose-450'}`}>
+                        <div className="p-3.5 rounded-xl bg-zinc-100/60 dark:bg-zinc-955 border border-zinc-200/30 dark:border-zinc-900 text-[11px] leading-relaxed text-zinc-650 dark:text-zinc-400 font-medium">
+                          <span className={`font-bold block mb-1 ${isCorrect ? 'text-emerald-700 dark:text-emerald-450' : 'text-rose-700 dark:text-rose-455'}`}>
                             {isCorrect ? '✓ Benar' : `✗ Salah (Jawaban benar: ${q.answer})`}
                           </span>
                           {q.explanation}
@@ -524,7 +526,7 @@ export default function ListeningPractice() {
                 {/* QUIZ SUBMISSION OR RESET BUTTONS */}
                 <div className="pt-2 flex flex-col md:flex-row items-center justify-between gap-4 border-t border-zinc-100 dark:border-zinc-900">
                   {quizError && (
-                    <div className="text-xs text-rose-600 font-semibold">
+                    <div className="text-xs text-rose-700 dark:text-rose-400 font-bold">
                       {quizError}
                     </div>
                   )}
@@ -532,7 +534,7 @@ export default function ListeningPractice() {
                   {!quizSubmitted ? (
                     <button
                       onClick={handleSubmitQuiz}
-                      className="w-full md:w-auto px-6 py-2.5 bg-violet-600 hover:bg-violet-750 text-white font-bold rounded-xl shadow-md transition-all text-xs cursor-pointer hover:scale-102 flex items-center justify-center gap-1 ml-auto"
+                      className="w-full md:w-auto px-6 py-2.5 bg-violet-600 hover:bg-violet-755 text-white font-bold rounded-xl shadow-md transition-all text-xs cursor-pointer hover:scale-102 flex items-center justify-center gap-1 ml-auto"
                     >
                       Kirim Jawaban <ArrowRight size={12} />
                     </button>

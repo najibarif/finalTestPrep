@@ -135,7 +135,7 @@ export default function GrammarQuiz({ onOpenSettings }) {
           <Sparkles className="text-violet-600 dark:text-violet-400 stroke-[2]" />
           Grammar & Special Difficulties
         </h1>
-        <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
+        <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 font-medium">
           Uji pemahaman tata bahasa Inggris Anda dengan kuis yang dihasilkan AI secara dinamis berdasarkan materi PP1-PP23.
         </p>
       </div>
@@ -155,10 +155,10 @@ export default function GrammarQuiz({ onOpenSettings }) {
           <div className="glass-card rounded-3xl p-6 border border-zinc-200/60 dark:border-zinc-800/30">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-6">
               <div>
-                <h3 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100">
+                <h2 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100">
                   Pilih Materi Kuis
-                </h3>
-                <p className="text-xs text-zinc-500 mt-0.5">
+                </h2>
+                <p className="text-xs text-zinc-600 dark:text-zinc-400 mt-0.5 font-medium">
                   Kuis akan berfokus pada struktur tata bahasa & kesulitan khusus dari topik terpilih.
                 </p>
               </div>
@@ -189,7 +189,7 @@ export default function GrammarQuiz({ onOpenSettings }) {
                     className={`p-3 rounded-2xl border text-left text-xs transition-all cursor-pointer relative overflow-hidden group ${
                       isSelected
                         ? 'bg-violet-500/10 dark:bg-violet-500/15 border-violet-500 text-violet-700 dark:text-violet-400 font-semibold'
-                        : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 text-zinc-600 dark:text-zinc-400 hover:border-zinc-300 dark:hover:border-zinc-700'
+                        : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 text-zinc-650 dark:text-zinc-400 hover:border-zinc-300 dark:hover:border-zinc-700'
                     }`}
                   >
                     <span className="block font-display font-bold text-sm mb-1">{topic.id}</span>
@@ -216,10 +216,10 @@ export default function GrammarQuiz({ onOpenSettings }) {
           {/* Quiz History */}
           <div className="glass-card rounded-3xl p-6 border border-zinc-200/60 dark:border-zinc-800/30">
             <div className="flex justify-between items-center mb-6 pb-2 border-b border-zinc-100 dark:border-zinc-900">
-              <h3 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 flex items-center gap-2">
+              <h2 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 flex items-center gap-2">
                 <History size={18} className="text-zinc-400" />
                 Riwayat Kuis Lokal
-              </h3>
+              </h2>
               {quizHistory.length > 0 && (
                 <button
                   onClick={clearQuizHistory}
@@ -241,13 +241,13 @@ export default function GrammarQuiz({ onOpenSettings }) {
                       <div className="text-sm font-semibold text-zinc-800 dark:text-zinc-200">
                         Topik: <span className="text-violet-600 dark:text-violet-400">{historyItem.topics}</span>
                       </div>
-                      <div className="text-xs text-zinc-500 mt-1">{historyItem.date}</div>
+                      <div className="text-xs text-zinc-600 dark:text-zinc-400 mt-1 font-medium">{historyItem.date}</div>
                     </div>
                     <div className="text-right">
                       <div className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100">
                         {historyItem.score} / {historyItem.total}
                       </div>
-                      <div className="text-[10px] font-bold text-zinc-400 mt-0.5 uppercase tracking-wider">
+                      <div className="text-[10px] font-bold text-zinc-600 dark:text-zinc-450 mt-0.5 uppercase tracking-wider">
                         Score
                       </div>
                     </div>
@@ -255,7 +255,7 @@ export default function GrammarQuiz({ onOpenSettings }) {
                 ))}
               </div>
             ) : (
-              <div className="text-center py-8 text-sm text-zinc-500">
+              <div className="text-center py-8 text-sm text-zinc-600 dark:text-zinc-400 font-medium">
                 Belum ada riwayat kuis. Hasil kuis Anda akan otomatis tersimpan di sini.
               </div>
             )}
@@ -271,10 +271,10 @@ export default function GrammarQuiz({ onOpenSettings }) {
             <Loader2 className="animate-spin text-violet-600 dark:text-violet-400 relative z-10" size={56} />
           </div>
           <div>
-            <h3 className="font-display font-bold text-xl text-zinc-800 dark:text-zinc-100">
+            <h2 className="font-display font-bold text-xl text-zinc-800 dark:text-zinc-100">
               Generating Quiz...
-            </h3>
-            <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2 max-w-sm">
+            </h2>
+            <p className="text-sm text-zinc-650 dark:text-zinc-400 mt-2 max-w-sm font-medium">
               AI sedang menyusun {selectedTopicIds.length} pertanyaan tata bahasa khusus yang disesuaikan dengan konsep PP1-PP23 pilihan Anda.
             </p>
           </div>
@@ -285,7 +285,7 @@ export default function GrammarQuiz({ onOpenSettings }) {
       {quizState === 'active' && quizQuestions.length > 0 && (
         <div className="space-y-6">
           {/* Progress bar */}
-          <div className="flex justify-between items-center text-sm font-semibold text-zinc-500 dark:text-zinc-400 mb-2">
+          <div className="flex justify-between items-center text-sm font-semibold text-zinc-600 dark:text-zinc-400 mb-2">
             <span>Pertanyaan {currentQuestionIndex + 1} dari {quizQuestions.length}</span>
             <span>Skor Saat Ini: {score}</span>
           </div>
@@ -303,15 +303,15 @@ export default function GrammarQuiz({ onOpenSettings }) {
                 Clue: {quizQuestions[currentQuestionIndex].topicId}
               </span>
               {grammarTopics.find(t => t.id === quizQuestions[currentQuestionIndex].topicId) && (
-                <span className="px-3 py-1 rounded-xl bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 text-xs font-medium border border-zinc-200/40 dark:border-zinc-800/20">
+                <span className="px-3 py-1 rounded-xl bg-zinc-100 dark:bg-zinc-900 text-zinc-650 dark:text-zinc-400 text-xs font-medium border border-zinc-200/40 dark:border-zinc-800/20">
                   {grammarTopics.find(t => t.id === quizQuestions[currentQuestionIndex].topicId).title}
                 </span>
               )}
             </div>
 
-            <h3 className="font-display font-bold text-xl text-zinc-900 dark:text-zinc-100 text-left leading-relaxed mt-2">
+            <h2 className="font-display font-bold text-xl text-zinc-900 dark:text-zinc-100 text-left leading-relaxed mt-2">
               {quizQuestions[currentQuestionIndex].question}
-            </h3>
+            </h2>
 
             {/* Options */}
             <div className="grid grid-cols-1 gap-3.5">
@@ -327,7 +327,7 @@ export default function GrammarQuiz({ onOpenSettings }) {
                   } else if (isSelected) {
                     buttonStyle = 'bg-rose-500/10 border-rose-500 text-rose-700 dark:text-rose-400 font-semibold';
                   } else {
-                    buttonStyle = 'bg-zinc-50 dark:bg-zinc-950/40 border-zinc-200 dark:border-zinc-800 text-zinc-400 dark:text-zinc-600';
+                    buttonStyle = 'bg-zinc-50 dark:bg-zinc-950/40 border-zinc-200 dark:border-zinc-800 text-zinc-400 dark:text-zinc-500';
                   }
                 } else if (isSelected) {
                   buttonStyle = 'border-violet-500 bg-violet-500/10 text-violet-700 dark:text-violet-400 font-semibold';
@@ -351,10 +351,10 @@ export default function GrammarQuiz({ onOpenSettings }) {
             {/* Explanation box */}
             {isAnswered && (
               <div className="p-4 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/50 dark:border-zinc-800/30 space-y-2 animate-fade-in-up">
-                <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+                <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-zinc-600 dark:text-zinc-400">
                   <HelpCircle size={14} /> Penjelasan Tata Bahasa:
                 </div>
-                <p className="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed">
+                <p className="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed font-medium">
                   {quizQuestions[currentQuestionIndex].explanation}
                 </p>
               </div>
@@ -383,10 +383,10 @@ export default function GrammarQuiz({ onOpenSettings }) {
             <div className="inline-flex p-4 bg-violet-100 dark:bg-violet-950/40 rounded-3xl border border-violet-200/30 dark:border-violet-800/20 text-violet-600 dark:text-violet-400 mb-4 animate-float">
               <Sparkles size={40} />
             </div>
-            <h3 className="font-display font-extrabold text-2xl text-zinc-900 dark:text-zinc-50">
+            <h2 className="font-display font-extrabold text-2xl text-zinc-900 dark:text-zinc-50">
               Kuis Selesai!
-            </h3>
-            <p className="text-sm text-zinc-500 mt-1">
+            </h2>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1 font-medium">
               Kerja bagus! Berikut skor akhir latihan tata bahasa Anda.
             </p>
           </div>

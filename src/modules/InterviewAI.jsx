@@ -9,10 +9,7 @@ import {
 } from '../utils/speech';
 import { 
   Mic, 
-  MicOff, 
   Volume2, 
-  VolumeX, 
-  Sparkles, 
   RotateCcw, 
   HelpCircle, 
   Loader2, 
@@ -22,7 +19,9 @@ import {
   BookmarkCheck,
   Send,
   Info,
-  Keyboard
+  Keyboard,
+  Eye,
+  EyeOff
 } from 'lucide-react';
 
 const INTERVIEW_QUESTIONS = {
@@ -92,7 +91,6 @@ export default function InterviewAI({ onOpenSettings }) {
         },
         onEnd: () => {
           // If we are in user speaking state and have text, trigger AI analysis automatically
-          // Note: we can let user review or auto-send. Auto-send is smooth.
         },
         onStart: () => {
           setMicError('');
@@ -344,7 +342,7 @@ export default function InterviewAI({ onOpenSettings }) {
           <Mic className="text-violet-600 dark:text-violet-400 stroke-[2]" />
           Interview AI Simulator
         </h1>
-        <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
+        <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 font-medium">
           Simulasi tes bicara suara-ke-suara. AI mengajukan pertanyaan dan Gemini menganalisis tata bahasa/logika Anda.
         </p>
       </div>
@@ -394,10 +392,10 @@ export default function InterviewAI({ onOpenSettings }) {
             {interviewState === 'setup' && (
               <div className="w-full text-left space-y-4">
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400 mb-2">
+                  <label htmlFor="topic-selector" className="block text-xs font-bold uppercase tracking-wider text-zinc-600 dark:text-zinc-400 mb-2">
                     Pilih Topik Interview:
                   </label>
-                  <div className="grid grid-cols-1 gap-2">
+                  <div id="topic-selector" className="grid grid-cols-1 gap-2">
                     {Object.keys(INTERVIEW_QUESTIONS).map((tName) => (
                       <button
                         key={tName}
@@ -405,7 +403,7 @@ export default function InterviewAI({ onOpenSettings }) {
                         className={`w-full p-3.5 rounded-2xl border text-left text-sm font-semibold transition-all cursor-pointer ${
                           topic === tName
                             ? 'bg-violet-500/10 border-violet-500 text-violet-700 dark:text-violet-400'
-                            : 'bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 text-zinc-600 dark:text-zinc-400 hover:border-zinc-300'
+                            : 'bg-zinc-50 dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 text-zinc-650 dark:text-zinc-400 hover:border-zinc-300'
                         }`}
                       >
                         {tName}
@@ -446,13 +444,13 @@ export default function InterviewAI({ onOpenSettings }) {
 
                 {/* State Text */}
                 <div className="space-y-1">
-                  <h4 className="font-display font-bold text-base text-zinc-800 dark:text-zinc-100">
+                  <h2 className="font-display font-bold text-base text-zinc-800 dark:text-zinc-100">
                     {interviewState === 'ai_speaking' && 'AI Sedang Berbicara...'}
                     {interviewState === 'user_speaking' && 'AI Mendengarkan Anda...'}
                     {interviewState === 'ai_thinking' && 'AI Sedang Berpikir...'}
                     {interviewState === 'finished' && 'Interview Selesai'}
-                  </h4>
-                  <p className="text-xs text-zinc-500">
+                  </h2>
+                  <p className="text-xs text-zinc-600 dark:text-zinc-400 font-medium">
                     {interviewState === 'user_speaking' && 'Bicaralah sekarang melalui mikrofon.'}
                     {interviewState === 'ai_speaking' && 'Simak pertanyaan atau feedback AI.'}
                     {interviewState === 'ai_thinking' && 'Gemini sedang menganalisis grammar.'}
@@ -490,9 +488,9 @@ export default function InterviewAI({ onOpenSettings }) {
           {/* Conversational Screen */}
           {interviewState !== 'setup' ? (
             <div className="glass-card rounded-3xl p-6 border border-zinc-200/60 dark:border-zinc-800/30 flex flex-col h-[400px]">
-              <h3 className="font-display font-bold text-sm text-zinc-500 mb-4 pb-2 border-b border-zinc-100 dark:border-zinc-900">
+              <h2 className="font-display font-bold text-sm text-zinc-600 dark:text-zinc-400 uppercase tracking-wider mb-4 pb-2 border-b border-zinc-100 dark:border-zinc-900">
                 TRANSKRIP SIMULASI
-              </h3>
+              </h2>
               
               {/* Chat log scrollable window */}
               <div className="flex-1 overflow-y-auto space-y-4 pr-1 mb-4">
@@ -513,8 +511,8 @@ export default function InterviewAI({ onOpenSettings }) {
                     
                     {/* Render correction box inside chat log if feedback card has it */}
                     {log.role === 'ai_feedback' && log.correction && (
-                      <div className="mt-1.5 p-3.5 rounded-2xl bg-zinc-50 dark:bg-zinc-950 border border-zinc-200/40 dark:border-zinc-850 text-xs text-zinc-600 dark:text-zinc-400 space-y-1 w-full">
-                        <span className="font-bold text-emerald-600 dark:text-emerald-450 block">Grammar Correction:</span>
+                      <div className="mt-1.5 p-3.5 rounded-2xl bg-zinc-50 dark:bg-zinc-955 border border-zinc-200/40 dark:border-zinc-850 text-xs text-zinc-600 dark:text-zinc-400 space-y-1 w-full font-medium">
+                        <span className="font-bold text-emerald-700 dark:text-emerald-450 block">Grammar Correction:</span>
                         "{log.correction}"
                       </div>
                     )}
@@ -528,7 +526,7 @@ export default function InterviewAI({ onOpenSettings }) {
                   !isMicAllowed ? (
                     /* Fallback typing box */
                     <div className="space-y-2">
-                      <div className="text-xs text-rose-500 font-semibold">
+                      <div className="text-xs text-rose-700 dark:text-rose-450 font-bold">
                         Mikrofon tidak diizinkan. Mode ketik otomatis diaktifkan.
                       </div>
                       <div className="flex gap-2">
@@ -539,6 +537,7 @@ export default function InterviewAI({ onOpenSettings }) {
                           placeholder="Ketikkan jawaban Anda di sini..."
                           className="flex-1 px-4 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-violet-500/20"
                           onKeyDown={(e) => e.key === 'Enter' && handleSendResponse(typeFallback)}
+                          aria-label="Ketikkan jawaban Anda"
                         />
                         <button
                           onClick={() => handleSendResponse(typeFallback)}
@@ -546,7 +545,7 @@ export default function InterviewAI({ onOpenSettings }) {
                           className={`p-2.5 rounded-xl text-white transition-colors cursor-pointer ${
                             typeFallback.trim()
                               ? 'bg-violet-600 hover:bg-violet-700'
-                              : 'bg-zinc-300 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-650 cursor-not-allowed'
+                              : 'bg-zinc-300 dark:bg-zinc-800 text-zinc-550 dark:text-zinc-650 cursor-not-allowed'
                           }`}
                         >
                           <Send size={16} />
@@ -558,7 +557,7 @@ export default function InterviewAI({ onOpenSettings }) {
                     <div className="space-y-3">
                       {/* Input Mode Selector */}
                       <div className="flex justify-between items-center pb-2 border-b border-zinc-100 dark:border-zinc-900">
-                        <span className="text-xs font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-wider">
+                        <span className="text-xs font-bold text-zinc-600 dark:text-zinc-400 uppercase tracking-wider">
                           Mode Input:
                         </span>
                         <div className="flex bg-zinc-100 dark:bg-zinc-900 p-0.5 rounded-lg border border-zinc-200 dark:border-zinc-800">
@@ -572,7 +571,7 @@ export default function InterviewAI({ onOpenSettings }) {
                             className={`px-3 py-1 rounded-md text-xs font-semibold flex items-center gap-1.5 transition-all cursor-pointer ${
                               inputMode === 'voice'
                                 ? 'bg-white dark:bg-zinc-800 text-violet-600 dark:text-violet-400 shadow-xs'
-                                : 'text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300'
+                                : 'text-zinc-650 hover:text-zinc-800 dark:hover:text-zinc-300'
                             }`}
                           >
                             <Mic size={12} />
@@ -587,7 +586,7 @@ export default function InterviewAI({ onOpenSettings }) {
                             className={`px-3 py-1 rounded-md text-xs font-semibold flex items-center gap-1.5 transition-all cursor-pointer ${
                               inputMode === 'text'
                                 ? 'bg-white dark:bg-zinc-800 text-violet-600 dark:text-violet-400 shadow-xs'
-                                : 'text-zinc-500 hover:text-zinc-700 dark:hover:text-zinc-300'
+                                : 'text-zinc-650 hover:text-zinc-850 dark:hover:text-zinc-300'
                             }`}
                           >
                             <Keyboard size={12} />
@@ -606,6 +605,7 @@ export default function InterviewAI({ onOpenSettings }) {
                             placeholder="Ketikkan jawaban Anda di sini..."
                             className="flex-1 px-4 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 text-sm focus:outline-none focus:ring-2 focus:ring-violet-500/20"
                             onKeyDown={(e) => e.key === 'Enter' && handleSendResponse(typeFallback)}
+                            aria-label="Ketikkan jawaban Anda"
                           />
                           <button
                             onClick={() => handleSendResponse(typeFallback)}
@@ -613,7 +613,7 @@ export default function InterviewAI({ onOpenSettings }) {
                             className={`p-2.5 rounded-xl text-white transition-colors cursor-pointer ${
                               typeFallback.trim()
                                 ? 'bg-violet-600 hover:bg-violet-700'
-                                : 'bg-zinc-300 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-650'
+                                : 'bg-zinc-300 dark:bg-zinc-800 text-zinc-550 dark:text-zinc-650'
                             }`}
                           >
                             <Send size={16} />
@@ -622,7 +622,7 @@ export default function InterviewAI({ onOpenSettings }) {
                       ) : isSpeechSupported ? (
                         /* Voice controls (Native Chrome/Edge) */
                         <div className="flex justify-between items-center gap-4 animate-fade-in-up">
-                          <div className="text-xs text-zinc-500 dark:text-zinc-400 font-medium italic truncate max-w-[70%]">
+                          <div className="text-xs text-zinc-600 dark:text-zinc-400 font-bold italic truncate max-w-[70%]">
                             Transkrip: {transcript || 'Belum ada suara terdeteksi...'}
                           </div>
                           
@@ -653,9 +653,9 @@ export default function InterviewAI({ onOpenSettings }) {
                         /* Voice controls fallback (Firefox, Safari, etc. using MediaRecorder + Gemini Transcribe) */
                         <div className="flex flex-col gap-3 animate-fade-in-up">
                           <div className="flex justify-between items-center gap-4">
-                            <div className="text-xs text-zinc-500 dark:text-zinc-400 font-medium italic truncate max-w-[65%]">
+                            <div className="text-xs text-zinc-600 dark:text-zinc-400 font-bold italic truncate max-w-[65%]">
                               {isTranscribing ? (
-                                <span className="flex items-center gap-1.5 text-violet-600 dark:text-violet-400 font-semibold animate-pulse">
+                                <span className="flex items-center gap-1.5 text-violet-600 dark:text-violet-400 font-bold animate-pulse">
                                   <Loader2 className="animate-spin" size={14} /> Mentranskripsi suara Anda...
                                 </span>
                               ) : isRecording ? (
@@ -696,7 +696,7 @@ export default function InterviewAI({ onOpenSettings }) {
                                 className={`px-4 py-2 text-white text-xs font-bold rounded-xl shadow-md transition-all ${
                                   transcript && !isRecording && !isTranscribing
                                     ? 'bg-violet-600 hover:bg-violet-700 cursor-pointer shadow-violet-500/10'
-                                    : 'bg-zinc-300 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-600 cursor-not-allowed'
+                                    : 'bg-zinc-300 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-650 cursor-not-allowed'
                                 }`}
                               >
                                 Kirim Jawaban
@@ -713,6 +713,7 @@ export default function InterviewAI({ onOpenSettings }) {
                                 onChange={(e) => setTranscript(e.target.value)}
                                 placeholder="Edit hasil transkripsi jika kurang akurat..."
                                 className="flex-1 px-3 py-1.5 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 text-xs focus:outline-none focus:ring-2 focus:ring-violet-500/20"
+                                aria-label="Edit hasil transkripsi"
                               />
                             </div>
                           )}
@@ -721,7 +722,7 @@ export default function InterviewAI({ onOpenSettings }) {
                     </div>
                   )
                 ) : (
-                  <div className="text-center py-2 text-xs text-zinc-400 italic">
+                  <div className="text-center py-2 text-xs text-zinc-600 dark:text-zinc-400 italic font-medium">
                     AI sedang mengontrol alur bicara...
                   </div>
                 )}
@@ -731,10 +732,10 @@ export default function InterviewAI({ onOpenSettings }) {
             /* Study/History Panel in Setup */
             <div className="glass-card rounded-3xl p-6 border border-zinc-200/60 dark:border-zinc-800/30 space-y-6">
               <div className="flex justify-between items-center pb-2 border-b border-zinc-100 dark:border-zinc-900">
-                <h3 className="font-display font-bold text-base text-zinc-800 dark:text-zinc-100 flex items-center gap-2">
+                <h2 className="font-display font-bold text-base text-zinc-800 dark:text-zinc-100 flex items-center gap-2">
                   <MessageSquare className="text-zinc-400" size={18} />
                   Riwayat Percakapan AI & Koreksi
-                </h3>
+                </h2>
                 {interviewHistory.length > 0 && (
                   <button
                     onClick={clearInterviewHistory}
@@ -750,10 +751,10 @@ export default function InterviewAI({ onOpenSettings }) {
                   {interviewHistory.map((item) => (
                     <div 
                       key={item.id}
-                      className="p-4 rounded-2xl bg-zinc-50/60 dark:bg-zinc-900/40 border border-zinc-200/45 dark:border-zinc-800/20 text-xs space-y-2.5"
+                      className="p-4 rounded-2xl bg-zinc-50/60 dark:bg-zinc-900/40 border border-zinc-200/45 dark:border-zinc-800/20 text-xs space-y-2.5 font-medium text-zinc-600 dark:text-zinc-400"
                     >
-                      <div className="flex justify-between items-center text-[10px] text-zinc-400">
-                        <span className="font-bold uppercase tracking-wider text-violet-500">{item.topic}</span>
+                      <div className="flex justify-between items-center text-[10px] text-zinc-600 dark:text-zinc-400 font-bold">
+                        <span className="font-black uppercase tracking-wider text-violet-500">{item.topic}</span>
                         <span>{item.date}</span>
                       </div>
                       <div>
@@ -761,15 +762,15 @@ export default function InterviewAI({ onOpenSettings }) {
                         <p className="italic">"{item.transcript}"</p>
                       </div>
                       <div>
-                        <span className="font-bold block text-emerald-600 dark:text-emerald-400 mb-0.5">Analisis & Koreksi AI:</span>
-                        <p className="font-semibold text-zinc-800 dark:text-zinc-300">"{item.correction}"</p>
-                        <p className="text-zinc-500 mt-1">{item.feedback}</p>
+                        <span className="font-bold block text-emerald-700 dark:text-emerald-450 mb-0.5">Analisis & Koreksi AI:</span>
+                        <p className="font-bold text-zinc-800 dark:text-zinc-350">"{item.correction}"</p>
+                        <p className="text-zinc-600 dark:text-zinc-400 mt-1 font-medium">{item.feedback}</p>
                       </div>
                     </div>
                   ))}
                 </div>
               ) : (
-                <div className="text-center py-12 text-sm text-zinc-500">
+                <div className="text-center py-12 text-sm text-zinc-600 dark:text-zinc-400 font-medium">
                   Belum ada riwayat percakapan. Hasil feedback AI Anda akan tersimpan di sini.
                 </div>
               )}
