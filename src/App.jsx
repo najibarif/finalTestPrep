@@ -16,14 +16,14 @@ const InterviewAI = lazy(() => import('./modules/InterviewAI'));
 const StudyGuide = lazy(() => import('./components/StudyGuide'));
 
 export default function App() {
-  const { activeTab, geminiKey } = usePractice();
+  const { activeTab } = usePractice();
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
   // Render current active panel
   const renderActiveModule = () => {
     switch (activeTab) {
       case 'dashboard':
-        return <Dashboard onOpenSettings={() => setIsSettingsOpen(true)} />;
+        return <Dashboard />;
       case 'grammar':
         return <GrammarQuiz onOpenSettings={() => setIsSettingsOpen(true)} />;
       case 'listening':
@@ -37,7 +37,7 @@ export default function App() {
       case 'study':
         return <StudyGuide />;
       default:
-        return <Dashboard onOpenSettings={() => setIsSettingsOpen(true)} />;
+        return <Dashboard />;
     }
   };
 

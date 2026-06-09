@@ -10,14 +10,12 @@ import {
   Mic, 
   ChevronRight, 
   Sparkles,
-  Key,
   Volume2
 } from 'lucide-react';
 
-export default function Dashboard({ onOpenSettings }) {
+export default function Dashboard() {
   const { 
     setActiveTab, 
-    geminiKey, 
     quizHistory, 
     writingDraft, 
     readingProgress, 
@@ -67,23 +65,13 @@ export default function Dashboard({ onOpenSettings }) {
             </p>
           </div>
 
-          {!geminiKey ? (
-            <button
-              onClick={onOpenSettings}
-              className="flex items-center gap-2 px-5 py-3 bg-white text-violet-700 font-bold rounded-2xl text-sm shadow-lg hover:scale-105 active:scale-95 transition-all cursor-pointer shrink-0"
-            >
-              <Key size={16} />
-              Set up Gemini Key
-            </button>
-          ) : (
-            <button
-              onClick={() => setActiveTab('grammar')}
-              className="flex items-center gap-2 px-5 py-3 bg-white text-violet-700 font-bold rounded-2xl text-sm shadow-lg hover:scale-105 active:scale-95 transition-all cursor-pointer shrink-0"
-            >
-              Mulai Latihan
-              <ChevronRight size={16} className="stroke-[2.5]" />
-            </button>
-          )}
+          <button
+            onClick={() => setActiveTab('grammar')}
+            className="flex items-center gap-2 px-5 py-3 bg-white text-violet-700 font-bold rounded-2xl text-sm shadow-lg hover:scale-105 active:scale-95 transition-all cursor-pointer shrink-0"
+          >
+            Mulai Latihan
+            <ChevronRight size={16} className="stroke-[2.5]" />
+          </button>
         </div>
       </div>
 
