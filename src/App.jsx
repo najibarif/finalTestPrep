@@ -1,9 +1,8 @@
-import React, { useState, lazy, Suspense } from 'react';
+import React, { lazy, Suspense } from 'react';
 import { usePractice } from './context/PracticeContext';
 import Navbar from './components/Navbar';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
-import SettingsModal from './components/SettingsModal';
 import Dashboard from './components/Dashboard';
 import { Loader2 } from 'lucide-react';
 
@@ -17,7 +16,6 @@ const StudyGuide = lazy(() => import('./components/StudyGuide'));
 
 export default function App() {
   const { activeTab } = usePractice();
-  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
 
   // Render current active panel
   const renderActiveModule = () => {
@@ -25,15 +23,15 @@ export default function App() {
       case 'dashboard':
         return <Dashboard />;
       case 'grammar':
-        return <GrammarQuiz onOpenSettings={() => setIsSettingsOpen(true)} />;
+        return <GrammarQuiz />;
       case 'listening':
         return <ListeningPractice />;
       case 'reading':
         return <ReadingComprehension />;
       case 'writing':
-        return <WritingPractice onOpenSettings={() => setIsSettingsOpen(true)} />;
+        return <WritingPractice />;
       case 'interview':
-        return <InterviewAI onOpenSettings={() => setIsSettingsOpen(true)} />;
+        return <InterviewAI />;
       case 'study':
         return <StudyGuide />;
       default:
@@ -48,7 +46,7 @@ export default function App() {
       <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-indigo-600/5 dark:bg-indigo-600/5 rounded-full blur-3xl pointer-events-none" />
       
       {/* Header / Navbar */}
-      <Navbar onOpenSettings={() => setIsSettingsOpen(true)} />
+      <Navbar />
 
       {/* Main Content */}
       <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6">
@@ -83,11 +81,6 @@ export default function App() {
         </div>
       </footer>
 
-      {/* Settings Modal */}
-      <SettingsModal 
-        isOpen={isSettingsOpen} 
-        onClose={() => setIsSettingsOpen(false)} 
-      />
       <Analytics />
       <SpeedInsights />
     </div>

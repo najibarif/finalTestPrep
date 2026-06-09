@@ -2,7 +2,6 @@ import React from 'react';
 import { usePractice } from '../context/PracticeContext';
 import { 
   BookOpen, 
-  Settings, 
   Sun, 
   Moon, 
   GraduationCap,
@@ -13,7 +12,7 @@ import {
   Volume2
 } from 'lucide-react';
 
-export default function Navbar({ onOpenSettings }) {
+export default function Navbar() {
   const { 
     activeTab, 
     setActiveTab, 
@@ -92,22 +91,11 @@ export default function Navbar({ onOpenSettings }) {
         {/* Theme Toggle */}
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="w-11 h-11 rounded-xl bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 hover:text-zinc-950 dark:hover:text-zinc-50 border border-zinc-200/50 dark:border-zinc-800/40 hover:scale-105 active:scale-95 transition-all cursor-pointer flex items-center justify-center shrink-0"
+          className="w-11 h-11 rounded-xl bg-zinc-100 dark:bg-zinc-900 text-zinc-650 dark:text-zinc-400 hover:text-zinc-950 dark:hover:text-zinc-50 border border-zinc-200/50 dark:border-zinc-800/40 hover:scale-105 active:scale-95 transition-all cursor-pointer flex items-center justify-center shrink-0"
           aria-label="Toggle dark mode"
         >
           {darkMode ? <Sun size={18} /> : <Moon size={18} />}
         </button>
-
-        {/* Settings Button */}
-        {!import.meta.env.VITE_GEMINI_API_KEY && (
-          <button
-            onClick={onOpenSettings}
-            className="w-11 h-11 rounded-xl bg-zinc-100 dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 hover:text-zinc-950 dark:hover:text-zinc-50 border border-zinc-200/50 dark:border-zinc-800/40 hover:scale-105 active:scale-95 transition-all cursor-pointer relative flex items-center justify-center shrink-0"
-            aria-label="Open settings"
-          >
-            <Settings size={18} />
-          </button>
-        )}
       </div>
     </nav>
   );

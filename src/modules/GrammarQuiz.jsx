@@ -15,7 +15,7 @@ import {
   Trash2
 } from 'lucide-react';
 
-export default function GrammarQuiz({ onOpenSettings }) {
+export default function GrammarQuiz() {
   const { geminiKey, quizHistory, addQuizResult, clearQuizHistory } = usePractice();
   
   // Topic selection state

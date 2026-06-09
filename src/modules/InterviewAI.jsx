@@ -42,7 +42,7 @@ const INTERVIEW_QUESTIONS = {
   ]
 };
 
-export default function InterviewAI({ onOpenSettings }) {
+export default function InterviewAI() {
   const { geminiKey, interviewHistory, addInterviewFeedback, clearInterviewHistory } = usePractice();
 
   // Navigation states
@@ -113,8 +113,7 @@ export default function InterviewAI({ onOpenSettings }) {
 
   const handleStartInterview = () => {
     if (!geminiKey) {
-      setMicError('Harap konfigurasi Gemini API Key Anda terlebih dahulu.');
-      onOpenSettings();
+      setMicError('Simulasi percakapan memerlukan Google Gemini API Key yang dikonfigurasi di server/file .env.');
       return;
     }
 
@@ -367,17 +366,9 @@ export default function InterviewAI({ onOpenSettings }) {
 
       {/* SETTINGS CHECK */}
       {!geminiKey && (
-        <div className="mb-6 p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/15 border border-amber-200/50 dark:border-amber-900/30 text-amber-800 dark:text-amber-400 text-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <AlertTriangle className="shrink-0" size={18} />
-            <span>Masukkan Gemini API Key Anda untuk memulai simulasi percakapan AI.</span>
-          </div>
-          <button 
-            onClick={onOpenSettings}
-            className="px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-xl text-xs font-semibold shrink-0 cursor-pointer"
-          >
-            Atur API Key
-          </button>
+        <div className="mb-6 p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/15 border border-amber-200/50 dark:border-amber-900/30 text-amber-800 dark:text-amber-400 text-sm flex items-center gap-2">
+          <AlertTriangle className="shrink-0" size={18} />
+          <span>Simulasi percakapan memerlukan Google Gemini API Key yang dikonfigurasi di server/file .env untuk diaktifkan.</span>
         </div>
       )}
 

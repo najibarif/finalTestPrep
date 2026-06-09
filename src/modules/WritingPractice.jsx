@@ -34,7 +34,7 @@ const WRITING_PROMPTS = [
   }
 ];
 
-export default function WritingPractice({ onOpenSettings }) {
+export default function WritingPractice() {
   const { geminiKey, writingDraft, writingTitle, saveWritingDraft } = usePractice();
 
   // Local editor states
@@ -67,8 +67,7 @@ export default function WritingPractice({ onOpenSettings }) {
     if (!isFormValid) return;
 
     if (!geminiKey) {
-      setError('Masukkan API Key Gemini di settings untuk mendapatkan analisis esai otomatis.');
-      onOpenSettings();
+      setError('Fitur analisis esai otomatis memerlukan Google Gemini API Key yang dikonfigurasi di server/file .env.');
       return;
     }
 
