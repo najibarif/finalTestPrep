@@ -40,7 +40,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen relative overflow-x-hidden flex flex-col bg-zinc-50 dark:bg-zinc-950 text-zinc-800 dark:text-zinc-200 transition-colors duration-300">
+    <div className="relative min-h-screen w-full flex flex-col bg-zinc-50 dark:bg-zinc-950 text-zinc-800 dark:text-zinc-200 transition-colors duration-300 overflow-x-hidden">
       {/* Background glow effects for premium dark mode */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-violet-600/5 dark:bg-violet-600/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-indigo-600/5 dark:bg-indigo-600/5 rounded-full blur-3xl pointer-events-none" />
