@@ -1,17 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import { usePractice } from './context/PracticeContext';
 import Navbar from './components/Navbar';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import SettingsModal from './components/SettingsModal';
 import Dashboard from './components/Dashboard';
-import GrammarQuiz from './modules/GrammarQuiz';
-import ListeningPractice from './modules/ListeningPractice';
-import ReadingComprehension from './modules/ReadingComprehension';
-import WritingPractice from './modules/WritingPractice';
-import InterviewAI from './modules/InterviewAI';
-import StudyGuide from './components/StudyGuide';
-import { Sparkles, Key, GraduationCap } from 'lucide-react';
+import { Loader2 } from 'lucide-react';
+
+// Lazy load practice modules to split the production JS bundle
+const GrammarQuiz = lazy(() => import('./modules/GrammarQuiz'));
+const ListeningPractice = lazy(() => import('./modules/ListeningPractice'));
+const ReadingComprehension = lazy(() => import('./modules/ReadingComprehension'));
+const WritingPractice = lazy(() => import('./modules/WritingPractice'));
+const InterviewAI = lazy(() => import('./modules/InterviewAI'));
+const StudyGuide = lazy(() => import('./components/StudyGuide'));
 
 export default function App() {
   const { activeTab, geminiKey } = usePractice();
@@ -50,7 +52,14 @@ export default function App() {
 
       {/* Main Content */}
       <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6">
-        {renderActiveModule()}
+        <Suspense fallback={
+          <div className="flex flex-col items-center justify-center py-24 animate-pulse-slow">
+            <Loader2 className="animate-spin text-violet-600 dark:text-violet-400" size={40} />
+            <p className="text-sm text-zinc-650 dark:text-zinc-400 mt-3 font-semibold">Memuat Modul Latihan...</p>
+          </div>
+        }>
+          {renderActiveModule()}
+        </Suspense>
       </main>
 
       {/* Footer */}
