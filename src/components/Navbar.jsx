@@ -39,7 +39,7 @@ export default function Navbar({ onOpenSettings }) {
         className="flex items-center gap-2 sm:gap-2.5 cursor-pointer group select-none"
       >
         <div className="relative w-8 h-8 sm:w-10 sm:h-10 rounded-full overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-md group-hover:scale-105 transition-all duration-300 shrink-0">
-          <img src="/logo.jpg" alt="Armidale English College Logo" className="w-full h-full object-cover" />
+          <img src="/logo.svg" alt="Armidale English College Logo" className="w-full h-full object-cover" />
         </div>
         <div>
           <span className="font-display font-extrabold text-base sm:text-xl tracking-tight bg-linear-to-r from-violet-600 via-indigo-600 to-purple-600 dark:from-violet-400 dark:to-indigo-400 bg-clip-text text-transparent">
