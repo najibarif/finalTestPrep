@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { usePractice } from '../context/PracticeContext';
 import { 
   BookOpen, 
@@ -14,11 +15,11 @@ import {
 
 export default function Navbar() {
   const { 
-    activeTab, 
-    setActiveTab, 
     darkMode, 
     setDarkMode 
   } = usePractice();
+  
+  const navigate = useNavigate();
 
   const navItems = [
     { id: 'dashboard', name: 'Dashboard', icon: GraduationCap },
@@ -34,7 +35,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-40 w-full glass-panel border-b px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between transition-all duration-300">
       {/* Brand logo */}
       <div 
-        onClick={() => setActiveTab('dashboard')} 
+        onClick={() => navigate('/dashboard')} 
         className="flex items-center gap-2 sm:gap-2.5 cursor-pointer group select-none"
       >
         <div className="relative w-8 h-8 sm:w-10 sm:h-10 rounded-full overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-md group-hover:scale-105 transition-all duration-300 shrink-0">
@@ -51,23 +52,23 @@ export default function Navbar() {
       </div>
 
       {/* Navigation tabs */}
-      <div className="hidden lg:flex items-center gap-1.5 bg-zinc-100/80 dark:bg-zinc-900/60 p-1.5 rounded-2xl border border-zinc-200/50 dark:border-zinc-800/40">
+      <div className="hidden lg:flex items-center gap-1.5 p-1 bg-zinc-100/50 dark:bg-zinc-900/50 rounded-2xl border border-zinc-200/50 dark:border-zinc-800/50 backdrop-blur-sm">
         {navItems.map((item) => {
           const Icon = item.icon;
-          const isActive = activeTab === item.id;
           return (
-            <button
+            <NavLink
               key={item.id}
-              onClick={() => setActiveTab(item.id)}
-              className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 cursor-pointer ${
-                isActive 
-                  ? 'bg-white dark:bg-zinc-800 text-violet-600 dark:text-violet-400 shadow-xs border-b border-violet-100 dark:border-zinc-700/50 font-semibold' 
-                  : 'text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 hover:bg-zinc-200/50 dark:hover:bg-zinc-800/40'
-              }`}
+              to={`/${item.id}`}
+              className={({ isActive }) => `
+                relative px-4 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 flex items-center gap-2.5 cursor-pointer
+                ${isActive 
+                  ? 'text-zinc-900 dark:text-white bg-white dark:bg-zinc-800 shadow-xs ring-1 ring-zinc-200/50 dark:ring-zinc-700/50 scale-[1.02]' 
+                  : 'text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 hover:bg-zinc-200/50 dark:hover:bg-zinc-800/50'}
+              `}
             >
-              <Icon size={16} className={isActive ? 'stroke-[2.5]' : ''} />
-              {item.name}
-            </button>
+              <Icon size={18} className="shrink-0" strokeWidth={2.5} />
+              <span>{item.name}</span>
+            </NavLink>
           );
         })}
       </div>
@@ -77,8 +78,8 @@ export default function Navbar() {
         {/* Mobile menu trigger button - simple dropdown fallback/study selector can be inside the page */}
         <div className="lg:hidden">
           <select
-            value={activeTab}
-            onChange={(e) => setActiveTab(e.target.value)}
+            value={window.location.pathname.replace('/', '') || 'dashboard'}
+            onChange={(e) => navigate(`/${e.target.value}`)}
             className="bg-zinc-100 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 px-3 py-2 rounded-xl border border-zinc-200 dark:border-zinc-800 text-sm focus:outline-none"
             aria-label="Pilih Menu Latihan"
           >

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { usePractice } from '../context/PracticeContext';
 import { 
   GraduationCap, 
@@ -15,12 +16,13 @@ import {
 
 export default function Dashboard() {
   const { 
-    setActiveTab, 
     quizHistory, 
     writingDraft, 
     readingProgress, 
     interviewHistory 
   } = usePractice();
+  
+  const navigate = useNavigate();
 
   // Calculate statistics
   const completedReadingCount = Object.keys(readingProgress).filter(k => readingProgress[k] === 'completed').length;
@@ -66,7 +68,7 @@ export default function Dashboard() {
           </div>
 
           <button
-            onClick={() => setActiveTab('grammar')}
+            onClick={() => navigate('/grammar')}
             className="flex items-center gap-2 px-5 py-3 bg-white text-violet-700 font-bold rounded-2xl text-sm shadow-lg hover:scale-105 active:scale-95 transition-all cursor-pointer shrink-0"
           >
             Mulai Latihan
@@ -75,12 +77,48 @@ export default function Dashboard() {
         </div>
       </div>
 
+      {/* DAILY CHALLENGE CARD */}
+      {(() => {
+        try {
+          const dailyData = localStorage.getItem('daily_grammar_questions');
+          if (dailyData) {
+            const data = JSON.parse(dailyData);
+            return (
+              <div 
+                onClick={() => navigate('daily')}
+                className="glass-card rounded-3xl p-6 border border-zinc-200/60 dark:border-zinc-800/30 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 hover:border-violet-500/50 dark:hover:border-violet-500/30 hover:bg-violet-50/50 dark:hover:bg-violet-900/10 transition-all cursor-pointer group shadow-sm hover:shadow-md"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="p-3 bg-violet-100 dark:bg-violet-900/40 text-violet-600 dark:text-violet-400 rounded-2xl shrink-0">
+                    <Sparkles size={24} />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xs font-bold px-2 py-0.5 bg-rose-100 dark:bg-rose-900/40 text-rose-600 dark:text-rose-400 rounded-md">NEW</span>
+                      <h2 className="font-display font-bold text-lg text-zinc-800 dark:text-zinc-100 group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
+                        Tantangan Harian: {data.topicId}
+                      </h2>
+                    </div>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400">Kerjakan 5 soal grammar AI khusus hari ini tentang {data.topicTitle}.</p>
+                  </div>
+                </div>
+                <button className="flex items-center gap-2 px-4 py-2 bg-violet-600 hover:bg-violet-700 text-white text-sm font-semibold rounded-xl transition-colors shrink-0">
+                  Kerjakan
+                  <ChevronRight size={16} />
+                </button>
+              </div>
+            );
+          }
+        } catch(e) {}
+        return null;
+      })()}
+
       {/* STATS TILES */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
         {/* Card 1: Grammar */}
         <div 
-          onClick={() => setActiveTab('grammar')} 
-          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setActiveTab('grammar'))}
+          onClick={() => navigate('grammar')} 
+          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), navigate('grammar'))}
           role="button" 
           tabIndex={0}
           aria-label="Latihan Grammar"
@@ -100,8 +138,8 @@ export default function Dashboard() {
 
         {/* Card 2: Listening */}
         <div 
-          onClick={() => setActiveTab('listening')} 
-          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setActiveTab('listening'))}
+          onClick={() => navigate('listening')} 
+          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), navigate('listening'))}
           role="button" 
           tabIndex={0}
           aria-label="Latihan Listening"
@@ -121,8 +159,8 @@ export default function Dashboard() {
 
         {/* Card 3: Reading */}
         <div 
-          onClick={() => setActiveTab('reading')} 
-          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setActiveTab('reading'))}
+          onClick={() => navigate('reading')} 
+          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), navigate('reading'))}
           role="button" 
           tabIndex={0}
           aria-label="Latihan Reading"
@@ -142,8 +180,8 @@ export default function Dashboard() {
 
         {/* Card 4: Writing */}
         <div 
-          onClick={() => setActiveTab('writing')} 
-          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setActiveTab('writing'))}
+          onClick={() => navigate('writing')} 
+          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), navigate('writing'))}
           role="button" 
           tabIndex={0}
           aria-label="Latihan Writing"
@@ -163,8 +201,8 @@ export default function Dashboard() {
 
         {/* Card 5: Speaking */}
         <div 
-          onClick={() => setActiveTab('interview')} 
-          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setActiveTab('interview'))}
+          onClick={() => navigate('interview')} 
+          onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), navigate('interview'))}
           role="button" 
           tabIndex={0}
           aria-label="Latihan Speaking"
@@ -202,8 +240,8 @@ export default function Dashboard() {
 
           <div className="space-y-3">
             <div 
-              onClick={() => setActiveTab('listening')}
-              onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setActiveTab('listening'))}
+              onClick={() => navigate('listening')}
+              onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), navigate('listening'))}
               role="button"
               tabIndex={0}
               aria-label="Target Hari Pertama: Listening"
@@ -287,8 +325,8 @@ export default function Dashboard() {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div 
-            onClick={() => setActiveTab('grammar')}
-            onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setActiveTab('grammar'))}
+            onClick={() => navigate('grammar')}
+            onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), navigate('grammar'))}
             role="button"
             tabIndex={0}
             aria-label="Rekomendasi Tata Bahasa"
@@ -302,8 +340,8 @@ export default function Dashboard() {
           </div>
 
           <div 
-            onClick={() => setActiveTab('listening')}
-            onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setActiveTab('listening'))}
+            onClick={() => navigate('listening')}
+            onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), navigate('listening'))}
             role="button"
             tabIndex={0}
             aria-label="Rekomendasi Listening"
@@ -317,8 +355,8 @@ export default function Dashboard() {
           </div>
 
           <div 
-            onClick={() => setActiveTab('interview')}
-            onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), setActiveTab('interview'))}
+            onClick={() => navigate('interview')}
+            onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), navigate('interview'))}
             role="button"
             tabIndex={0}
             aria-label="Rekomendasi Speaking"

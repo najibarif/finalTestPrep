@@ -17,9 +17,6 @@ export const PracticeProvider = ({ children }) => {
     return saved ? saved === 'dark' : true; // Default to dark mode for premium feel
   });
 
-  // Navigation state
-  const [activeTab, setActiveTab] = useState('dashboard');
-
   // Gemini API Key state
   const [geminiKey, setGeminiKey] = useState(() => {
     return import.meta.env.VITE_GEMINI_API_KEY || localStorage.getItem('gemini_api_key') || '';
@@ -136,8 +133,6 @@ export const PracticeProvider = ({ children }) => {
       value={{
         darkMode,
         setDarkMode,
-        activeTab,
-        setActiveTab,
         geminiKey,
         updateGeminiKey,
         quizHistory,
