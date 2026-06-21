@@ -23,19 +23,27 @@
     "content": [
       {
         "section": "Simple Present Tense",
-        "lines": ["Subject + Verb 1"]
+        "lines": [
+          "Subject + Verb 1"
+        ]
       },
       {
         "section": "Simple Present Progressive",
-        "lines": ["Subject + Verb 1 + Ing (can also indicate a plan)"]
+        "lines": [
+          "Subject + Verb 1 + Ing (can also indicate a plan)"
+        ]
       },
       {
         "section": "Stative Verbs",
-        "lines": ["Love, Want, Need, See, Smeel .. It can’t be used for Progressive"]
+        "lines": [
+          "Love, Want, Need, See, Smeel .. It can’t be used for Progressive"
+        ]
       },
       {
         "section": "Special Difficulties",
-        "lines": ["It is a terrible day! -> What a terrible day it is!"]
+        "lines": [
+          "It is a terrible day! -> What a terrible day it is!"
+        ]
       }
     ]
   },
@@ -55,7 +63,9 @@
       },
       {
         "section": "Special Difficulties",
-        "lines": ["He lent me a book -> He lent a book to me"]
+        "lines": [
+          "He lent me a book -> He lent a book to me"
+        ]
       }
     ]
   },
@@ -84,7 +94,9 @@
       },
       {
         "section": "Special Difficulties",
-        "lines": ["Differences between receive (menerima) and take (mengambil)"]
+        "lines": [
+          "Differences between receive (menerima) and take (mengambil)"
+        ]
       }
     ]
   },
@@ -213,7 +225,7 @@
   },
   {
     "id": "PP10",
-    title: "Not For Jazz",
+    "title": "Not For Jazz",
     "keyStructures": "Passive Voice: Present/Past Tense (to be/was/were + V3), Present/Past Progressive (to be/was/were + being + V3), Present/Past Perfect (has/have/had + been + V3), Modals (modal + be + V3).",
     "specialDifficulties": "'Made in' (country), 'made of' (material), 'made from' (a number of materials), 'made by' (someone). Double genitive: 'He is one of my father's friends' -> 'He is a friend of my father's'.",
     "content": [
@@ -237,7 +249,7 @@
   },
   {
     "id": "PP11",
-    title: "One Good Turn Deserves Another",
+    "title": "One Good Turn Deserves Another",
     "keyStructures": "Combination of Key Structures: Mixing simple present, simple past, present perfect, past perfect, progressive tenses, and passive voice.",
     "specialDifficulties": "Applying correct tense harmony across complex sentences.",
     "content": [
@@ -251,7 +263,7 @@
   },
   {
     "id": "PP12",
-    title: "Good Bye and Good Luck",
+    "title": "Good Bye and Good Luck",
     "keyStructures": "Simple Future: 'Will/shall + V1' (plan/decision) vs. 'Be going to + V1' (on the way to do it/intention).",
     "specialDifficulties": "Set idioms: 'Set up' (make/establish), 'set off' (starting a journey), 'set out' (arrange/begin an undertaking).",
     "content": [
@@ -272,7 +284,7 @@
   },
   {
     "id": "PP13",
-    title: "The Greenwood Boys",
+    "title": "The Greenwood Boys",
     "keyStructures": "Future Progressive (will/shall + be + V1-ing) for action starting before specific future time ('I will be eating at 7 tomorrow'). Future Perfect (will/shall + have + V3) for action completed by a future time ('I will have graduated in AEC in 3 months' time').",
     "specialDifficulties": "Expressing possession in questions: 'Whose bike is it?' -> 'It is Ali's' or 'It belongs to Ali'.",
     "content": [
@@ -304,7 +316,7 @@
   },
   {
     "id": "PP14",
-    title: "Do You Speak English?",
+    "title": "Do You Speak English?",
     "keyStructures": "Past Perfect (S + had + V3) to indicate action completed before another past action ('I had had my breakfast before I went to school') or a state continuing for a time in the past ('I had lived in Soreang for 10 years before I moved').",
     "specialDifficulties": "Tense matching in complex narrative sentences.",
     "content": [
@@ -320,7 +332,7 @@
   },
   {
     "id": "PP15",
-    title: "Good News",
+    "title": "Good News",
     "keyStructures": "Indirect Speech (Reported Speech): Tense changes (Simple Present -> Simple Past, Present Continuous -> Past Continuous, Simple Past -> Past Perfect, Future Simple -> Conditional Type 2). Command reporting (Clean your room! -> She told me to clean my room; Don't smoke here! -> She told me not to smoke here). Question reporting: He asked me what my name was (Wh- question); He asked if my name was Denaz (Auxiliary/Yes-No question). Time shifts (today -> that day, yesterday -> the day before, tomorrow -> the next day, etc.).",
     "specialDifficulties": "Word nuances: 'Nervous' (uneasy), 'Irritable' (easily made angry), 'afford' (be able to pay/do), 'office/desk/study' (study room vs workspace).",
     "content": [
@@ -348,7 +360,9 @@
       },
       {
         "section": "Prohibition",
-        "lines": ["You mustn't … -> We mustn’t .."]
+        "lines": [
+          "You mustn't … -> We mustn’t .."
+        ]
       },
       {
         "section": "Indirect Sentence Part 3",
@@ -380,7 +394,7 @@
   },
   {
     "id": "PP16",
-    title: "A Polite Request",
+    "title": "A Polite Request",
     "keyStructures": "Conditional Sentences: Type 0 (Habitual: If + Present, + Present), Type 1 (Probability: If + Present, + Future Simple), Type 2 (Impossible: If + Past, + Would + V1), Type 3 (Regret: If + Past Perfect, + Would Have + V3).",
     "specialDifficulties": "Recognizing inversion and correct modal selections in conditions.",
     "content": [
@@ -397,7 +411,7 @@
   },
   {
     "id": "PP17",
-    title: "Always Young",
+    "title": "Always Young",
     "keyStructures": "Modal verbs: 'Must' cannot be used in simple past (use 'had to' instead). Using 'must' for opinion/deduction ('I think he is tired -> He must be tired'). Difference between 'Grow' (quantity, plants) and 'Grow Up' (mind, maturity, values).",
     "specialDifficulties": "Usages of the word 'As' (representing Position, Similarity, Time Conjunction, Reason Conjunction, or 'Like'). Differences between 'Dress', 'Suit' (one package), and 'Costume' (themed clothing).",
     "content": [
@@ -426,7 +440,7 @@
   },
   {
     "id": "PP18",
-    title: "He Often Does This!",
+    "title": "He Often Does This!",
     "keyStructures": "Usages of Have/Has/Had: 1) As auxiliary verb in perfect tenses ('Have you eaten?'); 2) For possession/ownership ('He has a new house' / 'He has got a new house'); 3) For enjoyment/activity ('I took a bath' -> 'I had a bath').",
     "specialDifficulties": "Distinguishing between causative, possession, and activity uses of 'have'.",
     "content": [
@@ -442,13 +456,15 @@
   },
   {
     "id": "PP19",
-    title: "Sold Out",
+    "title": "Sold Out",
     "keyStructures": "Asking Permission ('Can/May I use your phone, please?'). Probability modals: 'May' vs. 'Might' ('Perhaps he will come tomorrow -> He may/might come tomorrow'). The phrase 'as well' ('I have nothing to do so I might come as well' - meaning 50/50 probability).",
     "specialDifficulties": "'Interesting' (adjective) vs. 'Interested' (feeling/verb). 'It is' (contraction) vs. 'Its' (possessive). Differences between 'Realize' and 'Understand'.",
     "content": [
       {
         "section": "Asking Permission",
-        "lines": ["Can I use your phone, please?"]
+        "lines": [
+          "Can I use your phone, please?"
+        ]
       },
       {
         "section": "Probability",
@@ -474,27 +490,33 @@
   },
   {
     "id": "PP20",
-    title: "One Man in a Boat",
+    "title": "One Man in a Boat",
     "keyStructures": "Gerunds: 1) As Subject ('Fishing is my hobby'); 2) As object of Preposition ('I told you that he was interested in cooking'); 3) For combining sentences ('He sat there without saying anything').",
     "specialDifficulties": "Distinguishing between Gerunds, Present Participles, and Infinitives.",
     "content": [
       {
         "section": "Gerund as Subject",
-        "lines": ["Fishing is my hobby"]
+        "lines": [
+          "Fishing is my hobby"
+        ]
       },
       {
         "section": "Gerund as preposition",
-        "lines": ["I told you that he was interested in cooking"]
+        "lines": [
+          "I told you that he was interested in cooking"
+        ]
       },
       {
         "section": "Gerund for combining two sentences",
-        "lines": ["He sat there without saying anything"]
+        "lines": [
+          "He sat there without saying anything"
+        ]
       }
     ]
   },
   {
     "id": "PP21",
-    title: "Mad or Not?",
+    "title": "Mad or Not?",
     "keyStructures": "Passive Voice with Modals / Auxiliary verbs: Object is not a person ('The chairs will be moved', 'The flight could have been delayed') vs. Subject is a person ('She could be loved by everyone', 'He must be accompanied by me').",
     "specialDifficulties": "Ensuring proper agent placement and modal passive forms.",
     "content": [
@@ -511,7 +533,7 @@
   },
   {
     "id": "PP22",
-    title: "A Glass Envelope",
+    "title": "A Glass Envelope",
     "keyStructures": "Verbs followed by prepositions: 'agree with', 'apologize for', 'believe in', 'depend on', 'listen to', 'look at', 'wait for', 'think of/about', etc.",
     "specialDifficulties": "Choosing the correct preposition based on the verb.",
     "content": [
@@ -523,7 +545,7 @@
   },
   {
     "id": "PP23",
-    title: "A New House",
+    "title": "A New House",
     "keyStructures": "No specific key structures assigned. Focus is on review of all PP1-PP22 materials.",
     "specialDifficulties": "Integrating various structures harmoniously in communication.",
     "content": [
