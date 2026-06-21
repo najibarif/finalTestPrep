@@ -3,138 +3,534 @@
     "id": "PP1",
     "title": "A Private Conversation",
     "keyStructures": "Statement order: Subject + Verb + Object + Manner + Place + Time. Note: 'Time' can also appear before the subject.",
-    "specialDifficulties": "Statement word order: 'They are talking to my cat loudly in the kitchen yesterday'."
+    "specialDifficulties": "Statement word order: 'They are talking to my cat loudly in the kitchen yesterday'.",
+    "content": [
+      {
+        "section": "Statement",
+        "lines": [
+          "They are talking to my cat loudly in the kitchen yesterday",
+          "Who - Action - Who - How - Where - When",
+          "Note: When can also before subject"
+        ]
+      }
+    ]
   },
   {
     "id": "PP2",
     "title": "Breakfast or Lunch!",
     "keyStructures": "Simple Present (S + V1) vs. Simple Present Progressive (S + V1 + ing - can also indicate a plan). Stative Verbs (love, want, need, see, smell, etc.) cannot be used in Progressive form.",
-    "specialDifficulties": "Exclamatory sentences: 'It is a terrible day!' vs. 'What a terrible day it is!'."
+    "specialDifficulties": "Exclamatory sentences: 'It is a terrible day!' vs. 'What a terrible day it is!'.",
+    "content": [
+      {
+        "section": "Simple Present Tense",
+        "lines": ["Subject + Verb 1"]
+      },
+      {
+        "section": "Simple Present Progressive",
+        "lines": ["Subject + Verb 1 + Ing (can also indicate a plan)"]
+      },
+      {
+        "section": "Stative Verbs",
+        "lines": ["Love, Want, Need, See, Smeel .. It can’t be used for Progressive"]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": ["It is a terrible day! -> What a terrible day it is!"]
+      }
+    ]
   },
   {
     "id": "PP3",
     "title": "Please Send Me a Card",
     "keyStructures": "Simple Past Tense (S + V2) for actions completed in the past at a definite time, or past habits ('She never carried an umbrella', 'I used to eat a lot').",
-    "specialDifficulties": "Direct and Indirect Objects: 'He lent me a book' vs. 'He lent a book to me'."
+    "specialDifficulties": "Direct and Indirect Objects: 'He lent me a book' vs. 'He lent a book to me'.",
+    "content": [
+      {
+        "section": "Simple Past Tense",
+        "lines": [
+          "Subject + Verb 2",
+          "1. It is used for action completed in the past at a definite time. (time given, time was asked, clear action in definite time)",
+          "2. It is used for a past habit (ex. She never carried an umbrella, I used to eat a lot)"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": ["He lent me a book -> He lent a book to me"]
+      }
+    ]
   },
   {
     "id": "PP4",
     "title": "An Exciting Trip",
     "keyStructures": "Present Perfect (S + have/has + V3) for actions in indefinite time, actions repeating in the past, or starting in past and continuing now. Present Perfect Progressive (S + have/has + been + V1-ing) for expect, hope, learn, lie, look, sleep, sit, study, teach, stay, wait, work. Features: since, for, just, already, never, ever, lately, so far, yet, now.",
-    "specialDifficulties": "Differences between 'receive' (menerima) and 'take' (mengambil)."
+    "specialDifficulties": "Differences between 'receive' (menerima) and 'take' (mengambil).",
+    "content": [
+      {
+        "section": "Present Perfect",
+        "lines": [
+          "Subject + Have/Has + Verb 3",
+          "1. It is used to indicate an action that happened in an indefinite time.",
+          "2. It is used to indicate an action that happened more than one in the past.",
+          "3. It is used to indicate an action that began in the past and is still happening in the present."
+        ]
+      },
+      {
+        "section": "Present Perfect Progressive",
+        "lines": [
+          "Subject + Have/Has + Been + Verb 3 + Ing",
+          "The functions are the same, but here are the verbs to be used: expect, hope, learn, lie, look, sleep, sit, study, teach, stay, wait, work.",
+          "Features: since, for, just, already, never, ever, lately, so far, yet, now"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": ["Differences between receive (menerima) and take (mengambil)"]
+      }
+    ]
   },
   {
     "id": "PP5",
     "title": "No Wrong Numbers",
     "keyStructures": "Simple Past (completed, definite time: 'I drank coffee this morning') vs. Present Perfect (indefinite, recent: 'I have just opened the door').",
-    "specialDifficulties": "Way idioms: 'in the way' (blocking), 'on the way' (di jalan), 'in this way' (specific way), 'by the way' (omong-omong), 'in a way' (bagaimanapun juga). Differences between 'spare' (meluangkan, cadangan) and 'to spare' (diluangkan, free time)."
+    "specialDifficulties": "Way idioms: 'in the way' (blocking), 'on the way' (di jalan), 'in this way' (specific way), 'by the way' (omong-omong), 'in a way' (bagaimanapun juga). Differences between 'spare' (meluangkan, cadangan) and 'to spare' (diluangkan, free time).",
+    "content": [
+      {
+        "section": "Simple Past Tense",
+        "lines": [
+          "Subject + Verb 2",
+          "What happened? I drank coffee this morning",
+          "Feature: this morning, last night, 5 minutes ago"
+        ]
+      },
+      {
+        "section": "Present Perfect",
+        "lines": [
+          "Subject + Have/Has + Verb 3",
+          "What has happened? I have just opened the door",
+          "Feature: just, already, for, since, ever, never, yet, lately, until now"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "In the way (blocking), on the way (di jalan), in this way (specific way), by the way (omong-omong), in a way (bagaimanapun juga)",
+          "Differences between spare (meluangkan, cadangan) and to spare (diluangkan, free time)"
+        ]
+      }
+    ]
   },
   {
     "id": "PP6",
     "title": "Percy Buttons",
     "keyStructures": "Particles: 'A' vs. 'Some' (a glass of milk vs. some milk), 'A' vs. 'The' (a man vs. the man). Names don't need particles. Specific information uses particles; common information does not.",
-    "specialDifficulties": "Simple idioms: 'put on' (memakai), 'put off' (menunda), 'look after' (merawat). Knock idioms: 'knock down' (merobohkan), 'knock at' (mengetok), 'knock out' (mengalahkan), 'knock off' (menjatuhkan), 'knock over' (menyenggol)."
+    "specialDifficulties": "Simple idioms: 'put on' (memakai), 'put off' (menunda), 'look after' (merawat). Knock idioms: 'knock down' (merobohkan), 'knock at' (mengetok), 'knock out' (mengalahkan), 'knock off' (menjatuhkan), 'knock over' (menyenggol).",
+    "content": [
+      {
+        "section": "Particles",
+        "lines": [
+          "A and Some (a glass of milk/some milk)",
+          "A and The (a man/the man)",
+          "Names (no need particles)",
+          "Specific information (use particle) Common information (no need particle)"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "Simple idioms (put on, put off, look after) ex: I put my shirt on",
+          "knock down: merobohkan knock at: mengetok",
+          "knock out: mengalahkan knock off: menjatuhkan knock over: menyenggol"
+        ]
+      }
+    ]
   },
   {
     "id": "PP7",
     "title": "Too Late",
     "keyStructures": "Past Progressive (S + was/were + V1-ing) for interrupted past actions, simultaneous past actions, or action at a specific past time. Note: 'When' before past simple, 'While' before past progressive.",
-    "specialDifficulties": "Phrasal verb word order: 'He took off his coat' vs. 'He took his coat off'."
+    "specialDifficulties": "Phrasal verb word order: 'He took off his coat' vs. 'He took his coat off'.",
+    "content": [
+      {
+        "section": "Past Progressive",
+        "lines": [
+          "Subject + Was/Were + Verb 1 + Ing",
+          "1. Action that is occurring in the past and was interrupted by another action.",
+          "2. Two actions that are occurring in the past at the same time.",
+          "3. An action which was occurring at the specific time.",
+          "Note: When before past tense, while before past progressive"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "He took off his coat -> He took his coat off"
+        ]
+      }
+    ]
   },
   {
     "id": "PP8",
     "title": "The Best and the Worst",
     "keyStructures": "Comparative and Superlative (..er than / more .. than vs. the ..est / the most ..). Examples: 'He is taller than she is', 'They are the most diligent students'.",
-    "specialDifficulties": "Indefinite pronouns ('Everybody, everyone, everything') are always singular. Meanings of 'enter': come in, submit, enroll, etc."
+    "specialDifficulties": "Indefinite pronouns ('Everybody, everyone, everything') are always singular. Meanings of 'enter': come in, submit, enroll, etc.",
+    "content": [
+      {
+        "section": "Comparative and Superlative",
+        "lines": [
+          "He is taller than she is | They are the most diligent students.",
+          "..er than/more … than | the ..est …/the most …"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "Everybody, everyone, everything is singular",
+          "The meaning of enter: come in, submitted, enrolled etc."
+        ]
+      }
+    ]
   },
   {
     "id": "PP9",
     "title": "A Cold Welcome",
     "keyStructures": "Prepositions of Time: 'At' (specific time), 'In' (general/longer period like month, year, season), 'On' (day, date, special days), 'Until', 'From', 'During', 'Till'.",
-    "specialDifficulties": "Negative and non-assertive words: 'Any' vs. 'No' ('Is there anyone in the kitchen?' -> 'There isn't anyone' / 'There is no one in the kitchen')."
+    "specialDifficulties": "Negative and non-assertive words: 'Any' vs. 'No' ('Is there anyone in the kitchen?' -> 'There isn't anyone' / 'There is no one in the kitchen').",
+    "content": [
+      {
+        "section": "Preposition of Time",
+        "lines": [
+          "At (specific time), In (general time like month, year, season, longer period of time), On (day, date, special days), Until, From, During, Till"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "Any and No",
+          "Is there anyone in the kitchen? There isn’t anyone/There is no one in the kitchen"
+        ]
+      }
+    ]
   },
   {
     "id": "PP10",
-    "title": "Not For Jazz",
+    title: "Not For Jazz",
     "keyStructures": "Passive Voice: Present/Past Tense (to be/was/were + V3), Present/Past Progressive (to be/was/were + being + V3), Present/Past Perfect (has/have/had + been + V3), Modals (modal + be + V3).",
-    "specialDifficulties": "'Made in' (country), 'made of' (material), 'made from' (a number of materials), 'made by' (someone). Double genitive: 'He is one of my father's friends' -> 'He is a friend of my father's'."
+    "specialDifficulties": "'Made in' (country), 'made of' (material), 'made from' (a number of materials), 'made by' (someone). Double genitive: 'He is one of my father's friends' -> 'He is a friend of my father's'.",
+    "content": [
+      {
+        "section": "Passive Voice",
+        "lines": [
+          "Present/Past Tense: (to be/was/were) + verb 3",
+          "Present/Past Progressive: (to be/was/were) + being + verb 3",
+          "Present/Past Perfect: (has/have/had) + been + verb 3",
+          "Modals: modals + be + verb 3"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "Made in (country), made of (material), made from (a number of materials), made by (someone)",
+          "He is one of my father’s friends > He is a friend of my father’s"
+        ]
+      }
+    ]
   },
   {
     "id": "PP11",
-    "title": "One Good Turn Deserves Another",
+    title: "One Good Turn Deserves Another",
     "keyStructures": "Combination of Key Structures: Mixing simple present, simple past, present perfect, past perfect, progressive tenses, and passive voice.",
-    "specialDifficulties": "Applying correct tense harmony across complex sentences."
+    "specialDifficulties": "Applying correct tense harmony across complex sentences.",
+    "content": [
+      {
+        "section": "Combination Key Structures",
+        "lines": [
+          "Simple present, simple past, present perfect, past perfect, perfect progressive, present progressive, past progressive, passive"
+        ]
+      }
+    ]
   },
   {
     "id": "PP12",
-    "title": "Good Bye and Good Luck",
+    title: "Good Bye and Good Luck",
     "keyStructures": "Simple Future: 'Will/shall + V1' (plan/decision) vs. 'Be going to + V1' (on the way to do it/intention).",
-    "specialDifficulties": "Set idioms: 'Set up' (make/establish), 'set off' (starting a journey), 'set out' (arrange/begin an undertaking)."
+    "specialDifficulties": "Set idioms: 'Set up' (make/establish), 'set off' (starting a journey), 'set out' (arrange/begin an undertaking).",
+    "content": [
+      {
+        "section": "Simple Future",
+        "lines": [
+          "Will/shall + verb 1 (plan)",
+          "Be going to + verb 1 (you are on the way to do it)"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "Set up (make), set off (starting something), set out (arrange something)"
+        ]
+      }
+    ]
   },
   {
     "id": "PP13",
-    "title": "The Greenwood Boys",
+    title: "The Greenwood Boys",
     "keyStructures": "Future Progressive (will/shall + be + V1-ing) for action starting before specific future time ('I will be eating at 7 tomorrow'). Future Perfect (will/shall + have + V3) for action completed by a future time ('I will have graduated in AEC in 3 months' time').",
-    "specialDifficulties": "Expressing possession in questions: 'Whose bike is it?' -> 'It is Ali's' or 'It belongs to Ali'."
+    "specialDifficulties": "Expressing possession in questions: 'Whose bike is it?' -> 'It is Ali's' or 'It belongs to Ali'.",
+    "content": [
+      {
+        "section": "Future Progressive",
+        "lines": [
+          "Will/shall + be + verb 1 + ing ex: I will be eating at 7 tomorrow",
+          "It is used to tell an action that starts before a specific time in the future.",
+          "Feature: tomorrow, all day tomorrow, specific time",
+          "It can also used with simple tense ex: I will be waiting when you arrive"
+        ]
+      },
+      {
+        "section": "Future Perfect",
+        "lines": [
+          "Will/shall + have + verb 3 ex: I will have graduated in AEC in 3 months’ time",
+          "It is used to tell an action that will be completed in the future.",
+          "Feature: In two months’ time, by the end of the month, by then, in 3 years’ time"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "ex: Whose bike is it? (we can answer using other form)",
+          "It is Ali’s or It belongs to Ali"
+        ]
+      }
+    ]
   },
   {
     "id": "PP14",
-    "title": "Do You Speak English?",
+    title: "Do You Speak English?",
     "keyStructures": "Past Perfect (S + had + V3) to indicate action completed before another past action ('I had had my breakfast before I went to school') or a state continuing for a time in the past ('I had lived in Soreang for 10 years before I moved').",
-    "specialDifficulties": "Tense matching in complex narrative sentences."
+    "specialDifficulties": "Tense matching in complex narrative sentences.",
+    "content": [
+      {
+        "section": "Past Perfect",
+        "lines": [
+          "Subject + had + verb 3",
+          "1. It is used to indicate an action that happened before another action in the past. ex: I had had my breakfast before I went to school/After I had eaten, I went to sleep.",
+          "2. It is used to indicate a state which continued for a time. ex: I had lived in Soreang for 10 years before I moved/I had been living in Soreang before I moved."
+        ]
+      }
+    ]
   },
   {
     "id": "PP15",
-    "title": "Good News",
+    title: "Good News",
     "keyStructures": "Indirect Speech (Reported Speech): Tense changes (Simple Present -> Simple Past, Present Continuous -> Past Continuous, Simple Past -> Past Perfect, Future Simple -> Conditional Type 2). Command reporting (Clean your room! -> She told me to clean my room; Don't smoke here! -> She told me not to smoke here). Question reporting: He asked me what my name was (Wh- question); He asked if my name was Denaz (Auxiliary/Yes-No question). Time shifts (today -> that day, yesterday -> the day before, tomorrow -> the next day, etc.).",
-    "specialDifficulties": "Word nuances: 'Nervous' (uneasy), 'Irritable' (easily made angry), 'afford' (be able to pay/do), 'office/desk/study' (study room vs workspace)."
+    "specialDifficulties": "Word nuances: 'Nervous' (uneasy), 'Irritable' (easily made angry), 'afford' (be able to pay/do), 'office/desk/study' (study room vs workspace).",
+    "content": [
+      {
+        "section": "Indirect Sentence Part 1",
+        "lines": [
+          "Simple Present -> Simple Past",
+          "Present Continuous -> Past Continuous",
+          "Simple Past -> Past Perfect",
+          "Past Continuous -> Past Perfect Continuous",
+          "Future simple -> Conditional Type 2",
+          "Future Progressive -> Conditional Type 3",
+          "Conditional -> Conditional"
+        ]
+      },
+      {
+        "section": "Indirect Sentence Part 2",
+        "lines": [
+          "Must -> Had to",
+          "Need Not -> Did not have to",
+          "Mustn’t -> Wasn’t to ..",
+          "Must .. Next Week -> Would have to ..",
+          "Mustn’t .. Next Week -> Wasn’t to .."
+        ]
+      },
+      {
+        "section": "Prohibition",
+        "lines": ["You mustn't … -> We mustn’t .."]
+      },
+      {
+        "section": "Indirect Sentence Part 3",
+        "lines": [
+          "Question words= He asked me what my name was.",
+          "Auxiliary Question= He asked if my name was Denaz"
+        ]
+      },
+      {
+        "section": "Command",
+        "lines": [
+          "Clean your room! -> She told me to clean my room",
+          "Don’t smoke here! -> She told me not to smoke here"
+        ]
+      },
+      {
+        "section": "Note",
+        "lines": [
+          "Today > that day, yesterday > the day before, tomorrow > the following/next day, last > previous, next > following, here > there, this > that, now > then"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "Nervous (uneasy), Irretable (easy made angry), afford (able), office/desk/study (room to study)"
+        ]
+      }
+    ]
   },
   {
     "id": "PP16",
-    "title": "A Polite Request",
+    title: "A Polite Request",
     "keyStructures": "Conditional Sentences: Type 0 (Habitual: If + Present, + Present), Type 1 (Probability: If + Present, + Future Simple), Type 2 (Impossible: If + Past, + Would + V1), Type 3 (Regret: If + Past Perfect, + Would Have + V3).",
-    "specialDifficulties": "Recognizing inversion and correct modal selections in conditions."
+    "specialDifficulties": "Recognizing inversion and correct modal selections in conditions.",
+    "content": [
+      {
+        "section": "Conditional Sentences",
+        "lines": [
+          "Type 0 -> Habitual (If + Present, + Present)",
+          "Type 1 -> Probability (If + Present, + Future Simple)",
+          "Type 2 -> Impossible (If + Past, + Would + V1)",
+          "Type 3 -> Regret (If + Past Perfect, + Would Have + V3)"
+        ]
+      }
+    ]
   },
   {
     "id": "PP17",
-    "title": "Always Young",
+    title: "Always Young",
     "keyStructures": "Modal verbs: 'Must' cannot be used in simple past (use 'had to' instead). Using 'must' for opinion/deduction ('I think he is tired -> He must be tired'). Difference between 'Grow' (quantity, plants) and 'Grow Up' (mind, maturity, values).",
-    "specialDifficulties": "Usages of the word 'As' (representing Position, Similarity, Time Conjunction, Reason Conjunction, or 'Like'). Differences between 'Dress', 'Suit' (one package), and 'Costume' (themed clothing)."
+    "specialDifficulties": "Usages of the word 'As' (representing Position, Similarity, Time Conjunction, Reason Conjunction, or 'Like'). Differences between 'Dress', 'Suit' (one package), and 'Costume' (themed clothing).",
+    "content": [
+      {
+        "section": "Must",
+        "lines": [
+          "We can’t use must for past tense so we say i had to go",
+          "I think he is tired -> I think he must be tired (opinion)"
+        ]
+      },
+      {
+        "section": "Grow vs Grow Up",
+        "lines": [
+          "Grow (Quantity, Plants) and Grow Up (Mind, Mature, Value)"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "The word “As”",
+          "Position, Similarity, Conjunction time, Conjunction (because), Like",
+          "Dress, Suit (one package), Costume (there is a theme)"
+        ]
+      }
+    ]
   },
   {
     "id": "PP18",
-    "title": "He Often Does This!",
+    title: "He Often Does This!",
     "keyStructures": "Usages of Have/Has/Had: 1) As auxiliary verb in perfect tenses ('Have you eaten?'); 2) For possession/ownership ('He has a new house' / 'He has got a new house'); 3) For enjoyment/activity ('I took a bath' -> 'I had a bath').",
-    "specialDifficulties": "Distinguishing between causative, possession, and activity uses of 'have'."
+    "specialDifficulties": "Distinguishing between causative, possession, and activity uses of 'have'.",
+    "content": [
+      {
+        "section": "Have/Has/Had",
+        "lines": [
+          "Become auxiliary in present/past perfect: Have you eaten?",
+          "To Own/ToPossessed: He has a new house/He has got a new house",
+          "To Enjoy: I took a bath -> I had a bath"
+        ]
+      }
+    ]
   },
   {
     "id": "PP19",
-    "title": "Sold Out",
+    title: "Sold Out",
     "keyStructures": "Asking Permission ('Can/May I use your phone, please?'). Probability modals: 'May' vs. 'Might' ('Perhaps he will come tomorrow -> He may/might come tomorrow'). The phrase 'as well' ('I have nothing to do so I might come as well' - meaning 50/50 probability).",
-    "specialDifficulties": "'Interesting' (adjective) vs. 'Interested' (feeling/verb). 'It is' (contraction) vs. 'Its' (possessive). Differences between 'Realize' and 'Understand'."
+    "specialDifficulties": "'Interesting' (adjective) vs. 'Interested' (feeling/verb). 'It is' (contraction) vs. 'Its' (possessive). Differences between 'Realize' and 'Understand'.",
+    "content": [
+      {
+        "section": "Asking Permission",
+        "lines": ["Can I use your phone, please?"]
+      },
+      {
+        "section": "Probability",
+        "lines": [
+          "Perhaps he will come tomorrow -> He may come/He might come tomorrow",
+          "Perhaps he called me last night -> He may have called/ He might have called me last night"
+        ]
+      },
+      {
+        "section": "As Well",
+        "lines": [
+          "I have nothing to do so I might come as well (means still 50 50)"
+        ]
+      },
+      {
+        "section": "Special Difficulties",
+        "lines": [
+          "Interesting (adjective) Interested (Verb)",
+          "It is and Its | Realize and Understand"
+        ]
+      }
+    ]
   },
   {
     "id": "PP20",
-    "title": "One Man in a Boat",
+    title: "One Man in a Boat",
     "keyStructures": "Gerunds: 1) As Subject ('Fishing is my hobby'); 2) As object of Preposition ('I told you that he was interested in cooking'); 3) For combining sentences ('He sat there without saying anything').",
-    "specialDifficulties": "Distinguishing between Gerunds, Present Participles, and Infinitives."
+    "specialDifficulties": "Distinguishing between Gerunds, Present Participles, and Infinitives.",
+    "content": [
+      {
+        "section": "Gerund as Subject",
+        "lines": ["Fishing is my hobby"]
+      },
+      {
+        "section": "Gerund as preposition",
+        "lines": ["I told you that he was interested in cooking"]
+      },
+      {
+        "section": "Gerund for combining two sentences",
+        "lines": ["He sat there without saying anything"]
+      }
+    ]
   },
   {
     "id": "PP21",
-    "title": "Mad or Not?",
+    title: "Mad or Not?",
     "keyStructures": "Passive Voice with Modals / Auxiliary verbs: Object is not a person ('The chairs will be moved', 'The flight could have been delayed') vs. Subject is a person ('She could be loved by everyone', 'He must be accompanied by me').",
-    "specialDifficulties": "Ensuring proper agent placement and modal passive forms."
+    "specialDifficulties": "Ensuring proper agent placement and modal passive forms.",
+    "content": [
+      {
+        "section": "Passive Auxiliary Verb",
+        "lines": [
+          "The object is not a person:",
+          "The chairs will be moved | The flight could have been delayed",
+          "The subject is a person",
+          "She could be loved by everyone | He must be accompanied by me"
+        ]
+      }
+    ]
   },
   {
     "id": "PP22",
-    "title": "A Glass Envelope",
+    title: "A Glass Envelope",
     "keyStructures": "Verbs followed by prepositions: 'agree with', 'apologize for', 'believe in', 'depend on', 'listen to', 'look at', 'wait for', 'think of/about', etc.",
-    "specialDifficulties": "Choosing the correct preposition based on the verb."
+    "specialDifficulties": "Choosing the correct preposition based on the verb.",
+    "content": [
+      {
+        "section": "Verbs Followed by Preposition",
+        "lines": []
+      }
+    ]
   },
   {
     "id": "PP23",
-    "title": "A New House",
+    title: "A New House",
     "keyStructures": "No specific key structures assigned. Focus is on review of all PP1-PP22 materials.",
-    "specialDifficulties": "Integrating various structures harmoniously in communication."
+    "specialDifficulties": "Integrating various structures harmoniously in communication.",
+    "content": [
+      {
+        "section": "No Key Structures",
+        "lines": []
+      }
+    ]
   }
 ]

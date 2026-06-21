@@ -142,6 +142,29 @@ export default function StudyGuide() {
                       {topic.specialDifficulties}
                     </p>
                   </div>
+                  
+                  {topic.content && topic.content.length > 0 && (
+                    <div className="col-span-1 md:col-span-2 mt-2 pt-4 border-t border-zinc-100 dark:border-zinc-900">
+                      <h3 className="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-500 mb-3">
+                        Detailed Structure & Story:
+                      </h3>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        {topic.content.map((block, idx) => (
+                          <div key={idx} className="p-4 bg-zinc-50 dark:bg-zinc-900/40 rounded-xl border border-zinc-200/50 dark:border-zinc-800/40 hover:border-emerald-400/50 transition-colors">
+                            <h4 className="font-bold text-sm text-zinc-800 dark:text-zinc-200 mb-2">{block.section}</h4>
+                            <ul className="space-y-1.5">
+                              {block.lines.map((line, lIdx) => (
+                                <li key={lIdx} className="text-sm text-zinc-600 dark:text-zinc-400 font-medium flex items-start gap-2">
+                                  <span className="text-emerald-500 mt-1">•</span>
+                                  <span>{line}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             ))
